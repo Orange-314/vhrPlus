@@ -1,5 +1,6 @@
 package com.example.vhr_android_demo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,7 +11,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.IOException;
-
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
                             OkHttpClient client = new OkHttpClient();//创建http客户端
                             Request request = new Request.Builder()
-                                    .url("http://192.168.123.83:8989/hr/login2")//在本机运行时的本机IP地址！！
+                                    .url("http://192.168.1.113:8989/hr/login2")//在本机运行时的本机IP地址！！
                                     .post(RequestBody.create(MediaType.parse("application/json"),json))
                                     .build();//创建http请求
                             Response response = client.newCall(request).execute();
@@ -58,14 +58,15 @@ public class MainActivity extends AppCompatActivity {
                                     } catch (IOException e) {
                                         e.printStackTrace();
                                     }
-                                    if(responseData.equals(""))
-                                    {
+                                    if (!responseData.equals("")) {
+                                        Toast.makeText(MainActivity.this, "登陆成功", Toast.LENGTH_SHORT).show();
+                                        Intent i = new Intent(MainActivity.this, LoginDoneActivity.class);
+                                        startActivity(i);
 
+                                    } else {
                                         Toast.makeText(MainActivity.this, "用户名不存在或密码输入错误", Toast.LENGTH_SHORT).show();
-                                    }
-                                    else{
-                                        Toast.makeText(MainActivity.this, "登陆成功", Toast.LENGTH_SHORT).show();                                 }
 
+                                    }
                                 }
                             });
                         }catch(Exception e){//如果连接错误，则输出提示
