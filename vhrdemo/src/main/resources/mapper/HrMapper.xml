@@ -6,6 +6,9 @@
     <select id="login" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Hr">
         SELECT * from hr where username=#{username} and password=#{password};
     </select>
+    <select id="login2" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Hr">
+        SELECT * from hr where username=#{username} and password=#{password};
+    </select>
     <update id="update" parameterType="com.example.vhrdemo.entity.Hr">
         UPDATE hr SET password=#{password} WHERE username=#{username};
     </update>

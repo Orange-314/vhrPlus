@@ -17,6 +17,10 @@ public class HrService implements IHrService {
         return iHrDao.login(username, password);
     }
 
+    public Hr login2(String username, String password) {
+        return iHrDao.login2(username, password);
+    }
+
     @Override
     public Hr update(String username, String password) {
         return iHrDao.update(username, password);

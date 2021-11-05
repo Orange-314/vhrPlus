@@ -9,6 +9,8 @@ import org.springframework.stereotype.Repository;
 public interface IHrDao {
     Hr login(@Param("username") String username, @Param("password") String password);
 
+    Hr login2(@Param("username") String username, @Param("password") String password);
+
     Hr update(@Param("username") String username, @Param("password") String password);
 
     Hr insert(@Param("id") int id,@Param("username") String username, @Param("password") String password);

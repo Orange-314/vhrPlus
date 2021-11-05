@@ -5,6 +5,8 @@ import com.example.vhrdemo.entity.Hr;
 public interface IHrService {
     Hr login(String username, String password);
 
+    Hr login2(String username, String password);
+
     Hr update(String username, String password);
 
     Hr insert(int id,String username, String password);

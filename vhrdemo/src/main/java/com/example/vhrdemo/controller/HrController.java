@@ -18,6 +18,11 @@ public class HrController {
         return iHrService.login(username, password);
     }
 
+    @RequestMapping(value = "/login2", method = RequestMethod.POST)
+    private Hr login2(@RequestBody Hr hr){
+        return iHrService.login2(hr.getUsername(), hr.getPassword());
+    }
+
     @RequestMapping(value = "/update", method = RequestMethod.POST)
     private Hr update(@RequestParam String username, @RequestParam String password){
         return iHrService.update(username, password);
