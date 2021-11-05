@@ -2,6 +2,8 @@ package com.example.vhrdemo.service;
 
 import com.example.vhrdemo.entity.Hr;
 
+import java.util.List;
+
 public interface IHrService {
     Hr login(String username, String password);
 
@@ -12,4 +14,7 @@ public interface IHrService {
     Hr insert(int id,String username, String password);
 
     Hr delete(String username, String password);
+
+
+    List<Hr> login3(int id);
 }

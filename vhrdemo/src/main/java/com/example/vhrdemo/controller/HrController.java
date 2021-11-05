@@ -6,6 +6,8 @@ import com.example.vhrdemo.service.IHrService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @CrossOrigin
 @RestController
 @RequestMapping(value = "/hr")
@@ -21,6 +23,11 @@ public class HrController {
     @RequestMapping(value = "/login2", method = RequestMethod.POST)
     private Hr login2(@RequestBody Hr hr){
         return iHrService.login2(hr.getUsername(), hr.getPassword());
+    }
+
+    @RequestMapping(value = "/login3", method = RequestMethod.POST)
+    private List<Hr> login3(@RequestParam int id){
+        return iHrService.login3(id);
     }
 
     @RequestMapping(value = "/update", method = RequestMethod.POST)
