@@ -9,6 +9,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.io.IOException;
+
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -39,17 +41,31 @@ public class MainActivity extends AppCompatActivity {
                                     "\t\"username\":\"" + username + "\",\n" +
                                     "\t\"password\":\"" + password + "\"\n" +
                                     "}";//创建json格式的命令
+
                             OkHttpClient client = new OkHttpClient();//创建http客户端
                             Request request = new Request.Builder()
                                     .url("http://192.168.123.83:8989/hr/login2")//在本机运行时的本机IP地址！！
                                     .post(RequestBody.create(MediaType.parse("application/json"),json))
                                     .build();//创建http请求
-                            try (Response response = client.newCall(request).execute()) {
-                            }//发送所创建的请求
+                            Response response = client.newCall(request).execute();
+
                             runOnUiThread(new Runnable() {//在主线程的UI线程来显示连接成功
                                 @Override
                                 public void run() {
-                                    Toast.makeText(MainActivity.this, "发送成功！", Toast.LENGTH_SHORT).show();
+                                    String responseData = null;
+                                    try {
+                                        responseData = response.body().string();
+                                    } catch (IOException e) {
+                                        e.printStackTrace();
+                                    }
+                                    if(responseData.equals(""))
+                                    {
+
+                                        Toast.makeText(MainActivity.this, "用户名不存在或密码输入错误", Toast.LENGTH_SHORT).show();
+                                    }
+                                    else{
+                                        Toast.makeText(MainActivity.this, "登陆成功", Toast.LENGTH_SHORT).show();                                 }
+
                                 }
                             });
                         }catch(Exception e){//如果连接错误，则输出提示
