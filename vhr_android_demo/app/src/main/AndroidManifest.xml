@@ -27,6 +27,11 @@
             android:exported="true"
             tools:ignore="Instantiatable">
         </activity>
+        <activity
+            android:name=".RegistActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+        </activity>
     </application>
 
 </manifest>

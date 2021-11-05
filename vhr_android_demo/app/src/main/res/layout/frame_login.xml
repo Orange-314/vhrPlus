@@ -136,4 +136,10 @@
             android:scaleType="fitXY" />
     </LinearLayout>
 
+    <Button
+        android:id="@+id/registButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户注册" />
+
 </LinearLayout>

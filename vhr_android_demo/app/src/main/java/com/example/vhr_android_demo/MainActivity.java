@@ -25,8 +25,37 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(saveInstanceState);
         setContentView(R.layout.frame_login);
 
-        ImageButton button = findViewById(R.id.loginButton);
-        button.setOnClickListener(new View.OnClickListener(){
+
+        ImageButton loginBbutton = findViewById(R.id.loginButton);
+
+        Button registButton = findViewById(R.id.registButton);
+
+        registButton.setOnClickListener(new View.OnClickListener() {//注册按钮的监听代码块
+            @Override
+            public void onClick(View view2) {
+                new Thread(new Runnable() {//创建一个新线程
+                    @Override
+                    public void run() {
+                        try {//用try-catch包围易错操作
+                            Intent regist = new Intent(MainActivity.this, RegistActivity.class);
+                            startActivity(regist);
+                        }catch(Exception e){//如果连接错误，则输出提示
+                            e.printStackTrace();
+                            runOnUiThread(new Runnable() {//在主线程的UI线程来显示连接失败
+                                @Override
+                                public void run() {
+                                    Toast.makeText(MainActivity.this, "注册按钮失败！", Toast.LENGTH_SHORT).show();
+                                }
+                            });
+
+                        }
+                    }
+                }).start();
+            }
+        });
+
+
+        loginBbutton.setOnClickListener(new View.OnClickListener(){//登录按钮监听程序块
             @Override
             public void onClick(View view){
                 new Thread(new Runnable() {//创建一个新线程
@@ -60,8 +89,8 @@ public class MainActivity extends AppCompatActivity {
                                     }
                                     if (!responseData.equals("")) {
                                         Toast.makeText(MainActivity.this, "登陆成功", Toast.LENGTH_SHORT).show();
-                                        Intent i = new Intent(MainActivity.this, LoginDoneActivity.class);
-                                        startActivity(i);
+                                        Intent loginDone = new Intent(MainActivity.this, LoginDoneActivity.class);
+                                        startActivity(loginDone);
 
                                     } else {
                                         Toast.makeText(MainActivity.this, "用户名不存在或密码输入错误", Toast.LENGTH_SHORT).show();

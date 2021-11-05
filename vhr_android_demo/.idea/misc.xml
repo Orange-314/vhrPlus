@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_login.xml" value="0.16574074074074074" />
-        <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_test.xml" value="0.16574074074074074" />
+        <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_login.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_regist_test.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_test.xml" value="0.1" />
       </map>
     </option>
   </component>
