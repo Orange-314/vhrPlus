@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import org.json.JSONArray;
@@ -24,9 +25,9 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle saveInstanceState) {
 
         super.onCreate(saveInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.frame_login);
 
-        Button button = findViewById(R.id.button);
+        ImageButton button = findViewById(R.id.loginButton);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
