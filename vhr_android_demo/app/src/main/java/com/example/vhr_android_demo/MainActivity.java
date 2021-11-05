@@ -1,11 +1,14 @@
 package com.example.vhr_android_demo;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -18,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle saveInstanceState) {
 
         super.onCreate(saveInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.frame_login);
 
-        Button button = findViewById(R.id.button);
+        ImageButton button = findViewById(R.id.loginButton);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -28,13 +31,17 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         try {//用try-catch包围易错操作
+                            TextView Username = findViewById(R.id.username);
+                            TextView Password = findViewById(R.id.password);
+                            String username = Username.getText().toString();
+                            String password = Password.getText().toString();
                             String json = "{\n" +
-                                    "\t\"username\":\"admin\",\n" +
-                                    "\t\"password\":\"1234\"\n" +
+                                    "\t\"username\":\"" + username + "\",\n" +
+                                    "\t\"password\":\"" + password + "\"\n" +
                                     "}";//创建json格式的命令
                             OkHttpClient client = new OkHttpClient();//创建http客户端
                             Request request = new Request.Builder()
-                                    .url("http://192.168.1.113:8989/hr/login2")//在本机运行时的本机IP地址！！
+                                    .url("http://192.168.123.83:8989/hr/login2")//在本机运行时的本机IP地址！！
                                     .post(RequestBody.create(MediaType.parse("application/json"),json))
                                     .build();//创建http请求
                             try (Response response = client.newCall(request).execute()) {
