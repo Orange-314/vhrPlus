@@ -6,8 +6,6 @@ import com.example.vhrdemo.service.IHrService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class HrService implements IHrService {
     @Autowired
@@ -18,8 +16,14 @@ public class HrService implements IHrService {
         return iHrDao.login(username, password);
     }
 
+    @Override
     public Hr login2(String username, String password) {
         return iHrDao.login2(username, password);
+    }
+
+    @Override
+    public Hr login3(int id) {
+        return iHrDao.login3(id);
     }
 
     @Override
@@ -37,8 +41,5 @@ public class HrService implements IHrService {
         return iHrDao.delete(username, password);
     }
 
-    @Override
-    public Hr login3(int id) {
-        return iHrDao.login3(id);
-    }
+
 }
