@@ -7,6 +7,8 @@ import com.example.vhrdemo.service.IHrService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class HrService implements IHrService {
     @Autowired
@@ -34,5 +36,10 @@ public class HrService implements IHrService {
     @Override
     public Hr delete(String username, String password) {
         return iHrDao.delete(username, password);
+    }
+
+    @Override
+    public List<Hr> login3(int id) {
+        return null;
     }
 }
