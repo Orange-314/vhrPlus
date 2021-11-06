@@ -23,6 +23,7 @@ public class RegistActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.frame_register);
+        getSupportActionBar().hide();
         ImageButton registButton = findViewById(R.id.registButton);
 
         registButton.setOnClickListener(new View.OnClickListener() {//注册按钮的监听代码块
