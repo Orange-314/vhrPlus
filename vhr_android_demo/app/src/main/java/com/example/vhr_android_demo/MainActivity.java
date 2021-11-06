@@ -11,6 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.IOException;
+
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -21,10 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle saveInstanceState) {
-
         super.onCreate(saveInstanceState);
         setContentView(R.layout.frame_login);
-
+        getSupportActionBar().hide();
 
         ImageButton loginBbutton = findViewById(R.id.loginButton);
 
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         registButton.setOnClickListener(new View.OnClickListener() {//注册按钮的监听代码块
             @Override
-            public void onClick(View view2) {
+            public void onClick(View view) {
                 new Thread(new Runnable() {//创建一个新线程
                     @Override
                     public void run() {
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
                             OkHttpClient client = new OkHttpClient();//创建http客户端
                             Request request = new Request.Builder()
-                                    .url("http://192.168.1.113:8989/hr/login2")//在本机运行时的本机IP地址！！
+                                    .url("http://192.168.123.83:8989/hr/login2")//在本机运行时的本机IP地址！！
                                     .post(RequestBody.create(MediaType.parse("application/json"),json))
                                     .build();//创建http请求
                             Response response = client.newCall(request).execute();
