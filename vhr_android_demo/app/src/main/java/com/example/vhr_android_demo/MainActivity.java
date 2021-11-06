@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
         setContentView(R.layout.frame_login);
-
+        getSupportActionBar().hide();
 
         ImageButton loginBbutton = findViewById(R.id.loginButton);
 
