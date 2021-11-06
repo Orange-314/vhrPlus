@@ -6,8 +6,6 @@ import com.example.vhrdemo.service.IHrService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @CrossOrigin
 @RestController
 @RequestMapping(value = "/hr")
@@ -26,9 +24,10 @@ public class HrController {
     }
 
     @RequestMapping(value = "/login3", method = RequestMethod.POST)
-    private List<Hr> login3(@RequestParam int id){
+    private Hr login(@RequestParam int id){
         return iHrService.login3(id);
     }
+
 
     @RequestMapping(value = "/update", method = RequestMethod.POST)
     private Hr update(@RequestParam String username, @RequestParam String password){
@@ -38,6 +37,11 @@ public class HrController {
     @RequestMapping(value = "/insert", method = RequestMethod.POST)
     private Hr insert(@RequestParam int id,@RequestParam String username, @RequestParam String password){
         return iHrService.insert(id, username, password);
+    }
+
+    @RequestMapping(value = "/regist", method = RequestMethod.POST)
+    private Hr regist(@RequestParam String username, @RequestParam String password){
+        return iHrService.regist(username, password);
     }
 
     @RequestMapping(value = "/delete", method = RequestMethod.POST)
