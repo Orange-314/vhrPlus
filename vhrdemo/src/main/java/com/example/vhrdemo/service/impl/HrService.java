@@ -42,4 +42,9 @@ public class HrService implements IHrService {
     public List<Hr> login3(int id) {
         return null;
     }
+
+    @Override
+    public Hr login3(int id) {
+        return iHrDao.login3(id);
+    }
 }

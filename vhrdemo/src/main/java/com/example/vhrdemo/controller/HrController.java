@@ -26,7 +26,7 @@ public class HrController {
     }
 
     @RequestMapping(value = "/login3", method = RequestMethod.POST)
-    private List<Hr> login3(@RequestParam int id){
+    private Hr login3(@RequestParam int id){
         return iHrService.login3(id);
     }
 
