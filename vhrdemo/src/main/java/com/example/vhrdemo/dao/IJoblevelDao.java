@@ -9,8 +9,6 @@ public interface IJoblevelDao {
 
     Joblevel search2(@Param("name") String name, @Param("titleLevel") String titleLevel);
 
-    Joblevel login3(@Param("name") String name, @Param("titleLevel") String titleLevel);
-
     Joblevel update(@Param("name") String name, @Param("titleLevel") String titleLevel);
 
     Joblevel update2(@Param("name") String name, @Param("titleLevel") String titleLevel);

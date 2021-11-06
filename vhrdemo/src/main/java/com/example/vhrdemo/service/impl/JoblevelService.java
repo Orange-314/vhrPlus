@@ -2,14 +2,16 @@ package com.example.vhrdemo.service.impl;
 
 import com.example.vhrdemo.dao.IJoblevelDao;
 import com.example.vhrdemo.entity.Joblevel;
-import com.example.vhrdemo.service.IHrService;
 import com.example.vhrdemo.service.IJoblevelService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 
 import java.util.List;
 
+@Service
 public class JoblevelService implements IJoblevelService {
-    @Autowired
+    @Autowired(required = false)
     private IJoblevelDao iJoblevelDao;
 
     @Override
@@ -17,6 +19,7 @@ public class JoblevelService implements IJoblevelService {
         return iJoblevelDao.search();
     }
 
+    @Override
     public Joblevel search2(String name, String titleLevel) { return iJoblevelDao.search2(name, titleLevel);
     }
 
@@ -25,6 +28,7 @@ public class JoblevelService implements IJoblevelService {
         return iJoblevelDao.update(name, titleLevel);
     }
 
+    @Override
     public Joblevel update2(String name, String titleLevel) {
         return iJoblevelDao.update2(name, titleLevel);
     }

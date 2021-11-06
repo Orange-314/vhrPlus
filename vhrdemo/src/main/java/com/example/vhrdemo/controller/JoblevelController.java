@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping(value = "/joblevel")
 public class JoblevelController {
-    @Autowired(required=false)
+    @Autowired
     private IJoblevelService iJoblevelService;
 
     @RequestMapping(value = "/search", method = RequestMethod.POST)
@@ -24,10 +24,6 @@ public class JoblevelController {
         return iJoblevelService.search2(joblevel.getName(), joblevel.getTitleLevel());
     }
 
-    @RequestMapping(value = "/login3", method = RequestMethod.POST)
-    private List<Joblevel> login3(@RequestParam int id){
-        return iJoblevelService.login3(id);
-    }
 
     @RequestMapping(value = "/update", method = RequestMethod.POST)
     private Joblevel update(@RequestParam String name, @RequestParam String titleLevel){
