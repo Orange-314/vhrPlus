@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_checkbox_passwd_on.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/checkbox_passwd_on.png"
-    },
-    {
         "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_user_up.png.flat",
         "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_user_up.png"
+    },
+    {
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_checkbox_passwd_on.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/checkbox_passwd_on.png"
     },
     {
         "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
