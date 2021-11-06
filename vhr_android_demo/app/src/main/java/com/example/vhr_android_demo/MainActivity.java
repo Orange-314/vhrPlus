@@ -11,6 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.IOException;
+
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         registButton.setOnClickListener(new View.OnClickListener() {//注册按钮的监听代码块
             @Override
-            public void onClick(View view2) {
+            public void onClick(View view) {
                 new Thread(new Runnable() {//创建一个新线程
                     @Override
                     public void run() {
