@@ -24,7 +24,7 @@ public class RegistActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_regist_test);
-
+        String sss;
         Button registButton = findViewById(R.id.registRegistButton);
 
 

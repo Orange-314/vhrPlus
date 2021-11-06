@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle saveInstanceState) {
-
+        String sss;
         super.onCreate(saveInstanceState);
         setContentView(R.layout.frame_login);
 

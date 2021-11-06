@@ -8,9 +8,8 @@
     android:clickable="true"
     android:focusable="true">
 
-
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView9"
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:text="注册界面" />
