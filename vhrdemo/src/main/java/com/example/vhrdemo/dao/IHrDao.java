@@ -16,7 +16,10 @@ public interface IHrDao {
 
     Hr insert(@Param("id") int id, @Param("username") String username, @Param("password") String password);
 
+    Hr regist(@Param("username") String username, @Param("password") String password);
+
     Hr delete(@Param("username") String username, @Param("password") String password);
 
     Hr login3(@Param("id") int id);
+
 }

@@ -14,6 +14,8 @@ public interface IHrService {
 
     Hr insert(int id,String username, String password);
 
+    Hr regist(String username,String password);
+
     Hr delete(String username, String password);
 
 

@@ -18,6 +18,9 @@
     <insert id="insert" parameterType="com.example.vhrdemo.entity.Hr">
         INSERT INTO hr VALUES (#{id},' ',' ',' ',' ','1',#{username},#{password},' ',' ');
     </insert>
+    <insert id="regist" parameterType="com.example.vhrdemo.entity.Hr">
+        INSERT INTO hr (username,password) VALUES (#{username},#{password});
+    </insert>
     <delete id="delete" parameterType="com.example.vhrdemo.entity.Hr">
         DELETE FROM hr WHERE username=#{username} and password=#{password};
     </delete>

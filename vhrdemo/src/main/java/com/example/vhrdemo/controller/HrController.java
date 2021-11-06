@@ -39,6 +39,11 @@ public class HrController {
         return iHrService.insert(id, username, password);
     }
 
+    @RequestMapping(value = "/regist", method = RequestMethod.POST)
+    private Hr regist(@RequestParam String username, @RequestParam String password){
+        return iHrService.regist(username, password);
+    }
+
     @RequestMapping(value = "/delete", method = RequestMethod.POST)
     private Hr delete(@RequestParam String username, @RequestParam String password){
         return iHrService.delete(username, password);

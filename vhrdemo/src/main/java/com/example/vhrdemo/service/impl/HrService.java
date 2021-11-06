@@ -37,6 +37,11 @@ public class HrService implements IHrService {
     }
 
     @Override
+    public Hr regist(String username, String password) {
+        return iHrDao.regist(username,password);
+    }
+
+    @Override
     public Hr delete(String username, String password) {
         return iHrDao.delete(username, password);
     }
