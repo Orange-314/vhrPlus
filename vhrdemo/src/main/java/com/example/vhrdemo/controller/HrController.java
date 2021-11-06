@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin
 @RestController
 @RequestMapping(value = "/hr")
-public class HrController {
-    @Autowired
-    private IHrService iHrService;
+            public class HrController {
+        @Autowired
+        private IHrService iHrService;
 
-    @RequestMapping(value = "/login", method = RequestMethod.POST)
-    private Hr login(@RequestParam String username, @RequestParam String password){
+        @RequestMapping(value = "/login", method = RequestMethod.POST)
+        private Hr login(@RequestParam String username, @RequestParam String password){
         return iHrService.login(username, password);
     }
 
