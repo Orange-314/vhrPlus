@@ -46,7 +46,6 @@ public class MainActivity2 extends AppCompatActivity {
 
                             String responseData = response.body().string();//接收返回来的json格式的数据
 
-                            String json = "[{\"name\":\"张三\",\"code\":\"123\"},{\"name\":\"李四\",\"code\":\"123\"}]";
                             responseData = "["+responseData+"]";
 
                             JSONArray jsonArray = new JSONArray(responseData);

@@ -10,13 +10,16 @@
         SELECT * from hr where username=#{username} and password=#{password};
     </select>
     <select id="login3" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Hr">
-        SELECT * from hr where id=#{id};
+        SELECT * from hr where username=#{username};
     </select>
     <update id="update" parameterType="com.example.vhrdemo.entity.Hr">
         UPDATE hr SET password=#{password} WHERE username=#{username};
     </update>
     <insert id="insert" parameterType="com.example.vhrdemo.entity.Hr">
         INSERT INTO hr VALUES (#{id},' ',' ',' ',' ','1',#{username},#{password},' ',' ');
+    </insert>
+    <insert id="regist" parameterType="com.example.vhrdemo.entity.Hr">
+        INSERT INTO hr (username,password) VALUES (#{username},#{password});
     </insert>
     <delete id="delete" parameterType="com.example.vhrdemo.entity.Hr">
         DELETE FROM hr WHERE username=#{username} and password=#{password};

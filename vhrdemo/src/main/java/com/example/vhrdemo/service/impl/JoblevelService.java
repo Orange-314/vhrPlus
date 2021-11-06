@@ -20,7 +20,8 @@ public class JoblevelService implements IJoblevelService {
     }
 
     @Override
-    public Joblevel search2(String name, String titleLevel) { return iJoblevelDao.search2(name, titleLevel);
+    public Joblevel search2(String name, String titleLevel) {
+        return iJoblevelDao.search2(name, titleLevel);
     }
 
     @Override
