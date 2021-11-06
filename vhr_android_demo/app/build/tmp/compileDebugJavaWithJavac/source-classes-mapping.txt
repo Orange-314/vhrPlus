@@ -1,7 +1,5 @@
 com/example/vhr_android_demo/LoginDoneActivity.java
  com.example.vhr_android_demo.LoginDoneActivity
-com/example/vhr_android_demo/MainSeeAcivity.java
- com.example.vhr_android_demo.MainSeeAcivity
 com/example/vhr_android_demo/MainActivity2.java
  com.example.vhr_android_demo.MainActivity2
  com.example.vhr_android_demo.MainActivity2$1

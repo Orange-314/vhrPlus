@@ -36,14 +36,14 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/fragment_login_username_layout"
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
-        android:id="@+id/fragment_login_username_layout"
-        android:gravity="center"
         android:background="@drawable/bg_login_text"
-        android:orientation="horizontal" >
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <EditText
             android:id="@+id/username"
@@ -136,10 +136,25 @@
             android:scaleType="fitXY" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/registButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="用户注册" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="center"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/registButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_shape"
+            android:text="注册用户" />
+
+    </LinearLayout>
+
 
 </LinearLayout>

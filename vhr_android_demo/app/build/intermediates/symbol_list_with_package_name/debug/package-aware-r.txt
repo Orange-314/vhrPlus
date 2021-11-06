@@ -1771,6 +1771,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable bg_login_button
 drawable bg_login_text
+drawable bt_shape
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1801,6 +1802,8 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable login_go
+drawable login_no
+drawable login_yes
 drawable logo
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -2173,9 +2176,8 @@ id radio
 id ratio
 id rectangles
 id registButton
-id registRegistButton
+id registPassword
 id registUsername
-id registpassword
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2271,7 +2273,6 @@ id textStart
 id textTop
 id textView
 id textView3
-id textView7
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2404,6 +2405,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout frame_login
+layout frame_register
 layout layout_regist_test
 layout layout_test
 layout material_chip_input_combo

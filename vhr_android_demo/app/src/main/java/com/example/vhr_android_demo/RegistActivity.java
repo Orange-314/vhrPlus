@@ -1,10 +1,11 @@
 package com.example.vhr_android_demo;
 
-import android.app.Activity;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -14,19 +15,15 @@ import java.io.IOException;
 import java.util.Objects;
 
 import okhttp3.FormBody;
-import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
-import okhttp3.RequestBody;
 import okhttp3.Response;
 
 public class RegistActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_regist_test);
-        String sss;
-        Button registButton = findViewById(R.id.registRegistButton);
-
+        setContentView(R.layout.frame_register);
+        ImageButton registButton = findViewById(R.id.registButton);
 
         registButton.setOnClickListener(new View.OnClickListener() {//注册按钮的监听代码块
             @Override
@@ -36,17 +33,16 @@ public class RegistActivity extends AppCompatActivity {
                     public void run() {
                         try {//用try-catch包围易错操作
                             TextView Username = findViewById(R.id.registUsername);
-                            TextView Password = findViewById(R.id.registpassword);
+                            TextView Password = findViewById(R.id.registPassword);
                             String username = Username.getText().toString();
                             String password = Password.getText().toString();
 
                             FormBody.Builder params = new FormBody.Builder();
                             params.add("username", username);
-                            params.add("password", password);
 
                             OkHttpClient client = new OkHttpClient();//创建http客户端
                             Request request = new Request.Builder()
-                                    .url("http://192.168.1.113:8989/hr/login")//在本机运行时的本机IP地址！！
+                                    .url("http://192.168.123.83:8989/hr/login3")//在本机运行时的本机IP地址！！
                                     .post(params.build())
                                     .build();//创建http请求
                             Response response = client.newCall(request).execute();//发送所创建的请求
@@ -61,7 +57,7 @@ public class RegistActivity extends AppCompatActivity {
                                 paramsRegist.add("password", password);
                                 OkHttpClient clientRegist = new OkHttpClient();//创建http客户端
                                 Request requestRegist = new Request.Builder()
-                                        .url("http://192.168.1.113:8989/hr/regist")//在本机运行时的本机IP地址！！
+                                        .url("http://192.168.123.83:8989/hr/regist")//在本机运行时的本机IP地址！！
                                         .post(params.build())
                                         .build();//创建http请求
 
@@ -83,7 +79,7 @@ public class RegistActivity extends AppCompatActivity {
                                     runOnUiThread(new Runnable() {//在主线程的UI线程来显示连接失败
                                         @Override
                                         public void run() {
-                                            Toast.makeText(RegistActivity.this, "网络连接失败！", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(RegistActivity.this, "注册失败！该用户名已注册！", Toast.LENGTH_SHORT).show();
                                         }
                                     });
                                 }
@@ -102,7 +98,7 @@ public class RegistActivity extends AppCompatActivity {
                             runOnUiThread(new Runnable() {//在主线程的UI线程来显示连接失败
                                 @Override
                                 public void run() {
-                                    Toast.makeText(RegistActivity.this, "注册失败！该用户名已注册！", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(RegistActivity.this, "网络连接失败！", Toast.LENGTH_SHORT).show();
                                 }
                             });
                         }

@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle saveInstanceState) {
-        String sss;
         super.onCreate(saveInstanceState);
         setContentView(R.layout.frame_login);
 
@@ -74,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
                             OkHttpClient client = new OkHttpClient();//创建http客户端
                             Request request = new Request.Builder()
-                                    .url("http://192.168.1.113:8989/hr/login2")//在本机运行时的本机IP地址！！
+                                    .url("http://192.168.123.83:8989/hr/login2")//在本机运行时的本机IP地址！！
                                     .post(RequestBody.create(MediaType.parse("application/json"),json))
                                     .build();//创建http请求
                             Response response = client.newCall(request).execute();

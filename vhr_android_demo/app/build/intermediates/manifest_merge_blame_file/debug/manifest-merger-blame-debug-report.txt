@@ -5,66 +5,66 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="30"
-8-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="30" />
-9-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="28"
+8-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:6:5-83
-11-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:6:22-64
+11-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:6:5-83
+11-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:8:5-36:19
+13-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:8:5-36:19
 14        android:allowBackup="true"
-14-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:9:9-35
+14-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:9:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.5.0] C:\Users\HP\.gradle\caches\transforms-3\97e7ec19bd11dff7ae3d399ac9d0fa5b\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+15-->[androidx.core:core:1.5.0] /Users/lorristar/.gradle/caches/transforms-3/97e7ec19bd11dff7ae3d399ac9d0fa5b/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:extractNativeLibs="false"
 18        android:icon="@mipmap/ic_launcher"
-18-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:10:9-43
+18-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:10:9-43
 19        android:label="@string/app_name"
-19-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:11:9-41
+19-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:11:9-41
 20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:12:9-54
+20-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:12:9-54
 21        android:supportsRtl="true"
-21-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:13:9-35
+21-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:13:9-35
 22        android:testOnly="true"
 23        android:theme="@style/Theme.Vhr_android_demo"
-23-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:15:9-54
+23-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:15:9-54
 24        android:usesCleartextTraffic="true" >
-24-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:14:9-44
+24-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:14:9-44
 25        <activity
-25-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:16:9-24:20
+25-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:16:9-24:20
 26            android:name="com.example.vhr_android_demo.MainActivity"
-26-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:17:13-41
+26-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:17:13-41
 27            android:exported="true" >
-27-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:18:13-36
+27-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:18:13-36
 28            <intent-filter>
-28-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:19:13-23:29
+28-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:19:13-23:29
 29                <action android:name="android.intent.action.MAIN" />
-29-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:20:17-69
-29-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:20:25-66
+29-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:20:17-69
+29-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:20:25-66
 30
 31                <category android:name="android.intent.category.LAUNCHER" />
-31-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:22:17-77
-31-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:22:27-74
+31-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:22:17-77
+31-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:22:27-74
 32            </intent-filter>
 33        </activity>
 34        <activity
-34-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:26:9-30:20
+34-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:26:9-30:20
 35            android:name="com.example.vhr_android_demo.LoginDoneActivity"
-35-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:27:13-46
+35-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:27:13-46
 36            android:exported="true" >
-36-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:28:13-36
+36-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:28:13-36
 37        </activity>
 38        <activity
-38-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:31:9-35:20
+38-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:31:9-35:20
 39            android:name="com.example.vhr_android_demo.RegistActivity"
-39-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:32:13-43
+39-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:32:13-43
 40            android:exported="true" >
-40-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:33:13-36
+40-->/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/AndroidManifest.xml:33:13-36
 41        </activity>
 42    </application>
 43
