@@ -9,8 +9,6 @@ public interface IHrService {
 
     Hr login2(String username, String password);
 
-    Hr login3(int id);
-
     Hr update(String username, String password);
 
     Hr insert(int id,String username, String password);
@@ -18,4 +16,5 @@ public interface IHrService {
     Hr delete(String username, String password);
 
 
+    List<Hr> login3(int id);
 }
