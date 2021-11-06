@@ -6,13 +6,13 @@
     <select id="search" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Joblevel">
         SELECT * from joblevel;
     </select>
-    <select id="search2" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Joblevel">
+    <select id="searchDetail" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Joblevel">
         SELECT * from joblevel where name=#{name} and titleLevel=#{titleLevel};
     </select>
-    <update id="update" parameterType="com.example.vhrdemo.entity.Joblevel">
+    <update id="updateName" parameterType="com.example.vhrdemo.entity.Joblevel">
         UPDATE joblevel SET name=#{name} WHERE titleLevel=#{titleLevel};
     </update>
-    <update id="update2" parameterType="com.example.vhrdemo.entity.Joblevel">
+    <update id="updateTitlelevel" parameterType="com.example.vhrdemo.entity.Joblevel">
         UPDATE joblevel SET titleLevel=#{titleLevel} WHERE name=#{name};
     </update>
     <insert id="insert" parameterType="com.example.vhrdemo.entity.Joblevel">

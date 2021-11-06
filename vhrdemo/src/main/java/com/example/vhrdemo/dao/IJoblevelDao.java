@@ -7,11 +7,11 @@ import org.apache.ibatis.annotations.Param;
 public interface IJoblevelDao {
     Joblevel search();
 
-    Joblevel search2(@Param("name") String name, @Param("titleLevel") String titleLevel);
+    Joblevel searchDetail(@Param("name") String name, @Param("titleLevel") String titleLevel);
 
-    Joblevel update(@Param("name") String name, @Param("titleLevel") String titleLevel);
+    Joblevel updateName(@Param("name") String name, @Param("titleLevel") String titleLevel);
 
-    Joblevel update2(@Param("name") String name, @Param("titleLevel") String titleLevel);
+    Joblevel updateTitlelevel(@Param("name") String name, @Param("titleLevel") String titleLevel);
 
     Joblevel insert(@Param("id") int id, @Param("name") String name, @Param("titleLevel") String password);
 

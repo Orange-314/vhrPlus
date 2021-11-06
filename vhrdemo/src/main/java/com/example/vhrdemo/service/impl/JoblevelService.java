@@ -20,18 +20,18 @@ public class JoblevelService implements IJoblevelService {
     }
 
     @Override
-    public Joblevel search2(String name, String titleLevel) {
-        return iJoblevelDao.search2(name, titleLevel);
+    public Joblevel searchDetail(String name, String titleLevel) {
+        return iJoblevelDao.searchDetail(name, titleLevel);
     }
 
     @Override
-    public Joblevel update(String name, String titleLevel) {
-        return iJoblevelDao.update(name, titleLevel);
+    public Joblevel updateName(String name, String titleLevel) {
+        return iJoblevelDao.updateName(name, titleLevel);
     }
 
     @Override
-    public Joblevel update2(String name, String titleLevel) {
-        return iJoblevelDao.update2(name, titleLevel);
+    public Joblevel updateTitlelevel(String name, String titleLevel) {
+        return iJoblevelDao.updateTitlelevel(name, titleLevel);
     }
 
     @Override
