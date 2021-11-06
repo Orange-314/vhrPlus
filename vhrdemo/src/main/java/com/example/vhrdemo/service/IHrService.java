@@ -8,7 +8,7 @@ public interface IHrService {
 
     Hr login2(String username, String password);
 
-    Hr login3(int id);
+    Hr login3(String username );
 
     Hr update(String username, String password);
 

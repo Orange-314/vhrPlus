@@ -22,8 +22,8 @@ public class HrService implements IHrService {
     }
 
     @Override
-    public Hr login3(int id) {
-        return iHrDao.login3(id);
+    public Hr login3(String username) {
+        return iHrDao.login3(username);
     }
 
     @Override
