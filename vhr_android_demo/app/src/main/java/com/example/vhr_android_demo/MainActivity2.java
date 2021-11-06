@@ -36,22 +36,21 @@ public class MainActivity2 extends AppCompatActivity {
                     public void run() {
                         try {//用try-catch包围易错操作
                             FormBody.Builder params = new FormBody.Builder();
-                            String username = "admin";
-                            String password = "1234";
-                            params.add("username",username);
-                            params.add("password",password);
+                            params.add("id", "3");
                             OkHttpClient client = new OkHttpClient();//创建http客户端
                             Request request = new Request.Builder()
                                     .url("http://192.168.1.113:8989/hr/login3")//在本机运行时的本机IP地址！！
                                     .post(params.build())
                                     .build();//创建http请求
                             Response response = client.newCall(request).execute();//发送所创建的请求
+
                             String responseData = response.body().string();//接收返回来的json格式的数据
 
-                            JSONArray jsonArray = new JSONArray(responseData);
+                            String json = "[{\"name\":\"张三\",\"code\":\"123\"},{\"name\":\"李四\",\"code\":\"123\"}]";
+                            responseData = "["+responseData+"]";
 
-                            int i = 0;
-                            for(i = 0; i< jsonArray.length(); i++){
+                            JSONArray jsonArray = new JSONArray(responseData);
+                            for(int i = 0; i< jsonArray.length(); i++){
                                 JSONObject jsonObject = jsonArray.getJSONObject(i);
                                 Log.d("id",""+jsonObject.getString("id"));
                                 Log.d("username",""+jsonObject.getString("username"));
