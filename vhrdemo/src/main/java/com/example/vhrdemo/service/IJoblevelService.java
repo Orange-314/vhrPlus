@@ -1,11 +1,12 @@
 package com.example.vhrdemo.service;
 
+import com.example.vhrdemo.entity.Employee;
 import com.example.vhrdemo.entity.Joblevel;
 
 import java.util.List;
 
 public interface IJoblevelService {
-    Joblevel search();
+    List<Joblevel> findall();
 
     Joblevel searchDetail(String name, String titleLevel);
 

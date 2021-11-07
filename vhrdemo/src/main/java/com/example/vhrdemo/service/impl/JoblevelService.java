@@ -1,6 +1,7 @@
 package com.example.vhrdemo.service.impl;
 
 import com.example.vhrdemo.dao.IJoblevelDao;
+import com.example.vhrdemo.entity.Employee;
 import com.example.vhrdemo.entity.Joblevel;
 import com.example.vhrdemo.service.IJoblevelService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +16,8 @@ public class JoblevelService implements IJoblevelService {
     private IJoblevelDao iJoblevelDao;
 
     @Override
-    public Joblevel search() {
-        return iJoblevelDao.search();
+    public List<Joblevel> findall() {
+        return iJoblevelDao.findall();
     }
 
     @Override
