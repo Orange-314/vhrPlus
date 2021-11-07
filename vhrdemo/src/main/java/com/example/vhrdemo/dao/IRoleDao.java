@@ -1,7 +1,6 @@
 package com.example.vhrdemo.dao;
 
 
-import com.example.vhrdemo.entity.Hr;
 import com.example.vhrdemo.entity.Role;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;

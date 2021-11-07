@@ -1,6 +1,5 @@
 package com.example.vhrdemo.dao;
 
-import com.example.vhrdemo.entity.Hr;
 import com.example.vhrdemo.entity.Joblevel;
 import org.apache.ibatis.annotations.Param;
 
