@@ -5,6 +5,8 @@ import com.example.vhrdemo.service.IJoblevelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @CrossOrigin
 @RestController
 @RequestMapping(value = "/joblevel")
@@ -12,9 +14,9 @@ public class JoblevelController {
     @Autowired
     private IJoblevelService iJoblevelService;
 
-    @RequestMapping(value = "/search", method = RequestMethod.POST)
-    private Joblevel search(){
-        return iJoblevelService.search();
+    @RequestMapping(value = "/findall", method = RequestMethod.POST)
+    private List<Joblevel> findall(){
+        return iJoblevelService.findall();
     }
 
     @RequestMapping(value = "/searchDetail", method = RequestMethod.POST)
