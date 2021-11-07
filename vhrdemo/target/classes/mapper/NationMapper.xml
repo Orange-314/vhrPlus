@@ -3,6 +3,9 @@
 <mapper namespace="com.example.vhrdemo.dao.INationDao">
     <resultMap id="BaseResultMap" type="com.example.vhrdemo.entity.Nation">
     </resultMap>
+    <select id="findall" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Nation">
+        SELECT * from nation;
+    </select>
     <select id="search" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Nation">
         SELECT * from nation where name=#{name};
     </select>
