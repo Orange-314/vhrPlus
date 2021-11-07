@@ -1,11 +1,19 @@
 [
     {
-        "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_login.xml.flat",
-        "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_login.xml"
+        "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_meaning_fragment.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_meaning_fragment.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_list_fragment.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_list_fragment.xml"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_login_text.xml.flat",
         "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bg_login_text.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_login.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_login.xml"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_register.xml.flat",
@@ -150,6 +158,10 @@
     {
         "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_employee_fragment.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_employee_fragment.xml"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_checkbox_passwd_blank.png.flat",

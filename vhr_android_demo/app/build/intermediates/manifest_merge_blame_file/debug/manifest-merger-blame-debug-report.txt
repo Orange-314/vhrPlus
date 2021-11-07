@@ -37,8 +37,8 @@
 24-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:14:9-44
 25        <activity
 25-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:16:9-24:20
-26            android:name="com.example.vhr_android_demo.MainActivity2"
-26-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:17:13-42
+26            android:name="com.example.vhr_android_demo.MainActivity"
+26-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:17:13-41
 27            android:exported="true" >
 27-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:18:13-36
 28            <intent-filter>

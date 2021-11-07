@@ -88,12 +88,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\HP
 		ADDED from G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:15:9-54
 	android:usesCleartextTraffic
 		ADDED from G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:14:9-44
-activity#com.example.vhr_android_demo.MainActivity2
+activity#com.example.vhr_android_demo.MainActivity
 ADDED from G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:16:9-24:20
 	android:exported
 		ADDED from G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:17:13-42
+		ADDED from G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
