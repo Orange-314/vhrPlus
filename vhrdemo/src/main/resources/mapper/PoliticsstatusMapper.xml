@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.vhrdemo.dao.IPoliticsstatusDao">
+    <resultMap id="BaseResultMap" type="com.example.vhrdemo.entity.Politicsstatus">
+    </resultMap>
+    <select id="search" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Politicsstatus">
+        SELECT * from politicsstatus where id=#{id}
+    </select>
+</mapper>
