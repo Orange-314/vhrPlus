@@ -5,13 +5,13 @@ import com.example.vhrdemo.entity.Joblevel;
 import java.util.List;
 
 public interface IJoblevelService {
-    Joblevel search();
+    List<Joblevel> findall();
 
-    Joblevel search2(String name, String titleLevel);
+    Joblevel searchDetail(String name, String titleLevel);
 
-    Joblevel update(String name, String titleLevel);
+    Joblevel updateName(String name, String titleLevel);
 
-    Joblevel update2(String name, String titleLevel);
+    Joblevel updateTitlelevel(String name, String titleLevel);
 
     Joblevel insert(int id,String name, String titleLevel);
 

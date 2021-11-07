@@ -18,13 +18,13 @@ import okhttp3.FormBody;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-
 public class RegistActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.frame_register);
         getSupportActionBar().hide();
         ImageButton registButton = findViewById(R.id.registButton);
+        String HTTPSTR = Constants.HTTPSTR;
 
         registButton.setOnClickListener(new View.OnClickListener() {//注册按钮的监听代码块
             @Override
@@ -43,7 +43,7 @@ public class RegistActivity extends AppCompatActivity {
 
                             OkHttpClient client = new OkHttpClient();//创建http客户端
                             Request request = new Request.Builder()
-                                    .url("http://192.168.123.83:8989/hr/login3")//在本机运行时的本机IP地址！！
+                                    .url(HTTPSTR+"hr/login3")//在本机运行时的本机IP地址！！
                                     .post(params.build())
                                     .build();//创建http请求
                             Response response = client.newCall(request).execute();//发送所创建的请求
@@ -58,7 +58,7 @@ public class RegistActivity extends AppCompatActivity {
                                 paramsRegist.add("password", password);
                                 OkHttpClient clientRegist = new OkHttpClient();//创建http客户端
                                 Request requestRegist = new Request.Builder()
-                                        .url("http://192.168.123.83:8989/hr/regist")//在本机运行时的本机IP地址！！
+                                        .url(HTTPSTR+"hr/regist")//在本机运行时的本机IP地址！！
                                         .post(params.build())
                                         .build();//创建http请求
 

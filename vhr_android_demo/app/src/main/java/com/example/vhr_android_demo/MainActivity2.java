@@ -26,6 +26,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         super.onCreate(saveInstanceState);
         setContentView(R.layout.frame_login);
+        String HTTPSTR = Constants.HTTPSTR;
 
         ImageButton button = findViewById(R.id.loginButton);
         button.setOnClickListener(new View.OnClickListener(){
@@ -39,14 +40,14 @@ public class MainActivity2 extends AppCompatActivity {
                             params.add("id", "3");
                             OkHttpClient client = new OkHttpClient();//创建http客户端
                             Request request = new Request.Builder()
-                                    .url("http://192.168.1.113:8989/hr/login3")//在本机运行时的本机IP地址！！
+                                    .url(HTTPSTR+"hr/findall")//在本机运行时的本机IP地址！！
                                     .post(params.build())
                                     .build();//创建http请求
                             Response response = client.newCall(request).execute();//发送所创建的请求
 
                             String responseData = response.body().string();//接收返回来的json格式的数据
 
-                            responseData = "["+responseData+"]";
+                            //responseData = "["+responseData+"]";
 
                             JSONArray jsonArray = new JSONArray(responseData);
                             for(int i = 0; i< jsonArray.length(); i++){

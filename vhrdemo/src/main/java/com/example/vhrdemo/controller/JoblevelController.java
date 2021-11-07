@@ -14,25 +14,25 @@ public class JoblevelController {
     @Autowired
     private IJoblevelService iJoblevelService;
 
-    @RequestMapping(value = "/search", method = RequestMethod.POST)
-    private Joblevel search(){
-        return iJoblevelService.search();
+    @RequestMapping(value = "/findall", method = RequestMethod.POST)
+    private List<Joblevel> findall(){
+        return iJoblevelService.findall();
     }
 
-    @RequestMapping(value = "/search2", method = RequestMethod.POST)
+    @RequestMapping(value = "/searchDetail", method = RequestMethod.POST)
     private Joblevel search2(@RequestBody Joblevel joblevel){
-        return iJoblevelService.search2(joblevel.getName(), joblevel.getTitleLevel());
+        return iJoblevelService.searchDetail(joblevel.getName(), joblevel.getTitleLevel());
     }
 
 
-    @RequestMapping(value = "/update", method = RequestMethod.POST)
+    @RequestMapping(value = "/updateName", method = RequestMethod.POST)
     private Joblevel update(@RequestParam String name, @RequestParam String titleLevel){
-        return iJoblevelService.update(name, titleLevel);
+        return iJoblevelService.updateName(name, titleLevel);
     }
 
-    @RequestMapping(value = "/update2", method = RequestMethod.POST)
+    @RequestMapping(value = "/updateTitlelevel", method = RequestMethod.POST)
     private Joblevel update2(@RequestParam String name, @RequestParam String titleLevel){
-        return iJoblevelService.update2(name, titleLevel);
+        return iJoblevelService.updateTitlelevel(name, titleLevel);
     }
 
     @RequestMapping(value = "/insert", method = RequestMethod.POST)
