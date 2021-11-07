@@ -1,6 +1,5 @@
 package com.example.vhrdemo.controller;
 
-import com.example.vhrdemo.entity.Employee;
 import com.example.vhrdemo.entity.Nation;
 import com.example.vhrdemo.service.INationService;
 import org.springframework.beans.factory.annotation.Autowired;

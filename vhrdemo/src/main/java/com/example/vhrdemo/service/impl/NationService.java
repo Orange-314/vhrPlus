@@ -1,7 +1,6 @@
 package com.example.vhrdemo.service.impl;
 
 import com.example.vhrdemo.dao.INationDao;
-import com.example.vhrdemo.entity.Employee;
 import com.example.vhrdemo.entity.Nation;
 import com.example.vhrdemo.service.INationService;
 import org.springframework.beans.factory.annotation.Autowired;
