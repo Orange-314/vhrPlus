@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.vhrdemo.dao.IPoliticsstatusDao">
+    <resultMap id="BaseResultMap" type="com.example.vhrdemo.entity.Politicsstatus">
+    </resultMap>
+    <select id="search" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Politicsstatus">
+        SELECT * from politicsstatus where id=#{id}
+    </select>
+    <insert id="insert" parameterType="com.example.vhrdemo.entity.Politicsstatus">
+        INSERT INTO politicsstatus (id,name) VALUES (#{id},#{name});
+    </insert>
+    <update id="update" parameterType="com.example.vhrdemo.entity.Politicsstatus">
+        UPDATE politicsstatus SET name=#{name} WHERE id=#{id};
+    </update>
+    <delete id="delete" parameterType="com.example.vhrdemo.entity.Politicsstatus">
+        DELETE FROM politicsstatus WHERE id=#{id};
+    </delete>
+</mapper>
