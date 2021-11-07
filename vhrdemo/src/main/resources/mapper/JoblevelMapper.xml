@@ -3,8 +3,8 @@
 <mapper namespace="com.example.vhrdemo.dao.IJoblevelDao">
     <resultMap id="BaseResultMap" type="com.example.vhrdemo.entity.Joblevel">
     </resultMap>
-    <select id="search" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Joblevel">
-        SELECT * from joblevel;
+    <select id="findall" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Joblevel">
+        SELECT * from joblevel ;
     </select>
     <select id="searchDetail" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Joblevel">
         SELECT * from joblevel where name=#{name} and titleLevel=#{titleLevel};

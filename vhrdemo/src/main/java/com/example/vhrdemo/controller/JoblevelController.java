@@ -14,9 +14,9 @@ public class JoblevelController {
     @Autowired
     private IJoblevelService iJoblevelService;
 
-    @RequestMapping(value = "/search", method = RequestMethod.POST)
-    private Joblevel search(){
-        return iJoblevelService.search();
+    @RequestMapping(value = "/findall", method = RequestMethod.POST)
+    private List<Joblevel> findall(){
+        return iJoblevelService.findall();
     }
 
     @RequestMapping(value = "/searchDetail", method = RequestMethod.POST)

@@ -1,9 +1,7 @@
 package com.example.vhrdemo.controller;
 
 
-import com.example.vhrdemo.entity.Hr;
 import com.example.vhrdemo.entity.Role;
-import com.example.vhrdemo.service.IHrService;
 import com.example.vhrdemo.service.IRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

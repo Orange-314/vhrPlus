@@ -15,8 +15,8 @@ public class JoblevelService implements IJoblevelService {
     private IJoblevelDao iJoblevelDao;
 
     @Override
-    public Joblevel search() {
-        return iJoblevelDao.search();
+    public List<Joblevel> findall() {
+        return iJoblevelDao.findall();
     }
 
     @Override
