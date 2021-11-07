@@ -80,8 +80,12 @@ public class EmployeeFragment extends ListFragment {
 
     }
 
-    String[] employees1=employees;
-    String[] employees_information1=employees_information;
+    String[] employees1= {
+            "江南一点雨","陈静","赵林浩"
+    };
+    String[] employees_information1= {
+            "1","2","3"
+    };
 
     @Nullable
     @Override
