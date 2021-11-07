@@ -1,4 +1,5 @@
 # Default ignored files
 .idea
+.idea/vhrPlus.iml
 vhr_android_demo/.idea
 vhrdemo/.idea
