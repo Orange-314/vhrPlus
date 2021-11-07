@@ -12,6 +12,11 @@
     <select id="login3" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Hr">
         SELECT * from hr where username=#{username};
     </select>
+
+    <select id="findall" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Hr">
+        SELECT * from hr ;
+    </select>
+
     <update id="update" parameterType="com.example.vhrdemo.entity.Hr">
         UPDATE hr SET password=#{password} WHERE username=#{username};
     </update>
