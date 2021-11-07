@@ -3,18 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bg_login_button.xml" value="0.22083333333333333" />
-        <entry key="..\:/Android/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_login.xml" value="0.2046875" />
-        <entry key="..\:/Android/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_register.xml" value="0.2046875" />
-        <entry key="..\:/Android/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_regist_test.xml" value="0.2046875" />
-        <entry key="..\:/Android/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_test.xml" value="0.2046875" />
         <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_login.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_employee.xml" value="0.12604166666666666" />
         <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_regist_test.xml" value="0.25364583333333335" />
         <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_test.xml" value="0.1" />
-        <entry key="app/src/main/res/drawable/bt_shape.xml" value="0.20052083333333334" />
-        <entry key="app/src/main/res/layout/frame_login.xml" value="0.12092391304347826" />
-        <entry key="app/src/main/res/layout/frame_register.xml" value="0.12092391304347826" />
-        <entry key="app/src/main/res/layout/layout_test.xml" value="0.184375" />
       </map>
     </option>
   </component>

@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
         setContentView(R.layout.frame_login);
+        String HTTPSTR = Constants.HTTPSTR;
         getSupportActionBar().hide();
 
         ImageButton loginBbutton = findViewById(R.id.loginButton);
@@ -73,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
                             OkHttpClient client = new OkHttpClient();//创建http客户端
                             Request request = new Request.Builder()
-                                    .url("http://192.168.123.83:8989/hr/login2")//在本机运行时的本机IP地址！！
+                                    .url(HTTPSTR+"hr/login2")//在本机运行时的本机IP地址！！
                                     .post(RequestBody.create(MediaType.parse("application/json"),json))
                                     .build();//创建http请求
                             Response response = client.newCall(request).execute();
@@ -88,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                                         e.printStackTrace();
                                     }
                                     if (!responseData.equals("")) {
-                                        Toast.makeText(MainActivity.this, "登陆成功", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(MainActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
                                         Intent loginDone = new Intent(MainActivity.this, LoginDoneActivity.class);
                                         startActivity(loginDone);
 
