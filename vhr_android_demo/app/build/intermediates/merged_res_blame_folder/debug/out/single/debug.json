@@ -4,16 +4,16 @@
         "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_meaning_fragment.xml"
     },
     {
-        "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_list_fragment.xml.flat",
-        "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_list_fragment.xml"
+        "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_login.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_login.xml"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_login_text.xml.flat",
         "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bg_login_text.xml"
     },
     {
-        "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_login.xml.flat",
-        "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_login.xml"
+        "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_list_fragment.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_list_fragment.xml"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_register.xml.flat",
@@ -98,6 +98,10 @@
     {
         "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_passwd.xml.flat",
         "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_passwd.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_employee.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\fragment_employee.xml"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_login_button.xml.flat",

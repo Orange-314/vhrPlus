@@ -1,36 +1,76 @@
 package com.example.vhr_android_demo;
 
+import static com.example.vhr_android_demo.Constants.HTTPSTR;
+
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.ListFragment;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+import okhttp3.FormBody;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+
 public class EmployeeFragment extends ListFragment {
-    private Map<String, String> data = new HashMap<>();
-
     public LayoutInflater mInflater;
-
+    private Map<String, String> data = new HashMap<>();
+    String[] employees = new String[100];
+    String[] employees_information = new String[100];
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mInflater = getActivity().getLayoutInflater();
-        data = getData();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                try {//用try-catch包围易错操作
+                    FormBody.Builder paramsEmployee = new FormBody.Builder();
+                    OkHttpClient client = new OkHttpClient();//创建http客户端
+                    Request requestEmployee = new Request.Builder()
+                            .url(HTTPSTR+"employee/findall")//在本机运行时的本机IP地址！！
+                            .post(paramsEmployee.build())
+                            .build();//创建http请求
+                    Response responseEmployee = client.newCall(requestEmployee).execute();//发送所创建的请求
+                    String responseDataEmployee = responseEmployee.body().string();//接收返回来的json格式的数据
+                    //responseDataEmployee = "["+responseDataEmployee+"]";
+                    JSONArray jsonArray = new JSONArray(responseDataEmployee);
+                    for(int i = 0; i< jsonArray.length(); i++){
+                        JSONObject jsonObject = jsonArray.getJSONObject(i);
+                        employees[i]=jsonObject.getString("name");
+                        employees_information[i]=jsonObject.getString("id");
+                        Log.d("name",""+jsonObject.getString("name"));
+                    }//遍历接收到的json数据内容
+                    data = getData();
+                }catch(Exception e){//如果连接错误，则输出提示
+                    e.printStackTrace();
+                }
+            }
+        }).start();
         this.setListAdapter(new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, android.R.id.text1, new ArrayList<>(data.keySet()))
         );
 
-    }
 
+    }
     @Override
     public void onListItemClick(@NonNull ListView parent, @NonNull View item, int position, long id) {
         super.onListItemClick(parent, item, position, id);
@@ -40,6 +80,8 @@ public class EmployeeFragment extends ListFragment {
 
     }
 
+    String[] employees1=employees;
+    String[] employees_information1=employees_information;
 
     @Nullable
     @Override
@@ -47,59 +89,11 @@ public class EmployeeFragment extends ListFragment {
         View view = inflater.inflate(R.layout.layout_employee_fragment, container, false);
         return view;
     }
-
     private Map<String, String> getData() {
-        String[] words = { "apple", "advice", "animal", "add", "according",
-                "bee", "bed", "better", "because", "bad",
-                "cow", "can", "call", "cycle", "certain",
-                "door", "do", "dad", "due", "data",
-                "east", "even", "edit", "exactly", "everything",
-                "fast", "forget", "feel", "flat", "friend",
-                "green", "good", "get", "give", "gold",
-                "hand", "help", "happy", "he", "have",
-                "important", "is", "ice", "idea", "if",
-                "jeep", "just", "jack", "job", "join",
-                "king", "konw", "keep", "kid", "kind",
-                "lion", "let", "like", "look", "love",
-                "man", "maybe", "me", "map", "main",
-                "need", "now", "new", "not", "number",
-                "ok", "or", "oh", "only", "old",
-                "possible", "please", "pull", "put", "problem",
-                "road", "read", "really", "remember", "room",
-                "seat", "set", "so", "sea", "some",
-                "test", "they", "talk", "tie", "till",
-                "umbrella", "use", "ultimate", "up", "update",
-                "volleyball", "very", "visit", "value", "view",
-                "xanadu", "xerox", "xero", "xenic", "xenium",
-                "yellow", "yes", "you", "year", "young",
-                "zebra", "zero", "zoo", "zebra", "zeal"};
-        String[] meanings = {"苹果", "建议", "动物", "添加", "根据",
-                "蜜蜂", "床", "更好", "因为", "不好",
-                "奶牛", "可能", "叫", "自行车", "确定的",
-                "门", "做", "爸", "应得", "数据",
-                "东边", "甚至", "编辑", "其实", "所有",
-                "快的", "忘记", "感觉", "平地", "朋友",
-                "绿色", "好", "拿", "给", "金黄色",
-                "手", "帮助", "快乐", "他", "有",
-                "重要的", "是", "冰", "想法", "如果",
-                "吉普车", "仅", "插座", "工作", "参加",
-                "国王", "知道", "保持", "儿童", "种类",
-                "狮子", "让", "喜欢", "看", "喜爱",
-                "男人", "可能", "我", "地图", "主要",
-                "需要", "现在", "新", "不", "数字",
-                "好的", "或", "哦", "只", "老",
-                "可能的", "请", "拉", "放", "问题",
-                "马路", "读", "真的", "记得", "室",
-                "座位", "设置", "因此", "大海", "一些",
-                "测试", "他们", "讲话", "联系", "钱箱",
-                "雨伞", "使用", "最终的", "上", "升级",
-                "排球", "非常", "参观", "数值", "看法",
-                "世外桃源", "复印", "干燥", "异类的", "礼物",
-                "黄色", "对", "你", "年", "年轻",
-                "斑马", "零", "动物园", "斑马", "热情"};
+
         Map<String, String> map = new HashMap<>();
-        for (int i = 0; i < words.length; i++) {
-            map.put(words[i], meanings[i]);
+        for (int i = 0; i < employees1.length; i++) {
+            map.put(employees1[i], employees_information1[i]);
         }
         return map;
     }

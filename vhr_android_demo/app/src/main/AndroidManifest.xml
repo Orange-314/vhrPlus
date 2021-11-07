@@ -33,6 +33,16 @@
             android:exported="true"
             tools:ignore="Instantiatable">
         </activity>
+        <activity
+            android:name=".EmployeeFragment"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity
+            android:name=".MeaningFragment"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+        </activity>
     </application>
 
 </manifest>

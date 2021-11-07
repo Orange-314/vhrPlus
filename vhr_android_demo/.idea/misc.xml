@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout-land/layout_fragment.xml" value="0.23541666666666666" />
+        <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/fragment_employee.xml" value="0.152" />
         <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_login.xml" value="0.4" />
         <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_register.xml" value="0.1296875" />
         <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_employee.xml" value="0.12604166666666666" />
+        <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_employee_fragment.xml" value="0.1296875" />
         <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_fragment.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_list_fragment.xml" value="0.1546875" />
         <entry key="..\:/AndroidStudioProjects/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_meaning_fragment.xml" value="0.1546875" />

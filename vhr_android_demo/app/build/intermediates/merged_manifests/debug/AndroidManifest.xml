@@ -39,6 +39,14 @@
             android:name="com.example.vhr_android_demo.RegistActivity"
             android:exported="true" >
         </activity>
+        <activity
+            android:name="com.example.vhr_android_demo.EmployeeFragment"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.vhr_android_demo.MeaningFragment"
+            android:exported="true" >
+        </activity>
     </application>
 
 </manifest>
