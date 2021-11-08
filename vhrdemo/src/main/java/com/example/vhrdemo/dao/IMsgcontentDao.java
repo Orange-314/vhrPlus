@@ -1,5 +1,6 @@
 package com.example.vhrdemo.dao;
 
+import com.example.vhrdemo.entity.Joblevel;
 import com.example.vhrdemo.entity.Msgcontent;
 import com.example.vhrdemo.entity.Role;
 import org.apache.ibatis.annotations.Param;
@@ -11,5 +12,8 @@ public interface IMsgcontentDao {
 
     Msgcontent insert(@Param("id") int id,@Param("title") String title,@Param("message") String message) ;
 
+    Msgcontent updateid(@Param("id") int id, @Param("title") String title);
+
+    Msgcontent delete(@Param("id") int id);
 }
 
