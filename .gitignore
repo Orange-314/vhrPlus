@@ -1,5 +1,10 @@
-# Default ignored files
+### Example user template template
+### Example user template
+
+# IntelliJ project files
 .idea
-.idea/vhrPlus.iml
+*.iml
+out
+gen
 vhr_android_demo/.idea
 vhrdemo/.idea
