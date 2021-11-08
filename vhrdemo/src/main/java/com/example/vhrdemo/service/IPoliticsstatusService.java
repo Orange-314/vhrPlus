@@ -1,6 +1,5 @@
 package com.example.vhrdemo.service;
 
-import com.example.vhrdemo.entity.Nation;
 import com.example.vhrdemo.entity.Politicsstatus;
 
 public interface IPoliticsstatusService {
