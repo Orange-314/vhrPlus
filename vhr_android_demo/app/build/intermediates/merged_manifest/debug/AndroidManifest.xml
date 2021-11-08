@@ -23,7 +23,7 @@
         android:theme="@style/Theme.Vhr_android_demo"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.vhr_android_demo.MainActivity2"
+            android:name="com.example.vhr_android_demo.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,6 +37,14 @@
         </activity>
         <activity
             android:name="com.example.vhr_android_demo.RegistActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.vhr_android_demo.EmployeeFragment"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.vhr_android_demo.MeaningFragment"
             android:exported="true" >
         </activity>
     </application>

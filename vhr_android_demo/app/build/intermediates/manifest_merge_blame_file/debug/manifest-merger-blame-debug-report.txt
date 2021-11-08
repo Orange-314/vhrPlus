@@ -15,7 +15,7 @@
 11-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:8:5-36:19
+13-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:8:5-46:19
 14        android:allowBackup="true"
 14-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:9:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -37,8 +37,8 @@
 24-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:14:9-44
 25        <activity
 25-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:16:9-24:20
-26            android:name="com.example.vhr_android_demo.MainActivity2"
-26-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:17:13-42
+26            android:name="com.example.vhr_android_demo.MainActivity"
+26-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:17:13-41
 27            android:exported="true" >
 27-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:18:13-36
 28            <intent-filter>
@@ -66,6 +66,20 @@
 40            android:exported="true" >
 40-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:33:13-36
 41        </activity>
-42    </application>
-43
-44</manifest>
+42        <activity
+42-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:36:9-40:20
+43            android:name="com.example.vhr_android_demo.EmployeeFragment"
+43-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:37:13-45
+44            android:exported="true" >
+44-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:38:13-36
+45        </activity>
+46        <activity
+46-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:41:9-45:20
+47            android:name="com.example.vhr_android_demo.MeaningFragment"
+47-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:42:13-44
+48            android:exported="true" >
+48-->G:\AndroidStudioProjects\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:43:13-36
+49        </activity>
+50    </application>
+51
+52</manifest>
