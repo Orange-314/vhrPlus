@@ -7,9 +7,9 @@ public interface IMsgcontentService {
 
     Msgcontent insert(int id,String title,String message);
 
-    Msgcontent update(String name, String nameZh);
+    Msgcontent updateid(int id, String title);
 
-    Msgcontent update2(String name, String nameZh);
+    Msgcontent updatetitle(int id, String title);
 
     Msgcontent delete(int id);
 }
