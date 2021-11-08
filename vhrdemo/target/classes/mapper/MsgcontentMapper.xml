@@ -9,4 +9,13 @@
     <insert id="insert" parameterType="com.example.vhrdemo.entity.Msgcontent">
         INSERT INTO msgcontent (id,title,message) VALUES (#{id},#{title},#{message});
     </insert>
+    <update id="updateid" parameterType="com.example.vhrdemo.entity.Msgcontent">
+        UPDATE msgcontent SET id=#{id} WHERE title=#{title};
+    </update>
+    <update id="updatetitle" parameterType="com.example.vhrdemo.entity.Msgcontent">
+        UPDATE msgcontent SET title=#{title} WHERE id=#{id};
+    </update>
+    <delete id="delete" parameterType="com.example.vhrdemo.entity.Msgcontent">
+        DELETE FROM msgcontent WHERE id=#{id};
+    </delete>
 </mapper>

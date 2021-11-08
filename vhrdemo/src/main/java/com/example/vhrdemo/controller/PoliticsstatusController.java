@@ -1,5 +1,6 @@
 package com.example.vhrdemo.controller;
 
+import com.example.vhrdemo.entity.Nation;
 import com.example.vhrdemo.entity.Politicsstatus;
 import com.example.vhrdemo.service.IPoliticsstatusService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping(value = "/politicsstatus")
 public class PoliticsstatusController {
-    @Autowired(required = false)
+    @Autowired
     private IPoliticsstatusService iPoliticsstatusService;
 
     @RequestMapping(value = "/search")
@@ -17,4 +18,18 @@ public class PoliticsstatusController {
         return iPoliticsstatusService.search(id);
     }
 
+    @RequestMapping(value = "/insert")
+    private Politicsstatus insert(@RequestParam int id, @RequestParam String name){
+        return iPoliticsstatusService.insert(id, name);
+    }
+
+    @RequestMapping(value = "/update")
+    private Politicsstatus update(@RequestParam int id, @RequestParam String name){
+        return iPoliticsstatusService.update(id, name);
+    }
+
+    @RequestMapping(value = "/delete")
+    private Politicsstatus delete(@RequestParam int id){
+        return iPoliticsstatusService.delete(id);
+    }
 }
