@@ -1,6 +1,7 @@
 package com.example.vhrdemo.service.impl;
 
 import com.example.vhrdemo.dao.IMsgcontentDao;
+import com.example.vhrdemo.entity.Joblevel;
 import com.example.vhrdemo.entity.Msgcontent;
 import com.example.vhrdemo.service.IHrService;
 import com.example.vhrdemo.service.IMsgcontentService;
@@ -24,19 +25,17 @@ public class MsgcontentService implements IMsgcontentService {
     }
 
     @Override
-    public Msgcontent update(String name, String nameZh) {
-        return null;
+    public Msgcontent updateid(int id, String title) {
+        return iMsgcontentDao.updateid(id, title);
     }
 
     @Override
-    public Msgcontent update2(String name, String nameZh) {
-        return null;
+    public Msgcontent updatetitle(int id, String title) {
+        return iMsgcontentDao.updateid(id, title);
     }
 
     @Override
     public Msgcontent delete(int id) {
-        return null;
+        return iMsgcontentDao.delete(id);
     }
-
-
 }
