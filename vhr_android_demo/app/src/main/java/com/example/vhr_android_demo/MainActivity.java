@@ -1,9 +1,6 @@
 package com.example.vhr_android_demo;
 
-import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -22,7 +19,6 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
@@ -82,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
                                     .build();//创建http请求
                             Response response = client.newCall(request).execute();
 
+
                             runOnUiThread(new Runnable() {//在主线程的UI线程来显示连接成功
                                 @Override
                                 public void run() {
@@ -92,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                                         e.printStackTrace();
                                     }
                                     if (!responseData.equals("")) {
-                                        Toast.makeText(MainActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(MainActivity.this, "登录成功", Toast.LENGTH_SHORT).show();//显示登录成功！
                                         Intent loginDone = new Intent(MainActivity.this, LoginDoneActivity.class);
                                         startActivity(loginDone);
 
