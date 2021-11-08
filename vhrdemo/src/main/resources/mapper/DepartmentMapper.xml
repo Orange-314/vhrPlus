@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.vhrdemo.dao.IDepartmentDao">
+    <resultMap id="BaseResultMap" type="com.example.vhrdemo.entity.Department">
+    </resultMap>
+    <select id="findall" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Department">
+        SELECT * from department ;
+    </select>
+
+</mapper>
