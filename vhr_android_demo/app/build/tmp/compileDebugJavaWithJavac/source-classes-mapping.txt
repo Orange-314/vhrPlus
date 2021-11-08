@@ -13,8 +13,9 @@ com/example/vhr_android_demo/MainActivity2.java
  com.example.vhr_android_demo.MainActivity2$1$1
  com.example.vhr_android_demo.MainActivity2$1$1$1
  com.example.vhr_android_demo.MainActivity2$1$1$2
-com/example/vhr_android_demo/MeaningFragment.java
- com.example.vhr_android_demo.MeaningFragment
+com/example/vhr_android_demo/EmployeeFragment.java
+ com.example.vhr_android_demo.EmployeeFragment
+ com.example.vhr_android_demo.EmployeeFragment$1
 com/example/vhr_android_demo/BuildConfig.java
  com.example.vhr_android_demo.BuildConfig
 com/example/vhr_android_demo/Constants.java
@@ -27,8 +28,7 @@ com/example/vhr_android_demo/RegistActivity.java
  com.example.vhr_android_demo.RegistActivity$1$1$2
  com.example.vhr_android_demo.RegistActivity$1$1$3
  com.example.vhr_android_demo.RegistActivity$1$1$4
-com/example/vhr_android_demo/EmployeeFragment.java
- com.example.vhr_android_demo.EmployeeFragment
- com.example.vhr_android_demo.EmployeeFragment$1
 com/example/vhr_android_demo/LoginDoneActivity.java
  com.example.vhr_android_demo.LoginDoneActivity
+com/example/vhr_android_demo/MeaningFragment.java
+ com.example.vhr_android_demo.MeaningFragment

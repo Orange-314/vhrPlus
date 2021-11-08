@@ -2,14 +2,4 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="292dp"
-        android:layout_height="106dp"
-        android:text="employee"
-        android:textSize="60sp"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="53dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:layout_height="match_parent"/>
