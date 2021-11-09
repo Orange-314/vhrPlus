@@ -17,4 +17,9 @@ public class PositionController {
     private Position search(@RequestParam int id){
         return iPositionService.search(id);
     }
+
+    @RequestMapping(value = "/insert", method = RequestMethod.POST)
+    private String insert(@RequestParam int id,@RequestParam String name){
+        return "成功插入" + iPositionService.insert(id,name) +"条数据";
+    }
 }
