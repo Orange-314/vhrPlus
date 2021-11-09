@@ -4,7 +4,7 @@
     <resultMap id="BaseResultMap" type="com.example.vhrdemo.entity.Employee">
     </resultMap>
     <select id="findall" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Employee">
-        SELECT * from employee ;
+        SELECT id,name,gender,birthday,idCard,wedlock,nativePlace,email,phone,address,engageForm,tiptopDegree,specialty,school from employee ;
     </select>
 
     <update id="update" parameterType="com.example.vhrdemo.entity.Employee">
