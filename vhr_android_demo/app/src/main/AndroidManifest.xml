@@ -51,6 +51,8 @@
         <activity
             android:name=".LoginDoneActivity$DetailsActivity"
             android:label="details"></activity>
+
+
     </application>
 
 </manifest>

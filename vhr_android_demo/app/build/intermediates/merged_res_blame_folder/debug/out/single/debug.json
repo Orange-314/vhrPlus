@@ -1,174 +1,182 @@
 [
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_list_fragment.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_list_fragment.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_checkbox_passwd_on.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/checkbox_passwd_on.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_login_text.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bg_login_text.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_user_up.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_user_up.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_checkbox_passwd_blank.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/checkbox_passwd_blank.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bt_shape.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bt_shape.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_employee_fragment.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_employee_fragment.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bt_shape_normal.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bt_shape_normal.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_login_go.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\login_go.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_user_up.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_user_up.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_passwd.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_passwd.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bt_login_shape_pressed.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bt_login_shape_pressed.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_passwd_on.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_passwd_on.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bt_login_shape_normal.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bt_login_shape_normal.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_frame_login.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_login.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_checkbox_passwd.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/checkbox_passwd.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_register.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_register.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_layout_employee_fragment.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_employee_fragment.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_user.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_user.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_login_yes.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\login_yes.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_passwd_on.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_passwd_on.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bt_shape.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bt_shape.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bt_login_shape.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bt_login_shape.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_login_no.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\login_no.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_login_yes.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/login_yes.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_user_down.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_user_down.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_frame_register.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_register.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_login.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_login.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_search.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_search.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_passwd.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_passwd.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_checkbox_passwd.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\checkbox_passwd.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_regist_test.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_regist_test.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_checkbox_passwd_on.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\checkbox_passwd_on.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_passwd_off.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_passwd_off.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bg_login_text.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bg_login_text.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_employee.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\fragment_employee.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_frame_main.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_main.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_login_button.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bg_login_button.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_user.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_user.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_login_go.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/login_go.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_test.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_test.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bt_shape_pressed.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bt_shape_pressed.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_logo.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/logo.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_meaning_fragment.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_meaning_fragment.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_passwd_off.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_passwd_off.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_employee.xml.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_employee.xml"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_login_no.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/login_no.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_checkbox_passwd_blank.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\checkbox_passwd_blank.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Android\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_frame_employee.xml.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_employee.xml"
+    },
+    {
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_user_down.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_user_down.png"
+    },
+    {
+        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_add.png.flat",
+        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_add.png"
     }
 ]
