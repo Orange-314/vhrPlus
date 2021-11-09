@@ -34,15 +34,23 @@
             tools:ignore="Instantiatable">
         </activity>
         <activity
-            android:name=".EmployeeFragment"
+            android:name=".EmployeeDetailsFragment"
             android:exported="true"
             tools:ignore="Instantiatable">
         </activity>
         <activity
-            android:name=".MeaningFragment"
+            android:name=".EmployeeTitlesFragment"
             android:exported="true"
             tools:ignore="Instantiatable">
         </activity>
+        <activity
+            android:name=".EmployeeActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity
+            android:name=".LoginDoneActivity$DetailsActivity"
+            android:label="details"></activity>
     </application>
 
 </manifest>

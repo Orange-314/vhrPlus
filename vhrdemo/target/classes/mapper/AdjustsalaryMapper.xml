@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.vhrdemo.dao.IAdjustsalaryDao">
+    <resultMap id="BaseResultMap" type="com.example.vhrdemo.entity.Adjustsalary">
+    </resultMap>
+    
+    <select id="search" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Adjustsalary">
+        SELECT * from adjustsalary where eid=#{eid}
+    </select>
+
+    <update id="update"  parameterType="com.example.vhrdemo.entity.Adjustsalary">
+        UPDATE adjustsalary SET asDate=#{asDate} ,  beforeSalary=#{beforeSalary}
+        , afterSalary=#{afterSalary}  , reason=#{reason}  , remark=#{remark}
+        WHERE eid=#{eid}
+    </update>
+
+    <insert id="insert" parameterType="com.example.vhrdemo.entity.Adjustsalary">
+        INSERT INTO adjustsalary(eid, asDate, beforeSalary, afterSalary, reason, remark)
+        VALUES (#{eid},#{asDate},#{beforeSalary},#{afterSalary},#{reason},#{remark})
+    </insert>
+
+    <delete id="delete" parameterType="com.example.vhrdemo.entity.Adjustsalary">
+        DELETE FROM adjustsalary WHERE eid = #{eid}
+    </delete>
+</mapper>
