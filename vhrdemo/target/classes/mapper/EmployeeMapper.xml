@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.vhrdemo.dao.IEmployeeDao">
+    <resultMap id="BaseResultMap" type="com.example.vhrdemo.entity.Employee">
+    </resultMap>
+    <select id="findall" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Employee">
+        SELECT * from employee ;
+    </select>
+
+    <update id="update" parameterType="com.example.vhrdemo.entity.Employee">
+        UPDATE employee SET password=#{password} WHERE username=#{username};
+    </update>
+    <insert id="insert" parameterType="com.example.vhrdemo.entity.Employee">
+        INSERT INTO employee VALUES (#{id},' ',' ',' ',' ','1',#{username},#{password},' ',' ');
+    </insert>
+    <insert id="regist" parameterType="com.example.vhrdemo.entity.Employee">
+        INSERT INTO employee (username,password) VALUES (#{username},#{password});
+    </insert>
+    <delete id="delete" parameterType="com.example.vhrdemo.entity.Hr">
+        DELETE FROM hr WHERE username=#{username} and password=#{password};
+    </delete>
+
+</mapper>
