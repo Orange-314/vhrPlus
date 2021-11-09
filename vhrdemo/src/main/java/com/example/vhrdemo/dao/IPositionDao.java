@@ -8,4 +8,6 @@ import org.springframework.stereotype.Repository;
 
 public interface IPositionDao {
     Position search(@Param("id") int id);
+
+    int insert(@Param("id") int id,@Param("name") String name);
 }
