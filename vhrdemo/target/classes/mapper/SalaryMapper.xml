@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.vhrdemo.dao.ISalaryDao">
+    <resultMap id="BaseResultMap" type="com.example.vhrdemo.entity.Salary">
+    </resultMap>
+
+    <select id="findall" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Salary">
+        SELECT * from salary;
+    </select>
+    <select id="search" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Salary">
+        SELECT * from salary where name=#{name};
+    </select>
+    <insert id="insert" parameterType="com.example.vhrdemo.entity.Salary">
+        INSERT INTO salary VALUES (#{id},' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',#{name});
+    </insert>
+    <delete id="delete" parameterType="com.example.vhrdemo.entity.Salary">
+        DELETE FROM salary WHERE name=#{name};
+    </delete>
+
+</mapper>
