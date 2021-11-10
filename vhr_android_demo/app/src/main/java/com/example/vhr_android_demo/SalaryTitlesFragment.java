@@ -1,6 +1,5 @@
 package com.example.vhr_android_demo;
 
-
 import android.app.ListFragment;
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +7,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class EmployeeTitlesFragment extends ListFragment {
+public class SalaryTitlesFragment extends ListFragment {
     boolean mDualPane;
     int mCurCheckPosition = 0;
 
@@ -18,7 +17,7 @@ public class EmployeeTitlesFragment extends ListFragment {
 
         // 设置适配器，加载标题项
         setListAdapter(new ArrayAdapter<String>(getActivity(),
-               android.R.layout.simple_list_item_1/*simple_list_item_single_choice*/, Data.EMPLOYEE_NAME));
+                android.R.layout.simple_list_item_1/*simple_list_item_single_choice*/, Data.SALARY_NAME));
         if (savedInstanceState != null) {
             // 更新选中项目的位置
             mCurCheckPosition =savedInstanceState.getInt("curChoice", 0);
@@ -32,7 +31,7 @@ public class EmployeeTitlesFragment extends ListFragment {
     }
 
     @Override
-    public void onListItemClick(ListView l, View v, int position,long id) {
+    public void onListItemClick(ListView l, View v, int position, long id) {
         showDetails(position);
     }
     /**
@@ -42,12 +41,11 @@ public class EmployeeTitlesFragment extends ListFragment {
      */
     void showDetails(int index) {
         mCurCheckPosition = index;
-            // 加载一个新的Activity 显示详细内容
-            Intent intent = new Intent();
-            intent.setClass(getActivity(),EmployeeActivity.DetailsActivity.class);
-            intent.putExtra("index",index);
-            startActivity(intent);
+        // 加载一个新的Activity 显示详细内容
+        Intent intent = new Intent();
+        intent.setClass(getActivity(),SalaryActivity.DetailsActivity.class);
+        intent.putExtra("index",index);
+        startActivity(intent);
     }
+
 }
- 
- 

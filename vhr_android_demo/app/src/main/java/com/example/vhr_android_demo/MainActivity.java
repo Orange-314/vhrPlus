@@ -92,11 +92,9 @@ public class MainActivity extends AppCompatActivity {
                                     }
                                     if (!responseData.equals("")) {
                                         Toast.makeText(MainActivity.this, "登录成功", Toast.LENGTH_SHORT).show();//显示登录成功！
-                                        Intent loginDone = new Intent(MainActivity.this, EmployeeActivity.class);
-
-
+                                        Intent loginDone = new Intent(MainActivity.this, LoginDoneActivity.class);
                                         try {
-                                            sleep(100);
+                                            sleep(300);
                                         } catch (InterruptedException e) {//等待100ms
                                             e.printStackTrace();
                                         }

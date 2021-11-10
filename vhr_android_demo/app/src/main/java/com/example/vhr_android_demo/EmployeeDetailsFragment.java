@@ -41,7 +41,7 @@ public class EmployeeDetailsFragment extends Fragment {
 	}
 	
     //获取要显示的列表索引项
-	public int getShownIndex() {
+	private int getShownIndex() {
 		return getArguments().getInt("index", 0);
 	}
 }
