@@ -9,4 +9,8 @@ public interface IPositionService {
 
     int insert(int id,String name);
 
+    int update(int id,String name);
+
+    int delete(int id);
+
 }

@@ -6,6 +6,9 @@ import com.example.vhrdemo.service.IPositionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
+@Resource
 @Service
 public class PositionService implements IPositionService {
     @Autowired
@@ -19,5 +22,15 @@ public class PositionService implements IPositionService {
     @Override
     public int insert(int id,String name) {
         return iPositionDao.insert(id,name);
+    }
+
+    @Override
+    public int update(int id,String name) {
+        return iPositionDao.update(id,name);
+    }
+
+    @Override
+    public int delete(int id) {
+        return iPositionDao.delete(id);
     }
 }

@@ -7,11 +7,11 @@ public interface IRoleService {
 
     Role search(int id);
 
-    Role insert(int id,String name,String nameZh);
+    int insert(int id,String name,String nameZh);
 
-    Role update(String name, String nameZh);
+    int update(String name, String nameZh);
 
-    Role update2(String name, String nameZh);
+    int update2(String name, String nameZh);
 
-    Role delete(int id);
+    int delete(int id);
 }
