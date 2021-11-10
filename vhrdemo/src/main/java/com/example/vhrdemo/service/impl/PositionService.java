@@ -15,4 +15,9 @@ public class PositionService implements IPositionService {
     public Position search(int id) {
         return iPositionDao.search(id);
     }
+
+    @Override
+    public int insert(int id,String name) {
+        return iPositionDao.insert(id,name);
+    }
 }
