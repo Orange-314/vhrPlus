@@ -9,11 +9,11 @@ import org.springframework.stereotype.Repository;
 public interface IRoleDao {
     Role search(@Param("id") int id);
 
-    Role insert(@Param("id") int id,@Param("name") String name,@Param("nameZh") String nameZh);
+    int insert(@Param("id") int id,@Param("name") String name,@Param("nameZh") String nameZh);
 
-    Role update(String name, String nameZh);
+    int update(String name, String nameZh);
 
-    Role delete(int id);
+    int delete(int id);
 
-    Role update2(String name, String nameZh);
+    int update2(String name, String nameZh);
 }

@@ -19,22 +19,22 @@ public class RoleController {
     }
 
     @RequestMapping(value = "/insert", method = RequestMethod.POST)
-    private Role insert(@RequestParam int id,@RequestParam String name,@RequestParam String nameZh) {
-        return iRoleService.insert(id, name, nameZh);
+    private String insert(@RequestParam int id,@RequestParam String name,@RequestParam String nameZh) {
+        return "成功插入" + iRoleService.insert(id, name, nameZh) + "条数据";
     }
 
     @RequestMapping(value = "/update", method = RequestMethod.POST)
-    private Role update(@RequestParam String name,@RequestParam String nameZh) {
-        return iRoleService.update(name, nameZh);
+    private String update(@RequestParam String name,@RequestParam String nameZh) {
+        return "更新成功" + iRoleService.update(name, nameZh)+ "条数据";
     }
 
     @RequestMapping(value = "/update2", method = RequestMethod.POST)
-    private Role uodate2(@RequestParam String name,@RequestParam String nameZh){
-         return iRoleService.update2(name,nameZh);
+    private String uodate2(@RequestParam String name,@RequestParam String nameZh){
+         return "更新成功"+iRoleService.update2(name,nameZh)+"条数据";
     }
 
     @RequestMapping(value = "/delete", method = RequestMethod.POST)
-    private Role delete(@RequestParam int id){
-        return iRoleService.delete(id);
+    private String delete(@RequestParam int id){
+        return "删除成功"+iRoleService.delete(id)+"条数据";
     }
 }
