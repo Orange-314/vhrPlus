@@ -18,7 +18,7 @@ public class EmployeeTitlesFragment extends ListFragment {
 
         // 设置适配器，加载标题项
         setListAdapter(new ArrayAdapter<String>(getActivity(),
-               android.R.layout.simple_list_item_single_choice, Data.EMPLOYEE_NAME));
+               android.R.layout.simple_list_item_1/*simple_list_item_single_choice*/, Data.EMPLOYEE_NAME));
         if (savedInstanceState != null) {
             // 更新选中项目的位置
             mCurCheckPosition =savedInstanceState.getInt("curChoice", 0);
@@ -44,7 +44,7 @@ public class EmployeeTitlesFragment extends ListFragment {
         mCurCheckPosition = index;
             // 加载一个新的Activity 显示详细内容
             Intent intent = new Intent();
-            intent.setClass(getActivity(),LoginDoneActivity.DetailsActivity.class);
+            intent.setClass(getActivity(),EmployeeActivity.DetailsActivity.class);
             intent.putExtra("index",index);
             startActivity(intent);
     }

@@ -1,10 +1,12 @@
 package com.example.vhrdemo.controller;
 
-import com.example.vhrdemo.entity.Nation;
 import com.example.vhrdemo.entity.Politicsstatus;
 import com.example.vhrdemo.service.IPoliticsstatusService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin
 @RestController

@@ -2,7 +2,6 @@ package com.example.vhrdemo.controller;
 
 import com.example.vhrdemo.entity.Department;
 import com.example.vhrdemo.service.IDepartmentService;
-import com.example.vhrdemo.service.IEmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;

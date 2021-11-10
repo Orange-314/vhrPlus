@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:layout_marginTop="?actionBarSize"
     android:orientation="vertical"
-    android:background="@color/white"
+    android:background="@color/fafafa"
     android:clickable="true"
     android:focusable="true"
     tools:context=".RegistActivity" >
@@ -47,7 +47,7 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="65dp"
+        android:layout_height="60dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:id="@+id/fragment_login_username_layout"
@@ -127,7 +127,7 @@
         android:layout_marginTop="60dp"
         android:elevation="3dp"
         android:gravity="center"
-        android:background="@drawable/bg_login_button"
+        android:background="@drawable/bt_login_shape_normal"
         android:orientation="horizontal">
 
         <ImageButton

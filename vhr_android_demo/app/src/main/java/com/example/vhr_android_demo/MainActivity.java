@@ -1,5 +1,7 @@
 package com.example.vhr_android_demo;
 
+import static java.lang.Thread.sleep;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -91,6 +93,12 @@ public class MainActivity extends AppCompatActivity {
                                     if (!responseData.equals("")) {
                                         Toast.makeText(MainActivity.this, "登录成功", Toast.LENGTH_SHORT).show();//显示登录成功！
                                         Intent loginDone = new Intent(MainActivity.this, LoginDoneActivity.class);
+                                        try {
+                                            sleep(300);
+                                        } catch (InterruptedException e) {//等待100ms
+                                            e.printStackTrace();
+                                        }
+
                                         startActivity(loginDone);
 
                                     } else {
