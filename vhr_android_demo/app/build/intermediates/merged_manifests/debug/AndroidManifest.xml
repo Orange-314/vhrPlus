@@ -40,6 +40,10 @@
             android:exported="true" >
         </activity>
         <activity
+            android:name="com.example.vhr_android_demo.EmployeeActivity"
+            android:exported="true" >
+        </activity>
+        <activity
             android:name="com.example.vhr_android_demo.EmployeeDetailsFragment"
             android:exported="true" >
         </activity>
@@ -48,12 +52,23 @@
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.vhr_android_demo.EmployeeActivity"
+            android:name="com.example.vhr_android_demo.EmployeeActivity$DetailsActivity"
+            android:label="EmployeeDetails" />
+        <activity
+            android:name="com.example.vhr_android_demo.SalaryActivity"
             android:exported="true" >
         </activity>
         <activity
-            android:name="com.example.vhr_android_demo.LoginDoneActivity$DetailsActivity"
-            android:label="details" />
+            android:name="com.example.vhr_android_demo.SalaryDetailsFragment"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.vhr_android_demo.SalaryTitlesFragment"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.vhr_android_demo.SalaryActivity$DetailsActivity"
+            android:label="SalaryDetails" />
     </application>
 
 </manifest>
