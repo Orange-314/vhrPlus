@@ -3,6 +3,7 @@ package com.example.vhr_android_demo;
 import static java.lang.Thread.sleep;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            getWindow().getDecorView().setSystemUiVisibility( View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN|View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+            getWindow().setNavigationBarColor(getColor(R.color.fafafa));
+        }
         setContentView(R.layout.frame_login);
         String HTTPSTR = Constants.HTTPSTR;
         getSupportActionBar().hide();
