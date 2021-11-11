@@ -34,6 +34,11 @@
             tools:ignore="Instantiatable">
         </activity>
         <activity
+            android:name=".EmployeeActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity
             android:name=".EmployeeDetailsFragment"
             android:exported="true"
             tools:ignore="Instantiatable">
@@ -44,13 +49,27 @@
             tools:ignore="Instantiatable">
         </activity>
         <activity
-            android:name=".EmployeeActivity"
+            android:name=".EmployeeActivity$DetailsActivity"
+            android:label="EmployeeDetails"></activity>
+
+        <activity
+            android:name=".SalaryActivity"
             android:exported="true"
             tools:ignore="Instantiatable">
         </activity>
         <activity
-            android:name=".LoginDoneActivity$DetailsActivity"
-            android:label="details"></activity>
+            android:name=".SalaryDetailsFragment"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity
+            android:name=".SalaryTitlesFragment"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity
+            android:name=".SalaryActivity$DetailsActivity"
+            android:label="SalaryDetails"></activity>
 
 
     </application>

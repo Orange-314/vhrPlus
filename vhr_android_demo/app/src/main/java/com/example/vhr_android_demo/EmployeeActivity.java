@@ -1,7 +1,10 @@
 package com.example.vhr_android_demo;
 
 import android.app.Activity;
+import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
+import android.view.Window;
 
 import androidx.fragment.app.FragmentActivity;
 
@@ -15,10 +18,14 @@ import okhttp3.Response;
 
 public class EmployeeActivity extends FragmentActivity {
     String HTTPSTR = Constants.HTTPSTR;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            getWindow().getDecorView().setSystemUiVisibility( View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN|View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+            getWindow().setNavigationBarColor(getColor(R.color.fafafa));
+        }
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -70,7 +77,7 @@ public class EmployeeActivity extends FragmentActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        setContentView(R.layout.layout_employee_fragment);
+                        setContentView(R.layout.frame_employee);
                     }
                 });
             }

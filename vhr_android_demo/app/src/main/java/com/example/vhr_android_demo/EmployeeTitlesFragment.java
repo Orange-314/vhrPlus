@@ -44,7 +44,7 @@ public class EmployeeTitlesFragment extends ListFragment {
         mCurCheckPosition = index;
             // 加载一个新的Activity 显示详细内容
             Intent intent = new Intent();
-            intent.setClass(getActivity(),LoginDoneActivity.DetailsActivity.class);
+            intent.setClass(getActivity(),EmployeeActivity.DetailsActivity.class);
             intent.putExtra("index",index);
             startActivity(intent);
     }
