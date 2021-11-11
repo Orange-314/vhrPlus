@@ -6,9 +6,9 @@ public interface IPoliticsstatusService {
 
     Politicsstatus search(int id);
 
-    Politicsstatus insert(int id, String name);
+    int insert(int id, String name);
 
-    Politicsstatus update(int id, String name);
+    int update(int id, String name);
 
-    Politicsstatus delete(int id);
+    int delete(int id);
 }
