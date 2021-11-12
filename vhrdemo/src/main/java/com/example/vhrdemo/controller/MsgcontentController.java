@@ -21,22 +21,22 @@ public class MsgcontentController {
     }
 
     @RequestMapping(value = "/insert", method = RequestMethod.POST)
-    private Msgcontent insert(@RequestParam int id, @RequestParam String title, @RequestParam String message) {
-        return iMsgcontentService.insert(id, title, message);
+    private String  insert(@RequestParam int id, @RequestParam String title, @RequestParam String message) {
+        return "插入成功"+iMsgcontentService.insert(id, title, message)+"条消息";
     }
 
     @RequestMapping(value = "/updateid", method = RequestMethod.POST)
-    private Msgcontent updateid(@RequestParam int id, @RequestParam String title){
-        return iMsgcontentService.updateid(id, title);
+    private String  updateid(@RequestParam int id, @RequestParam String title){
+        return "更新成功"+iMsgcontentService.updateid(id, title)+"条消息";
     }
 
     @RequestMapping(value = "/updatetitle", method = RequestMethod.POST)
-    private Msgcontent updatetitle(@RequestParam int id, @RequestParam String title) {
-        return iMsgcontentService.updateid(id, title);
+    private String updatetitle(@RequestParam int id, @RequestParam String title) {
+        return "更新成功"+ iMsgcontentService.updateid(id, title)+"条消息";
     }
 
     @RequestMapping(value = "/delete")
-    private Msgcontent delete(@RequestParam int id){
-        return iMsgcontentService.delete(id);
+    private String delete(@RequestParam int id){
+        return "删除成功"+iMsgcontentService.delete(id)+"条消息";
     }
 }
