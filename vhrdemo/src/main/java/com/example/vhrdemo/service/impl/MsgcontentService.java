@@ -20,22 +20,22 @@ public class MsgcontentService implements IMsgcontentService {
 
 
     @Override
-    public Msgcontent insert(int id, String title, String message)  {
+    public int insert(int id, String title, String message)  {
         return iMsgcontentDao.insert(id, title, message);
     }
 
     @Override
-    public Msgcontent updateid(int id, String title) {
+    public int updateid(int id, String title) {
         return iMsgcontentDao.updateid(id, title);
     }
 
     @Override
-    public Msgcontent updatetitle(int id, String title) {
+    public int updatetitle(int id, String title) {
         return iMsgcontentDao.updateid(id, title);
     }
 
     @Override
-    public Msgcontent delete(int id) {
+    public int delete(int id) {
         return iMsgcontentDao.delete(id);
     }
 }

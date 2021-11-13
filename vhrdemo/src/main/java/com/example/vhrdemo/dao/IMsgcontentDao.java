@@ -10,10 +10,10 @@ import org.springframework.stereotype.Repository;
 public interface IMsgcontentDao {
     Msgcontent search(@Param("id") int id);
 
-    Msgcontent insert(@Param("id") int id,@Param("title") String title,@Param("message") String message) ;
+    int insert(@Param("id") int id,@Param("title") String title,@Param("message") String message) ;
 
-    Msgcontent updateid(@Param("id") int id, @Param("title") String title);
+    int updateid(@Param("id") int id, @Param("title") String title);
 
-    Msgcontent delete(@Param("id") int id);
+    int delete(@Param("id") int id);
 }
 

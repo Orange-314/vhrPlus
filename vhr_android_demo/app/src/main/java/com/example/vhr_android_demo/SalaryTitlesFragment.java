@@ -14,7 +14,6 @@ public class SalaryTitlesFragment extends ListFragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-
         // 设置适配器，加载标题项
         setListAdapter(new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1/*simple_list_item_single_choice*/, Data.SALARY_NAME));

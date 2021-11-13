@@ -26,7 +26,12 @@ public class SalaryController {
 
     @RequestMapping(value = "/insert", method = RequestMethod.POST)
     private Salary insert(@RequestParam int id,@RequestParam String name){
-        return iSalaryService.insert(id, name);
+        return iSalaryService.insert(id,name);
+    }
+
+    @RequestMapping(value = "/update", method = RequestMethod.POST)
+    private Salary update(@RequestParam int id,@RequestParam int basicSalary,@RequestParam int bonus,@RequestParam int lunchSalary,@RequestParam int trafficSalary,@RequestParam int allSalary,@RequestParam int pensionBase,@RequestParam float pensionPer,@RequestParam int medicalBase,@RequestParam float medicalPer,@RequestParam int accumulationFundBase,@RequestParam float accumulationFundPer,@RequestParam String name){
+        return iSalaryService.update(id,basicSalary,bonus,lunchSalary,trafficSalary,allSalary,pensionBase,pensionPer,medicalBase,medicalPer,accumulationFundBase,accumulationFundPer,name);
     }
 
     @RequestMapping(value = "/delete", method = RequestMethod.POST)
