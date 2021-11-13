@@ -20,26 +20,17 @@
         android:background="@drawable/bg_login_text"
         android:gravity="center"
         android:orientation="horizontal">
-
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/SalaryUpdateId"
+            android:text="id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="62dp"
+            android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
             android:layout_weight="1"
             android:background="@null"
             android:ems="10"
             android:inputType="textCapCharacters" />
-
-        <ToggleButton
-            android:id="@+id/nameToggleButton"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginRight="30dp"
-            android:background="@drawable/button_user"
-            android:textOff=""
-            android:textOn="" />
     </LinearLayout>
 
     <LinearLayout
@@ -51,61 +42,102 @@
         android:gravity="center"
         android:background="@drawable/bg_login_text"
         android:orientation="horizontal" >
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:gravity="center"
-            android:background="@drawable/bg_login_text"
-            android:orientation="horizontal" >
-
             <EditText
-                android:id="@+id/password"
+                android:id="@+id/SalaryUpdatebasicSalary"
+                android:text="基本工资"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="62dp"
+                android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_weight="1"
                 android:background="@null"
                 android:ems="10"
-                android:inputType="textPassword" />
-
-            <ToggleButton
-                android:id="@+id/passwordToggleButton"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginRight="30dp"
-                android:background="@drawable/button_passwd"
-                android:textOff=""
-                android:textOn="" />
-
+                android:inputType="textCapCharacters" />
         </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:background="@drawable/bg_login_text"
+        android:orientation="horizontal" >
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/SalaryUpdatebonus"
+            android:text="奖   金"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="62dp"
+            android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
             android:layout_weight="1"
             android:background="@null"
             android:ems="10"
-            android:inputType="textPassword" />
-
-        <ToggleButton
-            android:id="@+id/passwordToggleButton"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginRight="30dp"
-            android:background="@drawable/button_passwd"
-            android:textOff=""
-            android:textOn="" />
-
+            android:inputType="textCapCharacters" />
     </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:background="@drawable/bg_login_text"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/SalaryUpdatelunchSalary"
+            android:text="午餐补助"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="textCapCharacters" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:background="@drawable/bg_login_text"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/SalaryUpdatetrafficSalary"
+            android:text="交通补助"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="textCapCharacters" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:background="@drawable/bg_login_text"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/SalaryUpdateallSalary"
+            android:text="应发工资"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="textCapCharacters" />
+    </LinearLayout>
     <LinearLayout
         android:id="@+id/login_begin_button_parent_layout"
         android:layout_width="80dp"
@@ -120,7 +152,7 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/loginButton"
+            android:id="@+id/SalaryUpdateButton"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:background="@drawable/login_go"
