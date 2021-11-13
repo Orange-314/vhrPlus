@@ -27,7 +27,7 @@
             android:resource="@xml/bottom_menu" />
 
         <activity
-            android:name="com.example.vhr_android_demo.MainActivity"
+            android:name="com.example.vhr_android_demo.EmployeeUpdateActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
