@@ -23,8 +23,8 @@ public class SalaryService implements ISalaryService {
     }
 
     @Override
-    public Salary insert(int id,String name) {
-        return iSalaryDao.insert(id,name);
+    public Salary insert(int id,int basicSalary,int bonus,int lunchSalary,int trafficSalary,int allSalary,int pensionBase,float pensionPer,int medicalBase,float medicalPer,int accumulationFundBase,float accumulationFundPer,String name) {
+        return iSalaryDao.insert(id,basicSalary,bonus,lunchSalary,trafficSalary,allSalary,pensionBase,pensionPer,medicalBase,medicalPer,accumulationFundBase,accumulationFundPer,name);
     }
 
     @Override

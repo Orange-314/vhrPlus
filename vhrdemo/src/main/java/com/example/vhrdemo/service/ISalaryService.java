@@ -10,7 +10,7 @@ public interface ISalaryService {
 
     Salary search(String name);
 
-    Salary insert(int id,String name);
+    Salary insert(int id,int basicSalary,int bonus,int lunchSalary,int trafficSalary,int allSalary,int pensionBase,float pensionPer,int medicalBase,float medicalPer,int accumulationFundBase,float accumulationFundPer,String name);
 
     Salary update(int id,int basicSalary,int bonus,int lunchSalary,int trafficSalary,int allSalary,int pensionBase,float pensionPer,int medicalBase,float medicalPer,int accumulationFundBase,float accumulationFundPer,String name);
 
