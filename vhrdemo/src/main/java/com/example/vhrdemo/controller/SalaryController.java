@@ -24,6 +24,11 @@ public class SalaryController {
         return iSalaryService.search(name);
     }
 
+    @RequestMapping(value = "/insert1", method = RequestMethod.POST)
+    private Salary insert1(@RequestParam int id,@RequestParam int basicSalary,@RequestParam int bonus,@RequestParam int lunchSalary,@RequestParam int trafficSalary,@RequestParam int allSalary){
+        return iSalaryService.insert1(id,basicSalary,bonus,lunchSalary,trafficSalary,allSalary);
+    }
+
     @RequestMapping(value = "/insert", method = RequestMethod.POST)
     private Salary insert(@RequestParam int id,@RequestParam int basicSalary,@RequestParam int bonus,@RequestParam int lunchSalary,@RequestParam int trafficSalary,@RequestParam int allSalary,@RequestParam int pensionBase,@RequestParam float pensionPer,@RequestParam int medicalBase,@RequestParam float medicalPer,@RequestParam int accumulationFundBase,@RequestParam float accumulationFundPer,@RequestParam String name){
         return iSalaryService.insert(id,basicSalary,bonus,lunchSalary,trafficSalary,allSalary,pensionBase,pensionPer,medicalBase,medicalPer,accumulationFundBase,accumulationFundPer,name);
