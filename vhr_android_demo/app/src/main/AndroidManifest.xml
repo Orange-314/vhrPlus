@@ -49,6 +49,7 @@
         <activity
             android:name=".EmployeeActivity$DetailsActivity"
             android:label="EmployeeDetails" />
+
         <activity
             android:name=".SalaryActivity"
             android:exported="true"

@@ -1898,6 +1898,13 @@ id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id SalaryButton
+id SalaryUpdateButton
+id SalaryUpdateId
+id SalaryUpdateallSalary
+id SalaryUpdatebasicSalary
+id SalaryUpdatebonus
+id SalaryUpdatelunchSalary
+id SalaryUpdatetrafficSalary
 id SearchButton
 id SearchasdButton
 id TOP_END
@@ -2328,6 +2335,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView3
 id textView40
 id text_input_end_icon
@@ -2473,7 +2481,6 @@ layout frame_my
 layout frame_register
 layout frame_salary
 layout layout_logindone
-layout layout_main
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3542,6 +3549,7 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+xml bottom_menu
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start
