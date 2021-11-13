@@ -21,11 +21,8 @@ com/example/vhr_android_demo/MainActivity.java
  com.example.vhr_android_demo.MainActivity$2$1
  com.example.vhr_android_demo.MainActivity$2$1$1
  com.example.vhr_android_demo.MainActivity$2$1$2
-com/example/vhr_android_demo/EmployeeUpdateActivity.java
- com.example.vhr_android_demo.EmployeeUpdateActivity
- com.example.vhr_android_demo.EmployeeUpdateActivity$1
- com.example.vhr_android_demo.EmployeeUpdateActivity$1$1
- com.example.vhr_android_demo.EmployeeUpdateActivity$1$1$1
+com/example/vhr_android_demo/fragment/fragment_demo3.java
+ com.example.vhr_android_demo.fragment.fragment_demo3
 com/example/vhr_android_demo/SalaryActivity.java
  com.example.vhr_android_demo.SalaryActivity
  com.example.vhr_android_demo.SalaryActivity$1
@@ -56,5 +53,8 @@ com/example/vhr_android_demo/RegistActivity.java
  com.example.vhr_android_demo.RegistActivity$1$1$4
 com/example/vhr_android_demo/LoginDoneActivity.java
  com.example.vhr_android_demo.LoginDoneActivity
-com/example/vhr_android_demo/fragment/fragment_demo3.java
- com.example.vhr_android_demo.fragment.fragment_demo3
+com/example/vhr_android_demo/EmployeeUpdateActivity.java
+ com.example.vhr_android_demo.EmployeeUpdateActivity
+ com.example.vhr_android_demo.EmployeeUpdateActivity$1
+ com.example.vhr_android_demo.EmployeeUpdateActivity$1$1
+ com.example.vhr_android_demo.EmployeeUpdateActivity$1$1$1

@@ -60,7 +60,7 @@ public class EmployeeUpdateActivity extends AppCompatActivity {
 
                             OkHttpClient clientUpdateEmployee = new OkHttpClient();//创建http客户端
                             Request requestUpdateEmployee = new Request.Builder()
-                                    .url(HTTPSTR+"salary/insert")//在本机运行时的本机IP地址！！
+                                    .url(HTTPSTR+"salary/insert1")//在本机运行时的本机IP地址！！
                                     .post(paramsUpdateEmployee.build())
                                     .build();//创建http请求
                             Response responseUpdateEmployee = clientUpdateEmployee.newCall(requestUpdateEmployee).execute();
