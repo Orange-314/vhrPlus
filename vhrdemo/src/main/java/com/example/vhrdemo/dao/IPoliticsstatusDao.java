@@ -8,10 +8,10 @@ import org.springframework.stereotype.Repository;
 public interface IPoliticsstatusDao {
     Politicsstatus search(@Param("id") int id);
 
-    Politicsstatus insert(@Param("id") int id,@Param("name") String name);
+    int insert(@Param("id") int id,@Param("name") String name);
 
-    Politicsstatus update(@Param("id") int id,@Param("name") String name);
+    int update(@Param("id") int id,@Param("name") String name);
 
-    Politicsstatus delete(@Param("id") int id);
+    int delete(@Param("id") int id);
 
 }

@@ -8,17 +8,20 @@
 
     <fragment
         android:id="@+id/navigation_staff"
+        android:name="com.example.vhr_android_demo.fragment.fragment_demo"
         android:label="@string/title_employee"
         tools:layout="@layout/frame_employee" />
 
 
     <fragment
-        android:id="@+id/navigation_statistics"
+        android:id="@+id/navigation_manage"
+        android:name="com.example.vhr_android_demo.fragment.fragment_demo2"
         android:label="@string/title_assets"
         tools:layout="@layout/frame_assets" />
 
     <fragment
         android:id="@+id/navigation_my"
+        android:name="com.example.vhr_android_demo.fragment.fragment_demo3"
         android:label="@string/title_my"
         tools:layout="@layout/frame_my" />
 

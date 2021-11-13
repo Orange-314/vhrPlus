@@ -19,17 +19,17 @@ public class PoliticsstatusService implements IPoliticsstatusService {
     }
 
     @Override
-    public Politicsstatus insert(int id, String name) {
+    public int insert(int id, String name) {
         return iPoliticsstatusDao.insert(id, name);
     }
 
     @Override
-    public Politicsstatus update(int id, String name) {
+    public int update(int id, String name) {
         return iPoliticsstatusDao.update(id, name);
     }
 
     @Override
-    public Politicsstatus delete(int id) {
+    public int delete(int id) {
         return iPoliticsstatusDao.delete(id);
     }
 

@@ -5,11 +5,11 @@ import com.example.vhrdemo.entity.Msgcontent;
 public interface IMsgcontentService {
     Msgcontent search(int id);
 
-    Msgcontent insert(int id,String title,String message);
+    int insert(int id,String title,String message);
 
-    Msgcontent updateid(int id, String title);
+    int updateid(int id, String title);
 
-    Msgcontent updatetitle(int id, String title);
+    int updatetitle(int id, String title);
 
-    Msgcontent delete(int id);
+    int delete(int id);
 }
