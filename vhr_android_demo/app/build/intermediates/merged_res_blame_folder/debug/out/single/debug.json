@@ -1,206 +1,230 @@
 [
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_checkbox_passwd_on.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/checkbox_passwd_on.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_checkbox_passwd_blank.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\checkbox_passwd_blank.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_user_up.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_user_up.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_checkbox_passwd_blank.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/checkbox_passwd_blank.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_passwd.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_passwd.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_login_yes.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\login_yes.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bt_login_shape_pressed.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bt_login_shape_pressed.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_passwd_on.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_passwd_on.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_checkbox_passwd.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/checkbox_passwd.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_logindone.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_logindone.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_passwd_on.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_passwd_on.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_login_button.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bg_login_button.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bt_login_shape.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bt_login_shape.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_checkbox_passwd_on.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\checkbox_passwd_on.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_login_yes.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/login_yes.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bt_shape.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bt_shape.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_passwd.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_passwd.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bt_shape_pressed.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bt_shape_pressed.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_my.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_my.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_login_go.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/login_go.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_user_up.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_user_up.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_salary.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_salary.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bt_shape_pressed.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bt_shape_pressed.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_layout_main.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_main.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_register.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_register.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_frame_salary.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_salary.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_login_no.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/login_no.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_user_down.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_user_down.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bt_shape.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bt_shape.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bt_shape_normal.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bt_shape_normal.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bt_login_shape_normal.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bt_login_shape_normal.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_passwd_off.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_passwd_off.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_frame_login.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_login.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_user.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_user.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/navigation_mobile_navigation.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/navigation/mobile_navigation.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bt_login_shape_normal.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bt_login_shape_normal.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_frame_register.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_register.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_menu.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\menu\\bottom_menu.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_search.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_search.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_search.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_search.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\xml_bottom_menu.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\xml\\bottom_menu.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_frame_my.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_my.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_add.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_add.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bg_login_text.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bg_login_text.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_grxx1.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\ic_grxx1.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_frame_main.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_main.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_login_text.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bg_login_text.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bt_shape_normal.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bt_shape_normal.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_bg_login_button.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/bg_login_button.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bt_login_shape.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bt_login_shape.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_frame_assets.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_assets.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_login.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_login.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_layout_logindone.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/layout_logindone.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_checkbox_passwd.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\checkbox_passwd.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_logo.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/logo.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_main.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_main.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bt_login_shape_pressed.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bt_login_shape_pressed.xml"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_passwd_off.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_passwd_off.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_login_go.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\login_go.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/layout_frame_employee.xml.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/layout/frame_employee.xml"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_login_no.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\login_no.png"
     },
     {
-        "merged": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/build/intermediates/merged_res/debug/drawable_button_add.png.flat",
-        "source": "/Users/lorristar/Documents/GitHub/Project-A/vhrPlus/vhr_android_demo/app/src/main/res/drawable/button_add.png"
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_test_update.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\test_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_user_down.png.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_user_down.png"
+    },
+    {
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_employee.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_employee.xml"
+    },
+    {
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_rsgl.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\ic_rsgl.xml"
+    },
+    {
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_grxx.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\ic_grxx.xml"
+    },
+    {
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_user.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_assets.xml.flat",
+        "source": "C:\\Users\\宋林涛\\Desktop\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_assets.xml"
     }
 ]

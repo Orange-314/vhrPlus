@@ -10,8 +10,14 @@
     <select id="search" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Salary">
         SELECT * from salary where name=#{name};
     </select>
+    <insert id="insert1" parameterType="com.example.vhrdemo.entity.Salary">
+        INSERT INTO salary VALUES (#{id},#{basicSalary},#{bonus},#{lunchSalary},#{trafficSalary},#{allSalary},NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+    </insert>
     <insert id="insert" parameterType="com.example.vhrdemo.entity.Salary">
-        INSERT INTO salary VALUES (#{id},' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',#{name});
+        INSERT INTO salary VALUES (#{id},#{basicSalary},#{bonus},#{lunchSalary},#{trafficSalary},#{allSalary},#{pensionBase},#{pensionPer},NULL,#{medicalBase},#{medicalPer},#{accumulationFundBase},#{accumulationFundPer},#{name});
+    </insert>
+    <insert id="update" parameterType="com.example.vhrdemo.entity.Salary">
+        UPDATE salary SET basicSalary=#{basicSalary},bonus=#{bonus},lunchSalary=#{lunchSalary},trafficSalary=#{trafficSalary},allSalary=#{allSalary},pensionBase=#{pensionBase},pensionPer=#{pensionPer},createDate=NULL,medicalBase=#{medicalBase},medicalPer=#{medicalPer},accumulationFundBase=#{accumulationFundBase},accumulationFundPer=#{accumulationFundPer},name=#{name} WHERE id=#{id};
     </insert>
     <delete id="delete" parameterType="com.example.vhrdemo.entity.Salary">
         DELETE FROM salary WHERE name=#{name};
