@@ -3,9 +3,12 @@ package com.example.vhrdemo.service.impl;
 
 import com.example.vhrdemo.dao.IRoleDao;
 import com.example.vhrdemo.entity.Role;
+import com.example.vhrdemo.entity.Salary;
 import com.example.vhrdemo.service.IRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class RoleService implements IRoleService {
@@ -15,6 +18,11 @@ public class RoleService implements IRoleService {
     @Override
     public Role search(int id) {
         return iRoleDao.search(id);
+    }
+
+    @Override
+    public List<Role> findall() {
+        return iRoleDao.findall();
     }
 
     @Override

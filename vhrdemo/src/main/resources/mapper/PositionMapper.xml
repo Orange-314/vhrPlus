@@ -3,6 +3,9 @@
 <mapper namespace="com.example.vhrdemo.dao.IPositionDao">
     <resultMap id="BaseResultMap" type="com.example.vhrdemo.entity.Position">
     </resultMap>
+    <select id="findall" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Position">
+        SELECT * from position ;
+    </select>
     <select id="search" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Position">
         SELECT * from position where id=#{id}
     </select>

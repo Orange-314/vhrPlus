@@ -29,23 +29,28 @@
         <activity
             android:name=".LoginDoneActivity"
             android:exported="true"
-            tools:ignore="Instantiatable"></activity>
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".RegistActivity"
-            android:exported="true"
-            tools:ignore="Instantiatable"></activity>
+            android:exported="true" />
         <activity
             android:name=".EmployeeActivity"
-            android:exported="true"
-            tools:ignore="Instantiatable"></activity>
+            android:exported="true" />
         <activity
             android:name=".EmployeeDetailsFragment"
             android:exported="true"
-            tools:ignore="Instantiatable"></activity>
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".EmployeeTitlesFragment"
             android:exported="true"
-            tools:ignore="Instantiatable"></activity>
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".EmployeeActivity$DetailsActivity"
             android:label="EmployeeDetails" />
@@ -53,15 +58,15 @@
         <activity
             android:name=".SalaryActivity"
             android:exported="true"
-            tools:ignore="Instantiatable"></activity>
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".SalaryDetailsFragment"
             android:exported="true"
-            tools:ignore="Instantiatable"></activity>
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".SalaryTitlesFragment"
             android:exported="true"
-            tools:ignore="Instantiatable"></activity>
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".SalaryActivity$DetailsActivity"
             android:label="SalaryDetails" />

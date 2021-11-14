@@ -3,6 +3,9 @@
 <mapper namespace="com.example.vhrdemo.dao.IPoliticsstatusDao">
     <resultMap id="BaseResultMap" type="com.example.vhrdemo.entity.Politicsstatus">
     </resultMap>
+    <select id="findall" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Role">
+        SELECT * from Politicsstatus;
+    </select>
     <select id="search" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Politicsstatus">
         SELECT * from politicsstatus where id=#{id}
     </select>

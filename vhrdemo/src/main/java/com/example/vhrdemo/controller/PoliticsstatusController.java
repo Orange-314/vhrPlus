@@ -1,12 +1,12 @@
 package com.example.vhrdemo.controller;
 
 import com.example.vhrdemo.entity.Politicsstatus;
+import com.example.vhrdemo.entity.Role;
 import com.example.vhrdemo.service.IPoliticsstatusService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @CrossOrigin
 @RestController
@@ -18,6 +18,11 @@ public class PoliticsstatusController {
     @RequestMapping(value = "/search")
     private Politicsstatus search(@RequestParam int id) {
         return iPoliticsstatusService.search(id);
+    }
+
+    @RequestMapping(value = "/findall", method = RequestMethod.POST)
+    private List<Politicsstatus> findall(){
+        return iPoliticsstatusService.findall();
     }
 
     @RequestMapping(value = "/insert")
