@@ -11,7 +11,7 @@
         SELECT * from salary where name=#{name};
     </select>
     <insert id="insert1" parameterType="com.example.vhrdemo.entity.Salary">
-        INSERT INTO salary VALUES (#{id},#{basicSalary},#{bonus},#{lunchSalary},#{trafficSalary},#{allSalary},NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+        INSERT INTO salary VALUES (#{basicSalary},#{bonus},#{lunchSalary},#{trafficSalary},#{allSalary},NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
     </insert>
     <insert id="insert" parameterType="com.example.vhrdemo.entity.Salary">
         INSERT INTO salary VALUES (#{id},#{basicSalary},#{bonus},#{lunchSalary},#{trafficSalary},#{allSalary},#{pensionBase},#{pensionPer},NULL,#{medicalBase},#{medicalPer},#{accumulationFundBase},#{accumulationFundPer},#{name});

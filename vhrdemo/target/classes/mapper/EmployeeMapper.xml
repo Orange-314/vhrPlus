@@ -11,7 +11,7 @@
         UPDATE employee SET password=#{password} WHERE username=#{username};
     </update>
     <insert id="insert" parameterType="com.example.vhrdemo.entity.Employee">
-        INSERT INTO employee VALUES (#{id},' ',' ',' ',' ','1',#{username},#{password},' ',' ');
+        INSERT INTO employee VALUES (#{id},#{name},#{gender},#{birthday},#{idCard},#{wedlock},#{nationId},#{nativePlace},#{politicId},#{email},#{phone},#{address},#{departmentId},#{jobId},#{posId},#{engageForm},#{tiptopDegree},#{specialty},#{chool},#{beginDate},#{workState},#{workID},#{contractTerm},#{conversionTime},#{notWorkDate},#{beginContract},#{endContract},#{workAge});
     </insert>
     <insert id="regist" parameterType="com.example.vhrdemo.entity.Employee">
         INSERT INTO employee (username,password) VALUES (#{username},#{password});
