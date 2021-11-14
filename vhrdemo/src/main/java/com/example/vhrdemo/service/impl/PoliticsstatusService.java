@@ -2,8 +2,11 @@ package com.example.vhrdemo.service.impl;
 
 import com.example.vhrdemo.dao.IPoliticsstatusDao;
 import com.example.vhrdemo.entity.Politicsstatus;
+import com.example.vhrdemo.entity.Position;
 import com.example.vhrdemo.service.IPoliticsstatusService;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class PoliticsstatusService implements IPoliticsstatusService {
@@ -16,6 +19,11 @@ public class PoliticsstatusService implements IPoliticsstatusService {
     @Override
     public Politicsstatus search(int id) {
         return iPoliticsstatusDao.search(id);
+    }
+
+    @Override
+    public List<Politicsstatus> findall() {
+        return iPoliticsstatusDao.findall();
     }
 
     @Override

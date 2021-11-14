@@ -3,6 +3,9 @@
 <mapper namespace="com.example.vhrdemo.dao.IRoleDao">
     <resultMap id="BaseResultMap" type="com.example.vhrdemo.entity.Role">
     </resultMap>
+    <select id="findall" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Role">
+        SELECT * from role;
+    </select>
     <select id="search" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Role">
         SELECT * from role where id=#{id}
     </select>

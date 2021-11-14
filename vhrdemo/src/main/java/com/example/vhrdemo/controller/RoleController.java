@@ -2,9 +2,12 @@ package com.example.vhrdemo.controller;
 
 
 import com.example.vhrdemo.entity.Role;
+import com.example.vhrdemo.entity.Salary;
 import com.example.vhrdemo.service.IRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @CrossOrigin
 @RestController
@@ -12,6 +15,11 @@ import org.springframework.web.bind.annotation.*;
 public class RoleController {
     @Autowired(required = false)
     private IRoleService iRoleService;
+
+    @RequestMapping(value = "/findall", method = RequestMethod.POST)
+    private List<Role> findall(){
+        return iRoleService.findall();
+    }
 
     @RequestMapping(value = "/search", method = RequestMethod.POST)
     private Role search(@RequestParam int id){
