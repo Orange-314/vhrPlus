@@ -1,6 +1,5 @@
 package com.example.vhrdemo.service;
 
-import com.example.vhrdemo.entity.Joblevel;
 import com.example.vhrdemo.entity.Salary;
 
 import java.util.List;
