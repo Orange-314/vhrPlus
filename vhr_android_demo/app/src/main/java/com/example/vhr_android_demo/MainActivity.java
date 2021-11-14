@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
                 }).start();
                 if(flag[0]=true) {
 
-                    Intent loginDone = new Intent(MainActivity.this, LoginDoneActivity.class);
+                    Intent loginDone = new Intent(MainActivity.this, EmployeeActivity.class);
                     startActivity(loginDone);
                 }
 
