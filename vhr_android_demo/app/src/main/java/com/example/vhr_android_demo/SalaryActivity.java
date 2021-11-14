@@ -1,10 +1,12 @@
 package com.example.vhr_android_demo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 
 import androidx.fragment.app.FragmentActivity;
 
@@ -26,6 +28,7 @@ public class SalaryActivity extends FragmentActivity {
             getWindow().getDecorView().setSystemUiVisibility( View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN|View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
             getWindow().setNavigationBarColor(getColor(R.color.fafafa));
         }
+
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -73,7 +76,39 @@ public class SalaryActivity extends FragmentActivity {
                     @Override
                     public void run() {
                         setContentView(R.layout.frame_salary);
+
+
+                        Button emp_2Button = findViewById(R.id.emp_2);//帐套跳转
+                        Button my_2Button = findViewById(R.id.my_2);//我的跳转
+
+                        emp_2Button.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new Thread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Intent change = new Intent(SalaryActivity.this, EmployeeActivity.class);
+                                        startActivity(change);
+                                    }
+                                }).start();
+                            }
+                        });
+
+                        my_2Button.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new Thread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Intent change = new Intent(SalaryActivity.this, MyActivity.class);
+                                        startActivity(change);
+                                    }
+                                }).start();
+                            }
+                        });
+
                     }
+
                 });
             }
         }).start();

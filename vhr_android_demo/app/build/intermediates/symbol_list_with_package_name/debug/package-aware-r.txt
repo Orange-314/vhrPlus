@@ -1211,6 +1211,7 @@ color material_timepicker_button_stroke
 color material_timepicker_clock_text_color
 color material_timepicker_clockface
 color material_timepicker_modebutton_tint
+color midnight
 color mtrl_btn_bg_color_selector
 color mtrl_btn_ripple_color
 color mtrl_btn_stroke_color_selector
@@ -1817,6 +1818,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_add
+drawable button_edit
 drawable button_passwd
 drawable button_passwd_off
 drawable button_passwd_on
@@ -1842,6 +1844,12 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_rsgl
+drawable img_ass
+drawable img_ass_press
+drawable img_emp
+drawable img_emp_press
+drawable img_my
+drawable img_my_press
 drawable login_go
 drawable login_no
 drawable login_yes
@@ -1866,6 +1874,9 @@ drawable mtrl_navigation_bar_item_background
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable nav_ass
+drawable nav_emp
+drawable nav_my
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -1886,7 +1897,6 @@ id ALT
 id AddButton
 id BOTTOM_END
 id BOTTOM_START
-id Button50
 id CTRL
 id EmployeeButton
 id FUNCTION
@@ -1906,7 +1916,6 @@ id SalaryUpdatebonus
 id SalaryUpdatelunchSalary
 id SalaryUpdatetrafficSalary
 id SearchButton
-id SearchasdButton
 id TOP_END
 id TOP_START
 id accelerate
@@ -1977,6 +1986,11 @@ id antiClockwise
 id anticipate
 id arc
 id asConfigured
+id ass_1
+id ass_2
+id ass_3
+id ass_AddButton
+id ass_EditButton
 id async
 id auto
 id autoComplete
@@ -2067,6 +2081,11 @@ id easeOut
 id east
 id edit_query
 id elastic
+id emp_1
+id emp_2
+id emp_3
+id emp_AddButton
+id emp_EditButton
 id end
 id endToStart
 id enterAlways
@@ -2188,6 +2207,10 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id my_1
+id my_2
+id my_3
+id my_EditButton
 id nameToggleButton
 id nav_controller_view_tag
 id nav_host_fragment
@@ -2335,9 +2358,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id textView3
-id textView40
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="com.example.vhr_android_demo.EmployeeFragment">
+        tools:context="com.example.vhr_android_demo.SalaryFragment">
 
         <LinearLayout
             android:id="@+id/fragment_staff_more_layout"
@@ -77,7 +77,7 @@
 
         </LinearLayout>
 
-        <RelativeLayout
+        <LinearLayout
             android:id="@+id/set"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -86,12 +86,45 @@
 
             <fragment
                 android:id="@+id/titles"
-                class="com.example.vhr_android_demo.EmployeeTitlesFragment"
+                class="com.example.vhr_android_demo.SalaryTitlesFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 
-        </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/emp_2"
+                    android:background="@color/snowwhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/fafafa"
+                    android:drawableTop="@drawable/img_emp_press"
+                    android:text="员工信息" />
+                <Button
+                    android:id="@+id/ass_2"
+                    android:background="@color/snowwhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/fafafa"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/img_ass"
+                    android:text="套账信息" />
+                <Button
+                    android:id="@+id/my_2"
+                    android:background="@color/snowwhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/fafafa"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/img_my"
+                    android:text="我的" />
+            </LinearLayout>
+        </LinearLayout>
 
     </LinearLayout>
 </FrameLayout>

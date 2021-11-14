@@ -13,40 +13,41 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vhr_android_demo"
         android:usesCleartextTraffic="true">
-        <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/bottom_menu" />
 
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".LoginDoneActivity"
             android:exported="true"
-            tools:ignore="Instantiatable"/>
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".RegistActivity"
-            android:exported="true"
-            tools:ignore="Instantiatable" />
+            android:exported="true" />
         <activity
             android:name=".EmployeeActivity"
-            android:exported="true"
-            tools:ignore="Instantiatable"/>
+            android:exported="true" />
         <activity
             android:name=".EmployeeDetailsFragment"
             android:exported="true"
-            tools:ignore="Instantiatable"/>
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".EmployeeTitlesFragment"
             android:exported="true"
-            tools:ignore="Instantiatable"/>
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".EmployeeActivity$DetailsActivity"
             android:label="EmployeeDetails" />
@@ -54,15 +55,15 @@
         <activity
             android:name=".SalaryActivity"
             android:exported="true"
-            tools:ignore="Instantiatable"/>
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".SalaryDetailsFragment"
             android:exported="true"
-            tools:ignore="Instantiatable"/>
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".SalaryTitlesFragment"
             android:exported="true"
-            tools:ignore="Instantiatable"/>
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".SalaryActivity$DetailsActivity"
             android:label="SalaryDetails" />

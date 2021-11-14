@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            getWindow().getDecorView().setSystemUiVisibility( View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN|View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
             getWindow().setNavigationBarColor(getColor(R.color.fafafa));
         }
         setContentView(R.layout.frame_login);
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                         try {//用try-catch包围易错操作
                             Intent regist = new Intent(MainActivity.this, RegistActivity.class);
                             startActivity(regist);
-                        }catch(Exception e){//如果连接错误，则输出提示
+                        } catch (Exception e) {//如果连接错误，则输出提示
                             e.printStackTrace();
                             runOnUiThread(new Runnable() {//在主线程的UI线程来显示连接失败
                                 @Override
@@ -62,9 +62,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        loginBbutton.setOnClickListener(new View.OnClickListener(){//登录按钮监听程序块
+        loginBbutton.setOnClickListener(new View.OnClickListener() {//登录按钮监听程序块
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
+                final boolean[] flag = {false};
                 new Thread(new Runnable() {//创建一个新线程
                     @Override
                     public void run() {
@@ -80,39 +81,43 @@ public class MainActivity extends AppCompatActivity {
 
                             OkHttpClient client = new OkHttpClient();//创建http客户端
                             Request request = new Request.Builder()
-                                    .url(HTTPSTR+"hr/login2")//在本机运行时的本机IP地址！！
-                                    .post(RequestBody.create(MediaType.parse("application/json"),json))
+                                    .url(HTTPSTR + "hr/login2")//在本机运行时的本机IP地址！！
+                                    .post(RequestBody.create(MediaType.parse("application/json"), json))
                                     .build();//创建http请求
                             Response response = client.newCall(request).execute();
 
+                            String responseData = response.body().string();
 
                             runOnUiThread(new Runnable() {//在主线程的UI线程来显示连接成功
                                 @Override
                                 public void run() {
-                                    String responseData = null;
-                                    try {
-                                        responseData = response.body().string();
-                                    } catch (IOException e) {
-                                        e.printStackTrace();
-                                    }
+
+                                    System.out.println("responseData = " + responseData);
                                     if (!responseData.equals("")) {
                                         Toast.makeText(MainActivity.this, "登录成功", Toast.LENGTH_SHORT).show();//显示登录成功！
-                                        Intent loginDone = new Intent(MainActivity.this, LoginDoneActivity.class);
+
                                         try {
                                             sleep(300);
                                         } catch (InterruptedException e) {//等待100ms
                                             e.printStackTrace();
                                         }
+                                        flag[0] = true;
+                                        if(flag[0]=true) {
 
-                                        startActivity(loginDone);
+                                            Intent loginDone = new Intent(MainActivity.this, EmployeeActivity.class);
+                                            startActivity(loginDone);
+                                        }
 
                                     } else {
                                         Toast.makeText(MainActivity.this, "用户名不存在或密码输入错误", Toast.LENGTH_SHORT).show();
 
                                     }
+
+
                                 }
                             });
-                        }catch(Exception e){//如果连接错误，则输出提示
+
+                        } catch (Exception e) {//如果连接错误，则输出提示
                             e.printStackTrace();
                             runOnUiThread(new Runnable() {//在主线程的UI线程来显示连接失败
                                 @Override
@@ -124,6 +129,8 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                 }).start();
+
+
             }
         });
     }
