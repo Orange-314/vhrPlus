@@ -1,6 +1,7 @@
 package com.example.vhrdemo.controller;
 
 import com.example.vhrdemo.entity.Position;
+import com.example.vhrdemo.entity.Role;
 import com.example.vhrdemo.service.IPositionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -18,6 +19,11 @@ public class PositionController {
     @RequestMapping(value = "/search")
     private Position search(@RequestParam int id){
         return iPositionService.search(id);
+    }
+
+    @RequestMapping(value = "/findall", method = RequestMethod.POST)
+    private List<Position> findall(){
+        return iPositionService.findall();
     }
 
     @RequestMapping(value = "/insert")

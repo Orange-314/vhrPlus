@@ -2,17 +2,24 @@ package com.example.vhrdemo.service.impl;
 
 import com.example.vhrdemo.dao.IPositionDao;
 import com.example.vhrdemo.entity.Position;
+import com.example.vhrdemo.entity.Role;
 import com.example.vhrdemo.service.IPositionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Resource
 @Service
 public class PositionService implements IPositionService {
     @Autowired
     private IPositionDao iPositionDao ;
+
+    @Override
+    public List<Position> findall() {
+        return iPositionDao.findall();
+    }
 
     @Override
     public Position search(int id) {
