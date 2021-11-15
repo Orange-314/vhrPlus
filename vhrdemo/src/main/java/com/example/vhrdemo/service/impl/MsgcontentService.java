@@ -3,10 +3,13 @@ package com.example.vhrdemo.service.impl;
 import com.example.vhrdemo.dao.IMsgcontentDao;
 import com.example.vhrdemo.entity.Joblevel;
 import com.example.vhrdemo.entity.Msgcontent;
+import com.example.vhrdemo.entity.Role;
 import com.example.vhrdemo.service.IHrService;
 import com.example.vhrdemo.service.IMsgcontentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class MsgcontentService implements IMsgcontentService {
@@ -16,6 +19,11 @@ public class MsgcontentService implements IMsgcontentService {
     @Override
     public Msgcontent search(int id) {
         return iMsgcontentDao.search(id);
+    }
+
+    @Override
+    public List<Msgcontent> findall() {
+        return iMsgcontentDao.findall();
     }
 
 

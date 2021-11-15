@@ -26,17 +26,17 @@ public class NationController {
 
 
     @RequestMapping(value = "/update", method = RequestMethod.POST)
-    private Nation update(@RequestParam int id, @RequestParam String name){
-        return iNationService.update(id, name);
+    private String update(@RequestParam int id, @RequestParam String name){
+        return "更新成功"+ iNationService.update(id, name)+"条消息";
     }
 
     @RequestMapping(value = "/insert", method = RequestMethod.POST)
-    private Nation insert(@RequestParam int id,@RequestParam String name){
-        return iNationService.insert(id, name);
+    private String insert(@RequestParam int id,@RequestParam String name){
+        return "插入成功"+ iNationService.insert(id, name)+"条消息";
     }
 
     @RequestMapping(value = "/delete", method = RequestMethod.POST)
-    private Nation delete(@RequestParam String name){
-        return iNationService.delete(name);
+    private String delete(@RequestParam String name){
+        return "插入成功"+ iNationService.delete(name)+"条消息";
     }
 }

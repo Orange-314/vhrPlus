@@ -9,10 +9,10 @@ public interface INationService {
 
     Nation search(String name);
 
-    Nation update(int id, String name);
+    int update(int id, String name);
 
-    Nation insert(int id, String name);
+    int insert(int id, String name);
 
-    Nation delete(String name);
+    int delete(String name);
 
 }
