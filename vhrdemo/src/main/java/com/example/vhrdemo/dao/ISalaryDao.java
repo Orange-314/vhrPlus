@@ -19,4 +19,5 @@ public interface ISalaryDao {
 
     int delete(@Param("name") String name);
 
+    Salary select(@Param("id")int id);
 }
