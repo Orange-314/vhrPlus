@@ -23,22 +23,22 @@ public class SalaryService implements ISalaryService {
     }
 
     @Override
-    public Salary insert1(int basicSalary,int bonus,int lunchSalary,int trafficSalary,int allSalary) {
+    public int insert1(int basicSalary,int bonus,int lunchSalary,int trafficSalary,int allSalary) {
         return iSalaryDao.insert1(basicSalary,bonus,lunchSalary,trafficSalary,allSalary);
     }
 
     @Override
-    public Salary insert(int basicSalary,int bonus,int lunchSalary,int trafficSalary,int allSalary,int pensionBase,float pensionPer,int medicalBase,float medicalPer,int accumulationFundBase,float accumulationFundPer,String name) {
+    public int insert(int basicSalary,int bonus,int lunchSalary,int trafficSalary,int allSalary,int pensionBase,float pensionPer,int medicalBase,float medicalPer,int accumulationFundBase,float accumulationFundPer,String name) {
         return iSalaryDao.insert(basicSalary,bonus,lunchSalary,trafficSalary,allSalary,pensionBase,pensionPer,medicalBase,medicalPer,accumulationFundBase,accumulationFundPer,name);
     }
 
     @Override
-    public Salary update(int id,int basicSalary,int bonus,int lunchSalary,int trafficSalary,int allSalary,int pensionBase,float pensionPer,int medicalBase,float medicalPer,int accumulationFundBase,float accumulationFundPer,String name) {
+    public int update(int id,int basicSalary,int bonus,int lunchSalary,int trafficSalary,int allSalary,int pensionBase,float pensionPer,int medicalBase,float medicalPer,int accumulationFundBase,float accumulationFundPer,String name) {
         return iSalaryDao.update(id,basicSalary,bonus,lunchSalary,trafficSalary,allSalary,pensionBase,pensionPer,medicalBase,medicalPer,accumulationFundBase,accumulationFundPer,name);
     }
 
     @Override
-    public Salary delete(String name) {
+    public int delete(String name) {
         return iSalaryDao.delete(name);
     }
 }

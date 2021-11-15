@@ -10,12 +10,12 @@ public interface IJoblevelDao {
 
     Joblevel searchDetail(@Param("name") String name, @Param("titleLevel") String titleLevel);
 
-    Joblevel updateName(@Param("name") String name, @Param("titleLevel") String titleLevel);
+    int updateName(@Param("name") String name, @Param("titleLevel") String titleLevel);
 
-    Joblevel updateTitlelevel(@Param("name") String name, @Param("titleLevel") String titleLevel);
+    int updateTitlelevel(@Param("name") String name, @Param("titleLevel") String titleLevel);
 
-    Joblevel insert(@Param("id") int id, @Param("name") String name, @Param("titleLevel") String password);
+    int insert(@Param("id") int id, @Param("name") String name, @Param("titleLevel") String password);
 
-    Joblevel delete(@Param("name") String name, @Param("titleLevel") String titleLevel);
+    int delete(@Param("name") String name);
     List<Joblevel> findall();
 }
