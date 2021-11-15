@@ -18,5 +18,4 @@ public interface IJoblevelService {
     Joblevel delete(String name, String titleLevel);
 
 
-    List<Joblevel> login3(int id);
 }
