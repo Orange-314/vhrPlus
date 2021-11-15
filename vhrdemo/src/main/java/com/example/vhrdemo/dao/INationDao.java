@@ -11,11 +11,11 @@ public interface INationDao {
 
     Nation search(@Param("name") String name);
 
-    Nation update(@Param("id") int id, @Param("name") String name);
+    int update(@Param("id") int id, @Param("name") String name);
 
-    Nation insert(@Param("id") int id, @Param("name") String name);
+    int insert(@Param("id") int id, @Param("name") String name);
 
-    Nation delete(@Param("name") String name);
+    int delete(@Param("name") String name);
 
     List<Nation> findall();
 }

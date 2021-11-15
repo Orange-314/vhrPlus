@@ -23,17 +23,17 @@ public class NationService implements INationService {
     }
 
     @Override
-    public Nation update(int id, String name) {
+    public int update(int id, String name) {
         return iNationDao.update(id, name);
     }
 
     @Override
-    public Nation insert(int id, String name) {
+    public int insert(int id, String name) {
         return iNationDao.insert(id, name);
     }
 
     @Override
-    public Nation delete(String name) {
+    public int delete(String name) {
         return iNationDao.delete(name);
     }
 

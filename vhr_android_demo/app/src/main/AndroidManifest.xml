@@ -13,9 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vhr_android_demo"
         android:usesCleartextTraffic="true">
-        <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/bottom_menu" />
 
         <activity
             android:name=".MainActivity"
@@ -52,6 +49,14 @@
             android:exported="true"
             tools:ignore="Instantiatable" />
         <activity
+            android:name=".EmployeeUpdateActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".EmployeeInsertActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
             android:name=".EmployeeActivity$DetailsActivity"
             android:label="EmployeeDetails" />
 
@@ -65,6 +70,14 @@
             tools:ignore="Instantiatable" />
         <activity
             android:name=".SalaryTitlesFragment"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".SalaryUpdateActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".SalaryInsertActivity"
             android:exported="true"
             tools:ignore="Instantiatable" />
         <activity

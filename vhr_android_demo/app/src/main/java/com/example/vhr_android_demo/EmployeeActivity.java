@@ -1,10 +1,14 @@
 package com.example.vhr_android_demo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
 import androidx.fragment.app.FragmentActivity;
 
@@ -18,6 +22,9 @@ import okhttp3.Response;
 
 public class EmployeeActivity extends FragmentActivity {
     String HTTPSTR = Constants.HTTPSTR;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +33,9 @@ public class EmployeeActivity extends FragmentActivity {
             getWindow().getDecorView().setSystemUiVisibility( View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN|View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
             getWindow().setNavigationBarColor(getColor(R.color.fafafa));
         }
+
+
+
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -78,6 +88,64 @@ public class EmployeeActivity extends FragmentActivity {
                     @Override
                     public void run() {
                         setContentView(R.layout.frame_employee);
+
+                        ImageButton emp_AddButton = findViewById(R.id.emp_AddButton);
+                        ImageButton emp_EditButton = findViewById(R.id.emp_EditButton);
+                        Button ass_1Button = findViewById(R.id.ass_1);//帐套跳转
+                        Button my_1Button = findViewById(R.id.my_1);//我的跳转
+
+                        emp_AddButton.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new Thread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Intent change = new Intent(EmployeeActivity.this, EmployeeInsertActivity.class);
+                                        startActivity(change);
+                                    }
+                                }).start();
+                            }
+                        });
+                        emp_EditButton.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new Thread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Intent change = new Intent(EmployeeActivity.this, EmployeeUpdateActivity.class);
+                                        startActivity(change);
+                                    }
+                                }).start();
+                            }
+                        });
+
+                        ass_1Button.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new Thread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Intent change = new Intent(EmployeeActivity.this, SalaryActivity.class);
+                                        startActivity(change);
+                                    }
+                                }).start();
+                            }
+                        });
+
+                        my_1Button.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new Thread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Intent change = new Intent(EmployeeActivity.this, MyActivity.class);
+                                        startActivity(change);
+                                    }
+                                }).start();
+                            }
+                        });
+
+
                     }
                 });
             }

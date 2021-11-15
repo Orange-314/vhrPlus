@@ -26,22 +26,22 @@ public class JoblevelController {
 
 
     @RequestMapping(value = "/updateName", method = RequestMethod.POST)
-    private Joblevel update(@RequestParam String name, @RequestParam String titleLevel){
-        return iJoblevelService.updateName(name, titleLevel);
+    private String update(@RequestParam String name, @RequestParam String titleLevel){
+        return "成功更新" + iJoblevelService.updateName(name, titleLevel) + "条数据";
     }
 
     @RequestMapping(value = "/updateTitlelevel", method = RequestMethod.POST)
-    private Joblevel update2(@RequestParam String name, @RequestParam String titleLevel){
-        return iJoblevelService.updateTitlelevel(name, titleLevel);
+    private String update2(@RequestParam String name, @RequestParam String titleLevel){
+        return "成功更新" + iJoblevelService.updateTitlelevel(name, titleLevel) + "条数据";
     }
 
     @RequestMapping(value = "/insert", method = RequestMethod.POST)
-    private Joblevel insert(@RequestParam int id,@RequestParam String name, @RequestParam String titleLevel){
-        return iJoblevelService.insert(id, name, titleLevel);
+    private String insert(@RequestParam int id,@RequestParam String name, @RequestParam String titleLevel){
+        return "成功插入" + iJoblevelService.insert(id, name, titleLevel) + "条数据";
     }
 
     @RequestMapping(value = "/delete", method = RequestMethod.POST)
-    private Joblevel delete(@RequestParam String name, @RequestParam String titleLevel){
-        return iJoblevelService.delete(name, titleLevel);
+    private String delete(@RequestParam String name){
+        return "成功删除" + iJoblevelService.delete(name) + "条数据";
     }
 }

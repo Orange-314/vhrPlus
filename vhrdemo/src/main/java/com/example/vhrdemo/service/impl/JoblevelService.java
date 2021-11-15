@@ -25,27 +25,23 @@ public class JoblevelService implements IJoblevelService {
     }
 
     @Override
-    public Joblevel updateName(String name, String titleLevel) {
+    public int updateName(String name, String titleLevel) {
         return iJoblevelDao.updateName(name, titleLevel);
     }
 
     @Override
-    public Joblevel updateTitlelevel(String name, String titleLevel) {
+    public int updateTitlelevel(String name, String titleLevel) {
         return iJoblevelDao.updateTitlelevel(name, titleLevel);
     }
 
     @Override
-    public Joblevel insert(int id,String name, String titleLevel) {
+    public int insert(int id,String name, String titleLevel) {
         return iJoblevelDao.insert(id, name, titleLevel);
     }
 
     @Override
-    public Joblevel delete(String name, String titleLevel) {
-        return iJoblevelDao.delete(name, titleLevel);
+    public int delete(String name) {
+        return iJoblevelDao.delete(name);
     }
 
-    @Override
-    public List<Joblevel> login3(int id) {
-        return null;
-    }
 }

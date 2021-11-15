@@ -25,22 +25,22 @@ public class SalaryController {
     }
 
     @RequestMapping(value = "/insert1", method = RequestMethod.POST)
-    private Salary insert1(@RequestParam int basicSalary,@RequestParam int bonus,@RequestParam int lunchSalary,@RequestParam int trafficSalary,@RequestParam int allSalary){
-        return iSalaryService.insert1(basicSalary,bonus,lunchSalary,trafficSalary,allSalary);
+    private String insert1(@RequestParam int basicSalary,@RequestParam int bonus,@RequestParam int lunchSalary,@RequestParam int trafficSalary,@RequestParam int allSalary){
+        return "成功插入" + iSalaryService.insert1(basicSalary,bonus,lunchSalary,trafficSalary,allSalary) + "条数据";
     }
 
     @RequestMapping(value = "/insert", method = RequestMethod.POST)
-    private Salary insert(@RequestParam int basicSalary,@RequestParam int bonus,@RequestParam int lunchSalary,@RequestParam int trafficSalary,@RequestParam int allSalary,@RequestParam int pensionBase,@RequestParam float pensionPer,@RequestParam int medicalBase,@RequestParam float medicalPer,@RequestParam int accumulationFundBase,@RequestParam float accumulationFundPer,@RequestParam String name){
-        return iSalaryService.insert(basicSalary,bonus,lunchSalary,trafficSalary,allSalary,pensionBase,pensionPer,medicalBase,medicalPer,accumulationFundBase,accumulationFundPer,name);
+    private String insert(@RequestParam int basicSalary,@RequestParam int bonus,@RequestParam int lunchSalary,@RequestParam int trafficSalary,@RequestParam int allSalary,@RequestParam int pensionBase,@RequestParam float pensionPer,@RequestParam int medicalBase,@RequestParam float medicalPer,@RequestParam int accumulationFundBase,@RequestParam float accumulationFundPer,@RequestParam String name){
+        return "成功插入" + iSalaryService.insert(basicSalary,bonus,lunchSalary,trafficSalary,allSalary,pensionBase,pensionPer,medicalBase,medicalPer,accumulationFundBase,accumulationFundPer,name) + "条数据";
     }
 
     @RequestMapping(value = "/update", method = RequestMethod.POST)
-    private Salary update(@RequestParam int id,@RequestParam int basicSalary,@RequestParam int bonus,@RequestParam int lunchSalary,@RequestParam int trafficSalary,@RequestParam int allSalary,@RequestParam int pensionBase,@RequestParam float pensionPer,@RequestParam int medicalBase,@RequestParam float medicalPer,@RequestParam int accumulationFundBase,@RequestParam float accumulationFundPer,@RequestParam String name){
-        return iSalaryService.update(id,basicSalary,bonus,lunchSalary,trafficSalary,allSalary,pensionBase,pensionPer,medicalBase,medicalPer,accumulationFundBase,accumulationFundPer,name);
+    private String update(@RequestParam int id,@RequestParam int basicSalary,@RequestParam int bonus,@RequestParam int lunchSalary,@RequestParam int trafficSalary,@RequestParam int allSalary,@RequestParam int pensionBase,@RequestParam float pensionPer,@RequestParam int medicalBase,@RequestParam float medicalPer,@RequestParam int accumulationFundBase,@RequestParam float accumulationFundPer,@RequestParam String name){
+        return "成功更新" + iSalaryService.update(id,basicSalary,bonus,lunchSalary,trafficSalary,allSalary,pensionBase,pensionPer,medicalBase,medicalPer,accumulationFundBase,accumulationFundPer,name) + "条数据";
     }
 
     @RequestMapping(value = "/delete", method = RequestMethod.POST)
-    private Salary delete(@RequestParam String name){
-        return iSalaryService.delete(name);
+    private String delete(@RequestParam String name){
+        return "成功删除" + iSalaryService.delete(name) + "条数据";
     }
 }
