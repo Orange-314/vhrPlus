@@ -6,6 +6,9 @@
     <select id="search" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Msgcontent">
         SELECT * from msgcontent where id=#{id}
     </select>
+    <select id="findall" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Msgcontent">
+        SELECT * from msgcontent ;
+    </select>
     <insert id="insert" parameterType="com.example.vhrdemo.entity.Msgcontent">
         INSERT INTO msgcontent (id,title,message) VALUES (#{id},#{title},#{message});
     </insert>
