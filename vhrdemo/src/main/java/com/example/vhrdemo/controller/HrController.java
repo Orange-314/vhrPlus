@@ -26,7 +26,7 @@ public class HrController {
     }
 
     @RequestMapping(value = "/login3", method = RequestMethod.POST)
-    private Hr login(@RequestParam String username){
+    private Hr login3(@RequestParam String username){
         return iHrService.login3(username);
     }
 
