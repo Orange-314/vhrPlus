@@ -2,9 +2,10 @@ package com.example.vhrdemo.dao;
 
 import com.example.vhrdemo.entity.Salary;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
-
+@Repository
 public interface ISalaryDao {
     List<Salary> findall();
 
