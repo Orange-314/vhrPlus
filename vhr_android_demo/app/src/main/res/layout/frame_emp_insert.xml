@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?actionBarSize"
+    android:orientation="vertical"
+    android:background="@color/fafafa"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".EmployeeInsertActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="添加信息"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:id="@+id/GridLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_idcard"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/EmployeeInsertidCard"
+                    android:layout_width="277dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:background="@color/fafafa"
+                    android:hint="输入身份证号码"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="18"
+                    android:singleLine="true"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:gravity="fill"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_name"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertname"
+                    android:layout_width="277dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:background="@color/fafafa"
+                    android:hint="输入姓名"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textSize="18dp"/>
+
+
+                <View
+                    android:layout_columnSpan="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/snowwhite" />
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_sex"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/EmployeeInsertgender"
+                    android:layout_width="277dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:background="@color/fafafa"
+                    android:hint="输入性别"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textSize="18dp"/>
+
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_maritalState"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/EmployeeInsertwedlock"
+                    android:layout_width="277dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:background="@color/fafafa"
+                    android:hint="婚姻状况"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_birthday"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/EmployeeInsertbirthday"
+                    android:layout_width="277dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:background="@color/fafafa"
+                    android:hint="生日日期"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textSize="18dp"/>
+
+                <View
+                    android:layout_columnSpan="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/snowwhite" />
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/nation"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertnationId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="输入民族"/>
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_nativePlace"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertnativePlace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="输入籍贯"/>
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_politicalStatus"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertpoliticId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="政治面貌"/>
+
+                <View
+                    android:layout_columnSpan="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/snowwhite" />
+
+
+
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_phone"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertphone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:hint="输入手机号码"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_email"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="输入Email"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_address"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertaddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="输入住址"/>
+
+                <View
+                    android:layout_columnSpan="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/snowwhite" />
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_school"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertschool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="输入毕业院校"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_specialty"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertspecialty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="输入专业"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_department"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertdepartmentId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="输入部门"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_position"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertposId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="输入职位"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_title"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertjobLevelId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="输入职称"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_engageForm"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertengageForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="聘用形式"/>
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="最高学历"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInserttiptopDegree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="最高学历"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_contractTerm"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertcontractTerm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="合同期限"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_joinDate"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertbeginDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="入职日期"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_conversionDate"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertconversionTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="转正日期"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_contractStartDate"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertbeginContract"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="合同起始日期"/>
+
+                <TextView
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/employee_contractEndDate"
+                    android:textSize="18dp"
+                    android:gravity="fill"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/EmployeeInsertendContract"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right|fill_vertical"
+                    android:textSize="18dp"
+                    android:background="@color/fafafa"
+                    android:layout_gravity="right"
+                    android:ellipsize="end"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:hint="合同终止日期"/>
+
+                <View
+                    android:layout_columnSpan="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#F6F6F7" />
+
+                <LinearLayout
+                    android:layout_columnSpan="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#F6F6F7"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp"
+                        android:id="@+id/EmployeeInsertButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_login_text"
+                        android:text="确认"
+                        android:textColor="@color/black">
+
+                    </Button>
+                </LinearLayout>
+            </GridLayout>
+
+            <View
+                android:layout_columnSpan="2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/fafafa" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
