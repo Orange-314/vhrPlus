@@ -89,19 +89,20 @@ public class SalaryActivity extends FragmentActivity {
                                 new Thread(new Runnable() {
                                     @Override
                                     public void run() {
-                                        Intent change = new Intent(SalaryActivity.this, EmployeeInsertActivity.class);
+                                        Intent change = new Intent(SalaryActivity.this, SalaryInsertActivity.class);
                                         startActivity(change);
                                     }
                                 }).start();
                             }
                         });
+
                         ass_EditButton.setOnClickListener(new View.OnClickListener() {
                             @Override
-                            public void onClick(View v) {
+                            public void onClick(View view) {
                                 new Thread(new Runnable() {
                                     @Override
                                     public void run() {
-                                        Intent change = new Intent(SalaryActivity.this, EmployeeUpdateActivity.class);
+                                        Intent change = new Intent(SalaryActivity.this,SalaryUpdateActivity.class);
                                         startActivity(change);
                                     }
                                 }).start();

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-88:12
-INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-88:12
-INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-88:12
-INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-88:12
+ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-113:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\HP\.gradle\caches\transforms-3\e84b042f48f9f14485261c47d99dc9c6\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\HP\.gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\HP\.gradle\caches\transforms-3\763fcd2e0284e5e571bdcc51d674f4ec\transformed\constraintlayout-2.1.1\AndroidManifest.xml:2:1-11:12
@@ -43,22 +43,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\HP\.gradle\cache
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\eb3bd80f829817dc46cef00554f9b4ab\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\998ecad2e598076d0444e5b886cc28b2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\dad45be7fb3d40cd3f820bd1d6623c5b\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-88:12
-INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-88:12
-INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-113:12
 	package
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:4:5-43
 		INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml
 		INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml
-		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-88:12
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-113:12
 		INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml
-		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-88:12
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:1-113:12
 		INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:2:11-69
@@ -67,7 +67,7 @@ ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main
 	android:name
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:8:5-86:19
+ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:8:5-111:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\HP\.gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\HP\.gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\HP\.gradle\caches\transforms-3\763fcd2e0284e5e571bdcc51d674f4ec\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
@@ -166,37 +166,37 @@ ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:58:13-42
 	android:name
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:56:13-51
-activity#com.example.vhr_android_demo.EmployeeActivity$DetailsActivity
-ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:59:9-61:47
-	android:label
-		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:61:13-44
-	android:name
-		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:60:13-61
-activity#com.example.vhr_android_demo.SalaryActivity
-ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:63:9-66:45
+activity#com.example.vhr_android_demo.EmployeeSelectActivity
+ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:59:9-62:45
 	android:exported
-		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:65:13-36
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:61:13-36
 	tools:ignore
-		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:66:13-42
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:62:13-42
 	android:name
-		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:64:13-43
-activity#com.example.vhr_android_demo.SalaryDetailsFragment
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:60:13-51
+activity#com.example.vhr_android_demo.EmployeeActivity$DetailsActivity
+ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:63:9-65:47
+	android:label
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:65:13-44
+	android:name
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:64:13-61
+activity#com.example.vhr_android_demo.SalaryActivity
 ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:67:9-70:45
 	android:exported
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:69:13-36
 	tools:ignore
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:70:13-42
 	android:name
-		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:68:13-50
-activity#com.example.vhr_android_demo.SalaryTitlesFragment
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:68:13-43
+activity#com.example.vhr_android_demo.SalaryDetailsFragment
 ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:71:9-74:45
 	android:exported
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:73:13-36
 	tools:ignore
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:74:13-42
 	android:name
-		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:72:13-49
-activity#com.example.vhr_android_demo.SalaryUpdateActivity
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:72:13-50
+activity#com.example.vhr_android_demo.SalaryTitlesFragment
 ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:75:9-78:45
 	android:exported
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:77:13-36
@@ -204,7 +204,7 @@ ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:78:13-42
 	android:name
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:76:13-49
-activity#com.example.vhr_android_demo.SalaryInsertActivity
+activity#com.example.vhr_android_demo.SalaryUpdateActivity
 ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:79:9-82:45
 	android:exported
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:81:13-36
@@ -212,12 +212,58 @@ ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:82:13-42
 	android:name
 		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:80:13-49
-activity#com.example.vhr_android_demo.SalaryActivity$DetailsActivity
-ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:83:9-85:45
-	android:label
-		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:85:13-42
+activity#com.example.vhr_android_demo.SalaryInsertActivity
+ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:83:9-86:45
+	android:exported
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:85:13-36
+	tools:ignore
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:86:13-42
 	android:name
-		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:84:13-59
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:84:13-49
+activity#com.example.vhr_android_demo.SalarySelectActivity
+ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:87:9-90:45
+	android:exported
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:89:13-36
+	tools:ignore
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:90:13-42
+	android:name
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:88:13-49
+activity#com.example.vhr_android_demo.SalaryActivity$DetailsActivity
+ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:91:9-93:45
+	android:label
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:93:13-42
+	android:name
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:92:13-59
+activity#com.example.vhr_android_demo.MyActivity
+ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:96:9-99:45
+	android:exported
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:98:13-36
+	tools:ignore
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:99:13-42
+	android:name
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:97:13-39
+activity#com.example.vhr_android_demo.HrDetailsFragment
+ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:99:45-102:41
+	android:exported
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:101:9-32
+	tools:ignore
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:102:9-38
+	android:name
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:100:9-42
+activity#com.example.vhr_android_demo.HrTitlesFragment
+ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:103:9-106:45
+	android:exported
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:105:13-36
+	tools:ignore
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:106:13-42
+	android:name
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:104:13-45
+activity#com.example.vhr_android_demo.MyActivity$DetailsActivity
+ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:108:9-110:41
+	android:label
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:110:13-38
+	android:name
+		ADDED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:109:13-55
 uses-sdk
 INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml
