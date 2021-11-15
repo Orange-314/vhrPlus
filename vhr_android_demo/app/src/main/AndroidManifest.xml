@@ -57,6 +57,10 @@
             android:exported="true"
             tools:ignore="Instantiatable" />
         <activity
+            android:name=".EmployeeSelectActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
             android:name=".EmployeeActivity$DetailsActivity"
             android:label="EmployeeDetails" />
 
@@ -78,6 +82,10 @@
             tools:ignore="Instantiatable" />
         <activity
             android:name=".SalaryInsertActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".SalarySelectActivity"
             android:exported="true"
             tools:ignore="Instantiatable" />
         <activity

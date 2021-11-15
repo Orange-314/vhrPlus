@@ -58,6 +58,9 @@
             android:name="com.example.vhr_android_demo.EmployeeInsertActivity"
             android:exported="true" />
         <activity
+            android:name="com.example.vhr_android_demo.EmployeeSelectActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.vhr_android_demo.EmployeeActivity$DetailsActivity"
             android:label="EmployeeDetails" />
         <activity
@@ -74,6 +77,9 @@
             android:exported="true" />
         <activity
             android:name="com.example.vhr_android_demo.SalaryInsertActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.SalarySelectActivity"
             android:exported="true" />
         <activity
             android:name="com.example.vhr_android_demo.SalaryActivity$DetailsActivity"

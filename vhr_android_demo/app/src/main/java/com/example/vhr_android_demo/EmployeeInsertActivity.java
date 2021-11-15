@@ -106,7 +106,7 @@ public class EmployeeInsertActivity extends AppCompatActivity {
 
                             OkHttpClient clientInsertEmployee = new OkHttpClient();//创建http客户端
                             Request requestInsertEmployee = new Request.Builder()
-                                    .url(HTTPSTR+"salary/insert1")//在本机运行时的本机IP地址！！
+                                    .url(HTTPSTR+"employee/insert")//在本机运行时的本机IP地址！！
                                     .post(paramsInsertEmployee.build())
                                     .build();//创建http请求
                             Response responseInsertEmployee = clientInsertEmployee.newCall(requestInsertEmployee).execute();

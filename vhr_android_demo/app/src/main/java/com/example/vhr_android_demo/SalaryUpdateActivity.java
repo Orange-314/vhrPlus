@@ -20,17 +20,17 @@ public class SalaryUpdateActivity extends AppCompatActivity {
         super.onCreate(saveInstanceState);
         String HTTPSTR = Constants.HTTPSTR;
         getSupportActionBar().hide();
-        setContentView(R.layout.test_update);
-        ImageButton EmployeeUpdateButton = findViewById(R.id.SalaryUpdateButton);
+        setContentView(R.layout.frame_salary_update);
+        ImageButton SalaryUpdateButton = findViewById(R.id.SalaryUpdateButton);
 
-        EmployeeUpdateButton.setOnClickListener(new View.OnClickListener() {
+        SalaryUpdateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
                         try{
-                            FormBody.Builder paramsUpdateEmployee = new FormBody.Builder();
+                            FormBody.Builder paramsUpdateSalary = new FormBody.Builder();
 
                             TextView SalaryUpdateId = findViewById(R.id.SalaryUpdateId);
                             TextView SalaryUpdatebasicSalary = findViewById(R.id.SalaryUpdatebasicSalary);
@@ -38,6 +38,13 @@ public class SalaryUpdateActivity extends AppCompatActivity {
                             TextView SalaryUpdatelunchSalary = findViewById(R.id.SalaryUpdatelunchSalary);
                             TextView SalaryUpdatetrafficSalary = findViewById(R.id.SalaryUpdatetrafficSalary);
                             TextView SalaryUpdateallSalary = findViewById(R.id.SalaryUpdateallSalary);
+                            TextView SalaryUpdatepensionBase = findViewById(R.id.SalaryUpdatepensionBase);
+                            TextView SalaryUpdatepensionPer= findViewById(R.id.SalaryUpdatepensionPer);
+                            TextView SalaryUpdatemedicalBase = findViewById(R.id.SalaryUpdatemedicalBase);
+                            TextView SalaryUpdatemedicalPer= findViewById(R.id.SalaryUpdatemedicalPer);
+                            TextView SalaryUpdateaccumulationFundBase = findViewById(R.id.SalaryUpdateaccumulationFundBase);
+                            TextView SalaryUpdateaccumulationFundPer = findViewById(R.id.SalaryUpdateaccumulationFundPer);
+                            TextView SalaryUpdatename = findViewById(R.id.SalaryUpdatename);
 
                             String salaryUpdateId = SalaryUpdateId.getText().toString();
                             String salaryUpdatebasicSalary = SalaryUpdatebasicSalary.getText().toString();
@@ -45,20 +52,34 @@ public class SalaryUpdateActivity extends AppCompatActivity {
                             String salaryUpdatelunchSalary = SalaryUpdatelunchSalary.getText().toString();
                             String salaryUpdatetrafficSalary = SalaryUpdatetrafficSalary.getText().toString();
                             String salaryUpdateallSalary = SalaryUpdateallSalary.getText().toString();
+                            String salaryUpdatepensionBase = SalaryUpdatepensionBase.getText().toString();
+                            String salaryUpdatepensionPer = SalaryUpdatepensionPer.getText().toString();
+                            String salaryUpdatemedicalBase = SalaryUpdatemedicalBase.getText().toString();
+                            String salaryUpdatemedicalPer = SalaryUpdatemedicalPer.getText().toString();
+                            String salaryUpdateaccumulationFundBase = SalaryUpdateaccumulationFundBase.getText().toString();
+                            String salaryUpdateaccumulationFundPer = SalaryUpdateaccumulationFundPer.getText().toString();
+                            String salaryUpdatename = SalaryUpdatename.getText().toString();
 
-                            paramsUpdateEmployee.add("id", salaryUpdateId);
-                            paramsUpdateEmployee.add("basicSalary", salaryUpdatebasicSalary);
-                            paramsUpdateEmployee.add("bonus", salaryUpdatebonus);
-                            paramsUpdateEmployee.add("lunchSalary", salaryUpdatelunchSalary);
-                            paramsUpdateEmployee.add("trafficSalary", salaryUpdatetrafficSalary);
-                            paramsUpdateEmployee.add("allSalary", salaryUpdateallSalary);
+                            paramsUpdateSalary.add("id", salaryUpdateId);
+                            paramsUpdateSalary.add("basicSalary", salaryUpdatebasicSalary);
+                            paramsUpdateSalary.add("bonus", salaryUpdatebonus);
+                            paramsUpdateSalary.add("lunchSalary", salaryUpdatelunchSalary);
+                            paramsUpdateSalary.add("trafficSalary", salaryUpdatetrafficSalary);
+                            paramsUpdateSalary.add("allSalary", salaryUpdateallSalary);
+                            paramsUpdateSalary.add("pensionBase", salaryUpdatepensionBase);
+                            paramsUpdateSalary.add("pensionPer", salaryUpdatepensionPer);
+                            paramsUpdateSalary.add("medicalBase", salaryUpdatemedicalBase);
+                            paramsUpdateSalary.add("medicalPer", salaryUpdatemedicalPer);
+                            paramsUpdateSalary.add("accumulationFundBase", salaryUpdateaccumulationFundBase);
+                            paramsUpdateSalary.add("accumulationFundPer", salaryUpdateaccumulationFundPer);
+                            paramsUpdateSalary.add("name ", salaryUpdatename);
 
-                            OkHttpClient clientUpdateEmployee = new OkHttpClient();//创建http客户端
-                            Request requestUpdateEmployee = new Request.Builder()
-                                    .url(HTTPSTR+"salary/insert1")//在本机运行时的本机IP地址！！
-                                    .post(paramsUpdateEmployee.build())
+                            OkHttpClient clientUpdateSalary = new OkHttpClient();//创建http客户端
+                            Request requestUpdateSalary = new Request.Builder()
+                                    .url(HTTPSTR+"salary/update")//在本机运行时的本机IP地址！！
+                                    .post(paramsUpdateSalary.build())
                                     .build();//创建http请求
-                            Response responseUpdateEmployee = clientUpdateEmployee.newCall(requestUpdateEmployee).execute();
+                            Response responseUpdateSalary = clientUpdateSalary.newCall(requestUpdateSalary).execute();
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {

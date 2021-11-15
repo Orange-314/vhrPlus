@@ -9,6 +9,36 @@ public final class Data {
 
     public static String[] SALARY_DETAIL = new String[100];
 
+    public static String[] SELECT_EMPLOYEE = new String[25];
+
+    public static String[] SELECT_SALARY = new String[25];
+
+    public static String[] SELECT_HR = new String[25];
+
+    public static String[] getSelectEmployee() {
+        return SELECT_EMPLOYEE;
+    }
+
+    public static void setSelectEmployee(String[] selectEmployee) {
+        SELECT_EMPLOYEE = selectEmployee;
+    }
+
+    public static String[] getSelectSalary() {
+        return SELECT_SALARY;
+    }
+
+    public static void setSelectSalary(String[] selectSalary) {
+        SELECT_SALARY = selectSalary;
+    }
+
+    public static String[] getSelectHr() {
+        return SELECT_HR;
+    }
+
+    public static void setSelectHr(String[] selectHr) {
+        SELECT_HR = selectHr;
+    }
+
     public static String[] getSalaryName() {
         return SALARY_NAME;
     }

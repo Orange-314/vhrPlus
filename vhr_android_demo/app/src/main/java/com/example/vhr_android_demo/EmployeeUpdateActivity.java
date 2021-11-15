@@ -36,7 +36,6 @@ public class EmployeeUpdateActivity extends AppCompatActivity {
                     public void run() {
                         try{
                             FormBody.Builder paramsUpdateEmployee = new FormBody.Builder();
-
                             TextView EmployeeUpdatename = findViewById(R.id.EmployeeUpdatename);                    //员工姓名
                             TextView EmployeeUpdategender = findViewById(R.id.EmployeeUpdategender);                //性别
                             TextView EmployeeUpdatebirthday = findViewById(R.id.EmployeeUpdatebirthday);            //出生日期
@@ -111,7 +110,7 @@ public class EmployeeUpdateActivity extends AppCompatActivity {
 
                             OkHttpClient clientUpdateEmployee = new OkHttpClient();//创建http客户端
                             Request requestUpdateEmployee = new Request.Builder()
-                                    .url(HTTPSTR+"salary/update1")//在本机运行时的本机IP地址！！
+                                    .url(HTTPSTR+"employee/update")//在本机运行时的本机IP地址！！
                                     .post(paramsUpdateEmployee.build())
                                     .build();//创建http请求
                             Response responseUpdateEmployee = clientUpdateEmployee.newCall(requestUpdateEmployee).execute();
