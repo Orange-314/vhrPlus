@@ -25,6 +25,16 @@ public class EmployeeService implements IEmployeeService {
     }
 
     @Override
+    public int update(String name, String gender, Date birthday,String idCard,String wedlock,int nationId,String nativePlace,int politicId,String email,String phone,String address,int departmentId,int jobLevelId,int posId,String engageForm,String tiptopDegree,String specialty,String school,Date beginDate,double contractTerm,Date conversionTime,Date beginContract,Date endContract) {
+        return iEmployeeDao.update(name,gender,birthday,idCard,wedlock,nationId,nativePlace,politicId,email,phone,address,departmentId,jobLevelId,posId,engageForm,tiptopDegree,specialty,school,beginDate,contractTerm,conversionTime,beginContract,endContract);
+    }
+
+    @Override
+    public Employee select(String idCard) {
+        return iEmployeeDao.select(idCard);
+    }
+
+    @Override
     public Employee insert2(Date birthday) {
         return iEmployeeDao.insert2(birthday);
     }
