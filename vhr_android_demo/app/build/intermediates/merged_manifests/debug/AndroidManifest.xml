@@ -52,6 +52,12 @@
             android:name="com.example.vhr_android_demo.EmployeeTitlesFragment"
             android:exported="true" />
         <activity
+            android:name="com.example.vhr_android_demo.EmployeeUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.EmployeeInsertActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.vhr_android_demo.EmployeeActivity$DetailsActivity"
             android:label="EmployeeDetails" />
         <activity
@@ -62,6 +68,12 @@
             android:exported="true" />
         <activity
             android:name="com.example.vhr_android_demo.SalaryTitlesFragment"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.SalaryUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.SalaryInsertActivity"
             android:exported="true" />
         <activity
             android:name="com.example.vhr_android_demo.SalaryActivity$DetailsActivity"
