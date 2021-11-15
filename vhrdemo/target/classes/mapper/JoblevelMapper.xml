@@ -16,7 +16,7 @@
         UPDATE joblevel SET titleLevel=#{titleLevel} WHERE name=#{name};
     </update>
     <insert id="insert" parameterType="com.example.vhrdemo.entity.Joblevel">
-        INSERT INTO joblevel VALUES (#{id},#{name},#{titleLevel},' ',' ');
+        INSERT INTO joblevel VALUES (#{id},#{name},#{titleLevel},NULL,NULL);
     </insert>
     <delete id="delete" parameterType="com.example.vhrdemo.entity.Joblevel">
         DELETE FROM joblevel WHERE name=#{name};
