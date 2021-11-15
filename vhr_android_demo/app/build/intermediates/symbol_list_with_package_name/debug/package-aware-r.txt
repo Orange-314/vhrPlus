@@ -1835,15 +1835,12 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_clock_black_24dp
-drawable ic_grxx
-drawable ic_grxx1
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable ic_rsgl
 drawable img_ass
 drawable img_ass_press
 drawable img_emp
@@ -2003,7 +2000,6 @@ id beginning
 id bestChoice
 id blocking
 id bottom
-id bottom_navigation
 id bounce
 id bounceBoth
 id bounceEnd
@@ -2175,7 +2171,6 @@ id material_value_index
 id message
 id middle
 id mini
-id mobile_navigation
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -2213,16 +2208,12 @@ id my_3
 id my_EditButton
 id nameToggleButton
 id nav_controller_view_tag
-id nav_host_fragment
 id nav_host_fragment_container
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
-id navigation_manage
-id navigation_my
-id navigation_staff
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
@@ -2477,7 +2468,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2497,7 +2487,6 @@ layout design_text_input_start_icon
 layout frame_assets
 layout frame_employee
 layout frame_login
-layout frame_main
 layout frame_my
 layout frame_register
 layout frame_salary
@@ -2571,11 +2560,9 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-menu bottom_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
-navigation mobile_navigation
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3570,7 +3557,6 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
-xml bottom_menu
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

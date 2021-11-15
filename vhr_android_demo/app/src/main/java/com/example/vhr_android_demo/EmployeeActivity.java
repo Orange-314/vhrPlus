@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.fragment.app.FragmentActivity;
@@ -88,8 +89,35 @@ public class EmployeeActivity extends FragmentActivity {
                     public void run() {
                         setContentView(R.layout.frame_employee);
 
+                        ImageButton emp_AddButton = findViewById(R.id.emp_AddButton);
+                        ImageButton emp_EditButton = findViewById(R.id.emp_EditButton);
                         Button ass_1Button = findViewById(R.id.ass_1);//帐套跳转
                         Button my_1Button = findViewById(R.id.my_1);//我的跳转
+
+                        emp_AddButton.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new Thread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Intent change = new Intent(EmployeeActivity.this, EmployeeInsertActivity.class);
+                                        startActivity(change);
+                                    }
+                                }).start();
+                            }
+                        });
+                        emp_EditButton.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new Thread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Intent change = new Intent(EmployeeActivity.this, EmployeeUpdateActivity.class);
+                                        startActivity(change);
+                                    }
+                                }).start();
+                            }
+                        });
 
                         ass_1Button.setOnClickListener(new View.OnClickListener() {
                             @Override

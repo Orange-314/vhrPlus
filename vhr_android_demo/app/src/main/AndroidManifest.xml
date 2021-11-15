@@ -49,6 +49,14 @@
             android:exported="true"
             tools:ignore="Instantiatable" />
         <activity
+            android:name=".EmployeeUpdateActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".EmployeeInsertActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
             android:name=".EmployeeActivity$DetailsActivity"
             android:label="EmployeeDetails" />
 
@@ -62,6 +70,14 @@
             tools:ignore="Instantiatable" />
         <activity
             android:name=".SalaryTitlesFragment"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".SalaryUpdateActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".SalaryInsertActivity"
             android:exported="true"
             tools:ignore="Instantiatable" />
         <activity
