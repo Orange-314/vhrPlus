@@ -102,7 +102,11 @@ public class MainActivity extends AppCompatActivity {
                                             e.printStackTrace();
                                         }
                                         flag[0] = true;
+                                        if(flag[0]=true) {
 
+                                            Intent loginDone = new Intent(MainActivity.this, EmployeeActivity.class);
+                                            startActivity(loginDone);
+                                        }
 
                                     } else {
                                         Toast.makeText(MainActivity.this, "用户名不存在或密码输入错误", Toast.LENGTH_SHORT).show();
@@ -125,11 +129,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                 }).start();
-                if(flag[0]=true) {
 
-                    Intent loginDone = new Intent(MainActivity.this, LoginDoneActivity.class);
-                    startActivity(loginDone);
-                }
 
             }
         });
