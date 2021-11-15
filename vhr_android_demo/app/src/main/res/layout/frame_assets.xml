@@ -65,11 +65,10 @@
                 android:gravity="center"
                 android:background="@drawable/bg_login_button"
                 android:orientation="horizontal">
-
                 <ImageButton
                     android:id="@+id/AddButton"
-                    android:layout_width="3dp"
-                    android:layout_height="11dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
                     android:background="@drawable/button_add"
                     android:scaleType="fitXY" />
 

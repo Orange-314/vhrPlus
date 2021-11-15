@@ -15,7 +15,7 @@
 11-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:8:5-94:19
+13-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:8:5-111:19
 14        android:allowBackup="true"
 14-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:9:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -158,6 +158,30 @@
 85-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:92:13-59
 86            android:label="SalaryDetails" />
 86-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:93:13-42
-87    </application>
-88
-89</manifest>
+87        <activity
+87-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:96:9-99:45
+88            android:name="com.example.vhr_android_demo.MyActivity"
+88-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:97:13-39
+89            android:exported="true" />
+89-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:98:13-36
+90        <activity
+90-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:99:45-102:41
+91            android:name="com.example.vhr_android_demo.HrDetailsFragment"
+91-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:100:9-42
+92            android:exported="true" />
+92-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:101:9-32
+93        <activity
+93-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:103:9-106:45
+94            android:name="com.example.vhr_android_demo.HrTitlesFragment"
+94-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:104:13-45
+95            android:exported="true" />
+95-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:105:13-36
+96        <activity
+96-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:108:9-110:41
+97            android:name="com.example.vhr_android_demo.MyActivity$DetailsActivity"
+97-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:109:13-55
+98            android:label="HrDetails" />
+98-->G:\AndroidStudioProjects\GitHub\vhrPlus\vhr_android_demo\app\src\main\AndroidManifest.xml:110:13-38
+99    </application>
+100
+101</manifest>

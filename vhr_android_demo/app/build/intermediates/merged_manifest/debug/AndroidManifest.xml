@@ -84,6 +84,18 @@
         <activity
             android:name="com.example.vhr_android_demo.SalaryActivity$DetailsActivity"
             android:label="SalaryDetails" />
+        <activity
+            android:name="com.example.vhr_android_demo.MyActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.HrDetailsFragment"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.HrTitlesFragment"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.MyActivity$DetailsActivity"
+            android:label="HrDetails" />
     </application>
 
 </manifest>

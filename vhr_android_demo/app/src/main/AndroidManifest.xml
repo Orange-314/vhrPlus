@@ -91,6 +91,23 @@
         <activity
             android:name=".SalaryActivity$DetailsActivity"
             android:label="SalaryDetails" />
+
+
+        <activity
+            android:name=".MyActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" /><activity
+        android:name=".HrDetailsFragment"
+        android:exported="true"
+        tools:ignore="Instantiatable" />
+        <activity
+            android:name=".HrTitlesFragment"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+
+        <activity
+            android:name=".MyActivity$DetailsActivity"
+            android:label="HrDetails" />
     </application>
 
 </manifest>

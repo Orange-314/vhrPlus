@@ -2,7 +2,7 @@ package com.example.vhr_android_demo;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,8 +20,8 @@ public class SalaryInsertActivity extends AppCompatActivity {
         super.onCreate(saveInstanceState);
         String HTTPSTR = Constants.HTTPSTR;
         getSupportActionBar().hide();
-        setContentView(R.layout.frame_salary_insert);
-        ImageButton SalaryInsertButton = findViewById(R.id.SalaryInsertButton);
+        setContentView(R.layout.frame_ass_insert);
+        Button SalaryInsertButton = findViewById(R.id.SalaryInsertButton);
 
         SalaryInsertButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +32,7 @@ public class SalaryInsertActivity extends AppCompatActivity {
                         try{
                             FormBody.Builder paramsInsertSalary = new FormBody.Builder();
 
-                            TextView SalaryInsertId = findViewById(R.id.SalaryInsertUpdatId);
+                            TextView SalaryInsertId = findViewById(R.id.SalaryInsertId);
                             TextView SalaryInsertbasicSalary = findViewById(R.id.SalaryInsertbasicSalary);
                             TextView SalaryInsertbonus = findViewById(R.id.SalaryInsertbonus);
                             TextView SalaryInsertlunchSalary = findViewById(R.id.SalaryInsertlunchSalary);
@@ -72,7 +72,7 @@ public class SalaryInsertActivity extends AppCompatActivity {
                             paramsInsertSalary.add("medicalPer", salaryInsertmedicalPer);
                             paramsInsertSalary.add("accumulationFundBase", salaryInsertaccumulationFundBase);
                             paramsInsertSalary.add("accumulationFundPer", salaryInsertaccumulationFundPer);
-                            paramsInsertSalary.add("name ", salaryInsertname);
+                            paramsInsertSalary.add("name", salaryInsertname);
 
                             OkHttpClient clientInsertSalary = new OkHttpClient();//创建http客户端
                             Request requestInsertSalary = new Request.Builder()

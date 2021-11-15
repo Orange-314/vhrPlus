@@ -45,10 +45,11 @@
                 android:gravity="center"
                 android:background="@drawable/bt_login_shape_normal"
                 android:orientation="horizontal">
+
                 <ImageButton
                     android:id="@+id/ass_EditButton"
-                    android:layout_width="15dp"
-                    android:layout_height="15dp"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
                     android:background="@drawable/button_edit"
                     android:scaleType="fitXY" />
             </LinearLayout>

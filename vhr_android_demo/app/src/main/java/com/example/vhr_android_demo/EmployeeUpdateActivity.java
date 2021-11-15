@@ -25,8 +25,8 @@ public class EmployeeUpdateActivity extends AppCompatActivity {
         super.onCreate(saveInstanceState);
         String HTTPSTR = Constants.HTTPSTR;
         getSupportActionBar().hide();
-        setContentView(R.layout.frame_employee_update);
-        ImageButton EmployeeUpdateButton = findViewById(R.id.EmployeeUpdateButton);
+        setContentView(R.layout.frame_emp_update);
+        Button EmployeeUpdateButton = findViewById(R.id.EmployeeUpdateButton);
 
         EmployeeUpdateButton.setOnClickListener(new View.OnClickListener() {
             @Override

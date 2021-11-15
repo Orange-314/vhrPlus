@@ -2,7 +2,7 @@ package com.example.vhr_android_demo;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,8 +20,8 @@ public class EmployeeInsertActivity extends AppCompatActivity {
         super.onCreate(saveInstanceState);
         String HTTPSTR = Constants.HTTPSTR;
         getSupportActionBar().hide();
-        setContentView(R.layout.frame_employee_insert);
-        ImageButton EmployeeInsertButton = findViewById(R.id.EmployeeInsertButton);
+        setContentView(R.layout.frame_emp_insert);
+        Button EmployeeInsertButton = findViewById(R.id.EmployeeInsertButton);
 
         EmployeeInsertButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,11 +32,11 @@ public class EmployeeInsertActivity extends AppCompatActivity {
                         try{
                             FormBody.Builder paramsInsertEmployee = new FormBody.Builder();
 
+                            TextView EmployeeInsertidCard = findViewById(R.id.EmployeeInsertidCard);                //身份证号
                             TextView EmployeeInsertname = findViewById(R.id.EmployeeInsertname);                    //员工姓名
                             TextView EmployeeInsertgender = findViewById(R.id.EmployeeInsertgender);                //性别
-                            TextView EmployeeInsertbirthday = findViewById(R.id.EmployeeInsertbirthday);            //出生日期
-                            TextView EmployeeInsertidCard = findViewById(R.id.EmployeeInsertidCard);                //身份证号
                             TextView EmployeeInsertwedlock = findViewById(R.id.EmployeeInsertwedlock);              //婚姻状况
+                            TextView EmployeeInsertbirthday = findViewById(R.id.EmployeeInsertbirthday);            //出生日期
                             TextView EmployeeInsertnationId = findViewById(R.id.EmployeeInsertnationId);            //民族
                             TextView EmployeeInsertnativePlace = findViewById(R.id.EmployeeInsertnativePlace);      //籍贯
                             TextView EmployeeInsertpoliticId = findViewById(R.id.EmployeeInsertpoliticId);          //政治面貌

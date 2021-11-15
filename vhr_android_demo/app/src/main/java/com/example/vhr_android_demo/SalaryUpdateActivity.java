@@ -2,6 +2,7 @@ package com.example.vhr_android_demo;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -20,8 +21,8 @@ public class SalaryUpdateActivity extends AppCompatActivity {
         super.onCreate(saveInstanceState);
         String HTTPSTR = Constants.HTTPSTR;
         getSupportActionBar().hide();
-        setContentView(R.layout.frame_salary_update);
-        ImageButton SalaryUpdateButton = findViewById(R.id.SalaryUpdateButton);
+        setContentView(R.layout.frame_ass_update);
+        Button SalaryUpdateButton = findViewById(R.id.SalaryUpdateButton);
 
         SalaryUpdateButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,7 +73,7 @@ public class SalaryUpdateActivity extends AppCompatActivity {
                             paramsUpdateSalary.add("medicalPer", salaryUpdatemedicalPer);
                             paramsUpdateSalary.add("accumulationFundBase", salaryUpdateaccumulationFundBase);
                             paramsUpdateSalary.add("accumulationFundPer", salaryUpdateaccumulationFundPer);
-                            paramsUpdateSalary.add("name ", salaryUpdatename);
+                            paramsUpdateSalary.add("name", salaryUpdatename);
 
                             OkHttpClient clientUpdateSalary = new OkHttpClient();//创建http客户端
                             Request requestUpdateSalary = new Request.Builder()
