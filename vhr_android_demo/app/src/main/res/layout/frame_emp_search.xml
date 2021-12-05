@@ -71,13 +71,13 @@
 
     <LinearLayout
         android:id="@+id/login_begin_button_parent_layout"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="1200dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bt_login_shape_normal"
         android:elevation="3dp"
         android:gravity="center"
-        android:background="@drawable/bt_login_shape_normal"
         android:orientation="horizontal">
 
         <ImageButton
@@ -86,5 +86,21 @@
             android:layout_height="40dp"
             android:background="@drawable/login_yes"
             android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/showEmployeeText"
+        android:layout_width="406dp"
+        android:layout_height="289dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/employee_Search_Result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="未查找到员工" />
     </LinearLayout>
 </LinearLayout>

@@ -61,6 +61,15 @@
             android:name="com.example.vhr_android_demo.EmployeeSelectActivity"
             android:exported="true" />
         <activity
+            android:name="com.example.vhr_android_demo.EmployeeSearchActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.EmployeeSearchDoneActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.EmployeeDeleteActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.vhr_android_demo.EmployeeActivity$DetailsActivity"
             android:label="EmployeeDetails" />
         <activity

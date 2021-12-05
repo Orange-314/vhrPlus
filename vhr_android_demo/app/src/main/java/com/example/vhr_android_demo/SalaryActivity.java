@@ -76,7 +76,7 @@ public class SalaryActivity extends FragmentActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        setContentView(R.layout.frame_salary);
+                        setContentView(R.layout.frame_assets);
 
                         ImageButton ass_AddButton = findViewById(R.id.ass_AddButton);
                         ImageButton ass_EditButton = findViewById(R.id.ass_EditButton);

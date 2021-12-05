@@ -1,10 +1,13 @@
 package com.example.vhr_android_demo;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Looper;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -31,6 +34,7 @@ public class EmployeeDeleteActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 new Thread(new Runnable() {
+                    @SuppressLint("WrongConstant")
                     @Override
                     public void run() {
                         try{
@@ -44,10 +48,17 @@ public class EmployeeDeleteActivity extends AppCompatActivity {
 
                             OkHttpClient clientDeleteEmployee = new OkHttpClient();//创建http客户端
                             Request requestDeleteEmployee = new Request.Builder()
-                                    .url(HTTPSTR+"employee/delete")//在本机运行时的本机IP地址！！
+                                    .url(HTTPSTR+"employee/delete1")//在本机运行时的本机IP地址！！
                                     .post(paramsDeleteEmployee.build())
                                     .build();//创建http请求
-                            Response responseSearchEmployee = clientDeleteEmployee.newCall(requestDeleteEmployee).execute();
+                            Response responseDeleteEmployee = clientDeleteEmployee.newCall(requestDeleteEmployee).execute();
+                            String responseDeleteEmployeeData = responseDeleteEmployee.body().string();
+                            String responseEmployeeSearchDataSelect = "["+responseDeleteEmployeeData+"]";
+                            if(responseDeleteEmployeeData.equals("删除成功1条数据")){
+                                Looper.prepare();
+                                Toast.makeText(getApplicationContext(), "删除成功1条数据！",1).show();
+                                Looper.loop();
+                            }
                         } catch (IOException e) {
                             e.printStackTrace();
                         }

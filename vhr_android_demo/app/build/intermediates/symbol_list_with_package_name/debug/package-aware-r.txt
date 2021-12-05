@@ -1819,6 +1819,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_add
+drawable button_delete
 drawable button_edit
 drawable button_passwd
 drawable button_passwd_off
@@ -1892,7 +1893,6 @@ drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
-id AddButton
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
@@ -1983,7 +1983,6 @@ id SalaryUpdatename
 id SalaryUpdatepensionBase
 id SalaryUpdatepensionPer
 id SalaryUpdatetrafficSalary
-id SearchButton
 id TOP_END
 id TOP_START
 id accelerate
@@ -2058,7 +2057,9 @@ id ass_1
 id ass_2
 id ass_3
 id ass_AddButton
+id ass_DeleteButton
 id ass_EditButton
+id ass_SearchButton
 id async
 id auto
 id autoComplete
@@ -2152,7 +2153,15 @@ id emp_1
 id emp_2
 id emp_3
 id emp_AddButton
+id emp_DeleteButton
 id emp_EditButton
+id emp_SearchButton
+id employeeDeleleButton
+id employeeDeleteIDCard
+id employeeSearchButton
+id employeeSearchIDCard
+id employee_Search_Rest
+id employee_Search_Result
 id end
 id endToStart
 id enterAlways
@@ -2172,6 +2181,7 @@ id floating
 id forever
 id fragment_container_view_tag
 id fragment_login_username_layout
+id fragment_login_username_layout2
 id fragment_staff_more_layout
 id frost
 id ghost_view
@@ -2324,6 +2334,7 @@ id ratio
 id rectangles
 id registButton
 id registPassword
+id registPassword2
 id registUsername
 id reverseSawtooth
 id right
@@ -2360,6 +2371,7 @@ id sharedValueSet
 id sharedValueUnset
 id shortcut
 id showCustom
+id showEmployeeText
 id showHome
 id showTitle
 id sin
@@ -2555,10 +2567,17 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout frame_ass_delete
 layout frame_ass_insert
+layout frame_ass_search
+layout frame_ass_searchdone
 layout frame_ass_update
 layout frame_assets
+layout frame_emp_delete
 layout frame_emp_insert
+layout frame_emp_search
+layout frame_emp_searchdone
+layout frame_emp_searchdone_1
 layout frame_emp_update
 layout frame_employee
 layout frame_login
