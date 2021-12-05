@@ -35,6 +35,11 @@ public class PoliticsstatusController {
         return "更新成功"+iPoliticsstatusService.update(id, name)+"条消息";
     }
 
+    @RequestMapping(value = "/update1")
+    private String update1(@RequestParam int id, @RequestParam String name){
+        return "更新成功"+iPoliticsstatusService.update1(id, name)+"条消息";
+    }
+
     @RequestMapping(value = "/delete")
     private String delete(@RequestParam int id){
         return "删除成功"+ iPoliticsstatusService.delete(id)+"条消息";
