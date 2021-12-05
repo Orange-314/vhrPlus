@@ -20,14 +20,13 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class EmployeeSearchDoneActivity extends AppCompatActivity {
-
     protected void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
         String HTTPSTR = Constants.HTTPSTR;
         getSupportActionBar().hide();
+        String str="这个很难吗？";
+
+
         setContentView(R.layout.frame_emp_searchdone_1);
-
-        String[] SearchEmployeeResult = Data.getEmployeeSearchdetail();
-
     }
 }

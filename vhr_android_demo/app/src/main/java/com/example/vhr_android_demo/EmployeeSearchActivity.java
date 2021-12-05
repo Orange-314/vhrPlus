@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -78,13 +79,27 @@ public class EmployeeSearchActivity extends AppCompatActivity {
                                 }
                                 Data.setEmployeeSearchdetail(null);
                                 Data.setEmployeeSearchdetail(hrStrI_empSearch);
-                                Intent change = new Intent(EmployeeSearchActivity.this, EmployeeSearchDoneActivity.class);
+
+
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             }
+
+
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                TextView tv = findViewById(R.id.employee_Search_Result);//获取textview组件
+                                String cn = Data.getEmployeeSearchdetail()[0];//获取edittext中填写的内容
+                                tv.setText(cn);//在textview中显示
+                                Intent change = new Intent(EmployeeSearchActivity.this, EmployeeSearchActivity.class);
+                                //startActivity(change);
+                            }
+                        });
+
                     }
                 }).start();
             }
