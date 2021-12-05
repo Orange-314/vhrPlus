@@ -24,5 +24,8 @@
     <delete id="delete" parameterType="com.example.vhrdemo.entity.Hr">
         DELETE FROM hr WHERE username=#{username} and password=#{password};
     </delete>
+    <delete id="delete1" parameterType="com.example.vhrdemo.entity.Employee">
+        DELETE FROM employee WHERE idCard=#{idCard};
+    </delete>
 
 </mapper>
