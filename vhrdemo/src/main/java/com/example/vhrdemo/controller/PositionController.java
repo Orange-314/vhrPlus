@@ -36,6 +36,11 @@ public class PositionController {
         return "成功更新" + iPositionService.update(id,name) +"条数据";
     }
 
+    @RequestMapping(value = "/update1")
+    private String update1(@RequestParam int id,@RequestParam String name){
+        return "成功更新" + iPositionService.update1(id,name) +"条数据";
+    }
+
     @RequestMapping(value = "/delete")
     private String delete(@RequestParam int id){
         return "成功删除" + iPositionService.delete(id) +"条数据";

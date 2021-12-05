@@ -37,6 +37,11 @@ public class PoliticsstatusService implements IPoliticsstatusService {
     }
 
     @Override
+    public int update1(int id, String name) {
+        return iPoliticsstatusDao.update1(id, name);
+    }
+
+    @Override
     public int delete(int id) {
         return iPoliticsstatusDao.delete(id);
     }

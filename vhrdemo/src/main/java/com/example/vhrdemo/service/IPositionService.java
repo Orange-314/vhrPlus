@@ -16,6 +16,8 @@ public interface IPositionService {
 
     int update(int id,String name);
 
+    int update1(int id,String name);
+
     int delete(int id);
 
 }

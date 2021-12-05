@@ -17,6 +17,8 @@ public interface IPoliticsstatusDao {
 
     int update(@Param("id") int id,@Param("name") String name);
 
+    int update1(@Param("id") int id,@Param("name") String name);
+
     int delete(@Param("id") int id);
 
 }

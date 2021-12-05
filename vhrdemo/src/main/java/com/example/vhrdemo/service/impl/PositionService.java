@@ -37,6 +37,11 @@ public class PositionService implements IPositionService {
     }
 
     @Override
+    public int update1(int id,String name) {
+        return iPositionDao.update1(id,name);
+    }
+
+    @Override
     public int delete(int id) {
         return iPositionDao.delete(id);
     }
