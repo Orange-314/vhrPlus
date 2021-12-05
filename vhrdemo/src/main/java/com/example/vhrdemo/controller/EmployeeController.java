@@ -20,6 +20,11 @@ public class EmployeeController {
         return iEmployeeService.findall();
     }
 
+    @RequestMapping(value = "/findDetail", method = RequestMethod.POST)
+    private List<Employee> findDetail(){
+        return iEmployeeService.findDetail();
+    }
+
     @RequestMapping(value = "/insert2",method = RequestMethod.POST)
     private Employee insert2(@RequestParam Date birthday){
         return iEmployeeService.insert2(birthday);

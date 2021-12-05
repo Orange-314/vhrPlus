@@ -20,6 +20,11 @@ public class EmployeeService implements IEmployeeService {
     }
 
     @Override
+    public List<Employee> findDetail() {
+        return iEmployeeDao.findDetail();
+    }
+
+    @Override
     public int insert(String name, String gender, Date birthday,String idCard,String wedlock,int nationId,String nativePlace,int politicId,String email,String phone,String address,int departmentId,int jobLevelId,int posId,String engageForm,String tiptopDegree,String specialty,String school,Date beginDate,double contractTerm,Date conversionTime,Date beginContract,Date endContract) {
         return iEmployeeDao.insert(name,gender,birthday,idCard,wedlock,nationId,nativePlace,politicId,email,phone,address,departmentId,jobLevelId,posId,engageForm,tiptopDegree,specialty,school,beginDate,contractTerm,conversionTime,beginContract,endContract);
     }

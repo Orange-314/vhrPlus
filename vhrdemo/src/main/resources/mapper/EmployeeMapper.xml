@@ -6,7 +6,9 @@
     <select id="findall" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Employee">
         SELECT id,name,gender,birthday,idCard,wedlock,nativePlace,email,phone,address,engageForm,tiptopDegree,specialty,school from employee ;
     </select>
-
+    <select id="findDetail" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Employee">
+        SELECT employee.id,employee.name,gender,birthday,idCard,wedlock,nativePlace,email,phone,address,engageForm,tiptopDegree,specialty,school,nation.name,politicsstatus.name,department.name,jobLevel.name,position.name FROM employee,nation,politicsstatus,department,joblevel,position WHERE employee.nationId = nation.id and employee.politicId = politicsstatus.id and employee.departmentId = department.id and employee.jobLevelId = joblevel.id and employee.posId = position.id ;
+    </select>
     <update id="update" parameterType="com.example.vhrdemo.entity.Employee">
         UPDATE employee SET password=#{password} WHERE username=#{username};
     </update>
