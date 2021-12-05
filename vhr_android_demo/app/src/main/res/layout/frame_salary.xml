@@ -80,7 +80,7 @@
                 android:background="@drawable/bt_login_shape_normal"
                 android:orientation="horizontal">
                 <ImageButton
-                    android:id="@+id/emp_SearchButton"
+                    android:id="@+id/ass_SearchButton"
                     android:layout_width="15dp"
                     android:layout_height="15dp"
                     android:background="@drawable/button_search"

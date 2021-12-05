@@ -1,6 +1,8 @@
 package com.example.vhr_android_demo;
 
 public final class Data {
+    public static String[] EMPLOYEE_SEARCHDETAIL = new String[2];
+
     public static String[] EMPLOYEE_NAME = new String[500];
 
     public static String[] EMPLOYEE_DETAIL = new String[500];
@@ -16,6 +18,14 @@ public final class Data {
     public static String[] HR_NAME = new String[25];
 
     public static String[] HR_DETAIL = new String[25];
+
+    public static String[] getEmployeeSearchdetail() {
+        return EMPLOYEE_SEARCHDETAIL;
+    }
+
+    public static void setEmployeeSearchdetail(String[] employeeSearchdetail) {
+        EMPLOYEE_SEARCHDETAIL = employeeSearchdetail;
+    }
 
     public static String[] getSelectEmployee() {
         return SELECT_EMPLOYEE;
