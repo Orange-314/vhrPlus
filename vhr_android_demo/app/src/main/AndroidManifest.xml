@@ -61,6 +61,18 @@
             android:exported="true"
             tools:ignore="Instantiatable" />
         <activity
+            android:name=".EmployeeSearchActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".EmployeeSearchDoneActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".EmployeeDeleteActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
             android:name=".EmployeeActivity$DetailsActivity"
             android:label="EmployeeDetails" />
 

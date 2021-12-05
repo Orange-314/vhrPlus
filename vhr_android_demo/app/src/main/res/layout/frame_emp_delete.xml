@@ -57,7 +57,7 @@
         android:orientation="horizontal" >
 
         <EditText
-            android:id="@+id/registUsername"
+            android:id="@+id/employeeDeleteIDCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="62dp"
@@ -81,7 +81,7 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/emp_DeleleButton"
+            android:id="@+id/employeeDeleleButton"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:background="@drawable/login_yes"

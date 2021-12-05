@@ -91,6 +91,35 @@ public class EmployeeActivity extends FragmentActivity {
                         Button ass_1Button = findViewById(R.id.ass_1);//帐套跳转
                         Button my_1Button = findViewById(R.id.my_1);//我的跳转
 
+                        ImageButton emp_SearchButton = findViewById(R.id.emp_SearchButton);
+                        ImageButton emp_DeleteButton = findViewById(R.id.emp_EditButton);
+
+                        emp_SearchButton.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new Thread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Intent change = new Intent(EmployeeActivity.this, EmployeeSearchActivity.class);
+                                        startActivity(change);
+                                    }
+                                }).start();
+                            }
+                        });
+                        emp_DeleteButton.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new Thread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Intent change = new Intent(EmployeeActivity.this, EmployeeDeleteActivity.class);
+                                        startActivity(change);
+                                    }
+                                }).start();
+                            }
+                        });
+
+
                         emp_AddButton.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
