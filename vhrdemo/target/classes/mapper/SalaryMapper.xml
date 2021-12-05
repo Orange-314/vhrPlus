@@ -10,6 +10,9 @@
     <select id="search" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Salary">
         SELECT * from salary where name=#{name};
     </select>
+    <select id="select" resultMap="BaseResultMap" parameterType="com.example.vhrdemo.entity.Salary">
+        SELECT * from salary where id=#{id};
+    </select>
     <insert id="insert1" parameterType="com.example.vhrdemo.entity.Salary">
         INSERT INTO salary VALUES (NULL,#{basicSalary},#{bonus},#{lunchSalary},#{trafficSalary},#{allSalary},NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
     </insert>

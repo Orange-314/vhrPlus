@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?actionBarSize"
+    android:orientation="vertical"
+    android:background="@color/fafafa"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".SalaryUpdateActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="添加账套"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="账套ID"
+
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/SalaryUpdateId"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:background="@null"
+                            android:gravity="end|fill_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="账套名称"
+
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/SalaryUpdatename"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:background="@null"
+                            android:gravity="end|fill_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/basicSalary"
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/SalaryUpdatebasicSalary"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="end|fill_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/trafficSalary"
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/SalaryUpdatetrafficSalary"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="end|fill_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lunchSalary"
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/SalaryUpdatelunchSalary"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="right|fill_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bonus"
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/SalaryUpdatebonus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="right|fill_vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="总奖金"
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/SalaryUpdateallSalary"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="right|fill_vertical" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_columnSpan="2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/snowwhite" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pensionBase"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/SalaryUpdatepensionBase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:gravity="end|fill_vertical" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pensionRatio"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/SalaryUpdatepensionPer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:gravity="end|fill_vertical" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_columnSpan="2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/snowwhite" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/medicalInsuranceBase"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/SalaryUpdatemedicalBase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:gravity="end|fill_vertical" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/medicalInsuranceRatio"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+                    <EditText
+                        android:id="@+id/SalaryUpdatemedicalPer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:gravity="end|fill_vertical" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_columnSpan="2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/snowwhite" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/accumulationFundBase"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/SalaryUpdateaccumulationFundBase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:gravity="end|fill_vertical" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/accumulationFundRatio"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/SalaryUpdateaccumulationFundPer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:gravity="end|fill_vertical" />
+                </LinearLayout>
+                <View
+                    android:layout_columnSpan="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/snowwhite" />
+                <LinearLayout
+                    android:layout_columnSpan="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#F6F6F7"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_columnSpan="2"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp"
+                        android:id="@+id/SalaryUpdateButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_login_text"
+                        android:text="确认"
+                        android:textColor="@color/black">
+                    </Button>
+                </LinearLayout>
+                <View
+                    android:layout_columnSpan="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/snowwhite" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -84,12 +84,12 @@
         "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\button_passwd.xml"
     },
     {
-        "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_emp_update.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_emp_update.xml"
     },
     {
-        "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_test_update.xml.flat",
-        "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\test_update.xml"
+        "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bt_login_shape_pressed.xml.flat",
@@ -120,6 +120,10 @@
         "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\img_my.xml"
     },
     {
+        "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_emp_insert.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_emp_insert.xml"
+    },
+    {
         "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_logindone.xml.flat",
         "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\layout_logindone.xml"
     },
@@ -130,6 +134,10 @@
     {
         "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_login_yes.png.flat",
         "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\login_yes.png"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_ass_insert.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_ass_insert.xml"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bt_login_shape.xml.flat",
@@ -158,6 +166,10 @@
     {
         "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_login_text.xml.flat",
         "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\bg_login_text.xml"
+    },
+    {
+        "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_ass_update.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_ass_update.xml"
     },
     {
         "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_emp_press.xml.flat",

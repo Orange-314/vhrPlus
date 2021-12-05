@@ -52,6 +52,15 @@
             android:name="com.example.vhr_android_demo.EmployeeTitlesFragment"
             android:exported="true" />
         <activity
+            android:name="com.example.vhr_android_demo.EmployeeUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.EmployeeInsertActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.EmployeeSelectActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.vhr_android_demo.EmployeeActivity$DetailsActivity"
             android:label="EmployeeDetails" />
         <activity
@@ -64,8 +73,29 @@
             android:name="com.example.vhr_android_demo.SalaryTitlesFragment"
             android:exported="true" />
         <activity
+            android:name="com.example.vhr_android_demo.SalaryUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.SalaryInsertActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.SalarySelectActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.vhr_android_demo.SalaryActivity$DetailsActivity"
             android:label="SalaryDetails" />
+        <activity
+            android:name="com.example.vhr_android_demo.MyActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.HrDetailsFragment"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.HrTitlesFragment"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.MyActivity$DetailsActivity"
+            android:label="HrDetails" />
     </application>
 
 </manifest>

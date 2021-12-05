@@ -19,7 +19,7 @@
             android:orientation="horizontal">
             <LinearLayout
 
-                android:layout_width="240dp"
+                android:layout_width="wrap_content"
                 android:layout_height="120dp"
                 android:background="@color/white"
                 android:orientation="horizontal">
@@ -35,22 +35,57 @@
                     android:textSize="40dp"
                     android:textStyle="bold" />
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bt_login_shape_normal"
+                android:elevation="3dp"
+                android:gravity="center"
+                android:orientation="horizontal">
 
+                <ImageButton
+                    android:id="@+id/ass_EditButton"
+                    android:layout_width="15dp"
+                    android:layout_height="19dp"
+                    android:background="@drawable/button_edit"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="12dp"
                 android:elevation="3dp"
                 android:gravity="center"
-                android:background="@drawable/bg_login_button"
+                android:background="@drawable/bt_login_shape_normal"
                 android:orientation="horizontal">
                 <ImageButton
-                    android:id="@+id/SearchButton"
+                    android:id="@+id/ass_SearchButton"
                     android:layout_width="15dp"
                     android:layout_height="15dp"
                     android:background="@drawable/button_search"
+                    android:scaleType="fitXY" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="12dp"
+                android:elevation="3dp"
+                android:gravity="center"
+                android:background="@drawable/bt_login_shape_normal"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/ass_AddButton"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/button_add"
                     android:scaleType="fitXY" />
 
             </LinearLayout>
@@ -60,17 +95,16 @@
                 android:layout_height="40dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="12dp"
                 android:elevation="3dp"
                 android:gravity="center"
-                android:background="@drawable/bg_login_button"
+                android:background="@drawable/bt_login_shape_normal"
                 android:orientation="horizontal">
-
                 <ImageButton
-                    android:id="@+id/AddButton"
-                    android:layout_width="3dp"
-                    android:layout_height="11dp"
-                    android:background="@drawable/button_add"
+                    android:id="@+id/ass_DeleteButton"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/button_delete"
                     android:scaleType="fitXY" />
 
             </LinearLayout>

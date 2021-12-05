@@ -13,6 +13,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.IOException;
 
 import okhttp3.MediaType;
@@ -87,12 +91,33 @@ public class MainActivity extends AppCompatActivity {
                             Response response = client.newCall(request).execute();
 
                             String responseData = response.body().string();
+                            String responseDataSelect = "["+responseData+"]";
 
+                            try {
+                                JSONArray jsonArray = new JSONArray(responseDataSelect);
+                                String[] hrStrN = new String[jsonArray.length()];
+                                String[] hrStrI = new String[jsonArray.length()];
+                                for (int i = 0; i < jsonArray.length(); i++) {
+                                    JSONObject jsonObject = jsonArray.getJSONObject(i);
+                                    hrStrN[i] = "" + jsonObject.getString("name");
+
+                                    hrStrI[i] = ""
+                                            +"\nID:" + jsonObject.getString("id")
+                                            +"\n姓名:" + jsonObject.getString("name")
+                                            +"\n座机电话:" + jsonObject.getString("phone")
+                                            +"\n移动电话:" + jsonObject.getString("telephone")
+                                            +"\n地   址:" + jsonObject.getString("address")
+                                            +"\n用户名:" + jsonObject.getString("username")
+                                            +"\n头像:" + jsonObject.getString("userface");
+                                }
+                                Data.setHrName(hrStrN);
+                                Data.setHrDetail(hrStrI);
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
                             runOnUiThread(new Runnable() {//在主线程的UI线程来显示连接成功
                                 @Override
                                 public void run() {
-
-                                    System.out.println("responseData = " + responseData);
                                     if (!responseData.equals("")) {
                                         Toast.makeText(MainActivity.this, "登录成功", Toast.LENGTH_SHORT).show();//显示登录成功！
 

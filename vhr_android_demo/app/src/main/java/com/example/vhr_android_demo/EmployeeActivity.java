@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 import androidx.fragment.app.FragmentActivity;
 
@@ -22,9 +21,6 @@ import okhttp3.Response;
 
 public class EmployeeActivity extends FragmentActivity {
     String HTTPSTR = Constants.HTTPSTR;
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -89,6 +85,7 @@ public class EmployeeActivity extends FragmentActivity {
                     public void run() {
                         setContentView(R.layout.frame_employee);
 
+//                        ImageButton f5 = findViewById(R.id.f5);
                         ImageButton emp_AddButton = findViewById(R.id.emp_AddButton);
                         ImageButton emp_EditButton = findViewById(R.id.emp_EditButton);
                         Button ass_1Button = findViewById(R.id.ass_1);//帐套跳转

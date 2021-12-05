@@ -24,6 +24,11 @@ public class SalaryController {
         return iSalaryService.search(name);
     }
 
+    @RequestMapping(value = "/select", method = RequestMethod.POST)
+    private Salary select(@RequestParam int id){
+        return iSalaryService.select(id);
+    }
+
     @RequestMapping(value = "/insert1", method = RequestMethod.POST)
     private String insert1(@RequestParam int basicSalary,@RequestParam int bonus,@RequestParam int lunchSalary,@RequestParam int trafficSalary,@RequestParam int allSalary){
         return "成功插入" + iSalaryService.insert1(basicSalary,bonus,lunchSalary,trafficSalary,allSalary) + "条数据";
