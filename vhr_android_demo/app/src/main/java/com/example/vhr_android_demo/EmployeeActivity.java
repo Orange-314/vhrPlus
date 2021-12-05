@@ -30,8 +30,6 @@ public class EmployeeActivity extends FragmentActivity {
             getWindow().setNavigationBarColor(getColor(R.color.fafafa));
         }
 
-
-
         new Thread(new Runnable() {
             @Override
             public void run() {

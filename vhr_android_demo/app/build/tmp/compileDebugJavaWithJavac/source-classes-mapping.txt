@@ -5,19 +5,12 @@ com/example/vhr_android_demo/SalaryInsertActivity.java
  com.example.vhr_android_demo.SalaryInsertActivity$1
  com.example.vhr_android_demo.SalaryInsertActivity$1$1
  com.example.vhr_android_demo.SalaryInsertActivity$1$1$1
-com/example/vhr_android_demo/MainActivity.java
- com.example.vhr_android_demo.MainActivity
- com.example.vhr_android_demo.MainActivity$1
- com.example.vhr_android_demo.MainActivity$1$1
- com.example.vhr_android_demo.MainActivity$1$1$1
- com.example.vhr_android_demo.MainActivity$2
- com.example.vhr_android_demo.MainActivity$2$1
- com.example.vhr_android_demo.MainActivity$2$1$1
- com.example.vhr_android_demo.MainActivity$2$1$2
+com/example/vhr_android_demo/HrTitlesFragment.java
+ com.example.vhr_android_demo.HrTitlesFragment
 com/example/vhr_android_demo/EmployeeSearchDoneActivity.java
  com.example.vhr_android_demo.EmployeeSearchDoneActivity
-com/example/vhr_android_demo/EmployeeTitlesFragment.java
- com.example.vhr_android_demo.EmployeeTitlesFragment
+com/example/vhr_android_demo/BuildConfig.java
+ com.example.vhr_android_demo.BuildConfig
 com/example/vhr_android_demo/Data.java
  com.example.vhr_android_demo.Data
 com/example/vhr_android_demo/MainActivity2.java
@@ -43,8 +36,15 @@ com/example/vhr_android_demo/EmployeeSelectActivity.java
  com.example.vhr_android_demo.EmployeeSelectActivity
 com/example/vhr_android_demo/HrDetailsFragment.java
  com.example.vhr_android_demo.HrDetailsFragment
-com/example/vhr_android_demo/SalaryTitlesFragment.java
- com.example.vhr_android_demo.SalaryTitlesFragment
+com/example/vhr_android_demo/MyActivity.java
+ com.example.vhr_android_demo.MyActivity
+ com.example.vhr_android_demo.MyActivity$1
+ com.example.vhr_android_demo.MyActivity$1$1
+ com.example.vhr_android_demo.MyActivity$1$1$1
+ com.example.vhr_android_demo.MyActivity$1$1$1$1
+ com.example.vhr_android_demo.MyActivity$1$1$2
+ com.example.vhr_android_demo.MyActivity$1$1$2$1
+ com.example.vhr_android_demo.MyActivity$DetailsActivity
 com/example/vhr_android_demo/EmployeeSearchActivity.java
  com.example.vhr_android_demo.EmployeeSearchActivity
  com.example.vhr_android_demo.EmployeeSearchActivity$1
@@ -62,44 +62,12 @@ com/example/vhr_android_demo/SalaryUpdateActivity.java
  com.example.vhr_android_demo.SalaryUpdateActivity$1
  com.example.vhr_android_demo.SalaryUpdateActivity$1$1
  com.example.vhr_android_demo.SalaryUpdateActivity$1$1$1
-com/example/vhr_android_demo/SalaryActivity.java
- com.example.vhr_android_demo.SalaryActivity
- com.example.vhr_android_demo.SalaryActivity$1
- com.example.vhr_android_demo.SalaryActivity$1$1
- com.example.vhr_android_demo.SalaryActivity$1$1$1
- com.example.vhr_android_demo.SalaryActivity$1$1$1$1
- com.example.vhr_android_demo.SalaryActivity$1$1$2
- com.example.vhr_android_demo.SalaryActivity$1$1$2$1
- com.example.vhr_android_demo.SalaryActivity$1$1$3
- com.example.vhr_android_demo.SalaryActivity$1$1$3$1
- com.example.vhr_android_demo.SalaryActivity$1$1$4
- com.example.vhr_android_demo.SalaryActivity$1$1$4$1
- com.example.vhr_android_demo.SalaryActivity$DetailsActivity
-com/example/vhr_android_demo/HrTitlesFragment.java
- com.example.vhr_android_demo.HrTitlesFragment
-com/example/vhr_android_demo/MyActivity.java
- com.example.vhr_android_demo.MyActivity
- com.example.vhr_android_demo.MyActivity$1
- com.example.vhr_android_demo.MyActivity$1$1
- com.example.vhr_android_demo.MyActivity$1$1$1
- com.example.vhr_android_demo.MyActivity$1$1$1$1
- com.example.vhr_android_demo.MyActivity$1$1$2
- com.example.vhr_android_demo.MyActivity$1$1$2$1
- com.example.vhr_android_demo.MyActivity$DetailsActivity
-com/example/vhr_android_demo/RegistActivity.java
- com.example.vhr_android_demo.RegistActivity
- com.example.vhr_android_demo.RegistActivity$1
- com.example.vhr_android_demo.RegistActivity$1$1
- com.example.vhr_android_demo.RegistActivity$1$1$1
- com.example.vhr_android_demo.RegistActivity$1$1$2
- com.example.vhr_android_demo.RegistActivity$1$1$3
- com.example.vhr_android_demo.RegistActivity$1$1$4
-com/example/vhr_android_demo/BuildConfig.java
- com.example.vhr_android_demo.BuildConfig
 com/example/vhr_android_demo/EmployeeDeleteActivity.java
  com.example.vhr_android_demo.EmployeeDeleteActivity
  com.example.vhr_android_demo.EmployeeDeleteActivity$1
  com.example.vhr_android_demo.EmployeeDeleteActivity$1$1
+com/example/vhr_android_demo/SalaryTitlesFragment.java
+ com.example.vhr_android_demo.SalaryTitlesFragment
 com/example/vhr_android_demo/EmployeeActivity.java
  com.example.vhr_android_demo.EmployeeActivity
  com.example.vhr_android_demo.EmployeeActivity$1
@@ -117,3 +85,35 @@ com/example/vhr_android_demo/EmployeeActivity.java
  com.example.vhr_android_demo.EmployeeActivity$1$1$6
  com.example.vhr_android_demo.EmployeeActivity$1$1$6$1
  com.example.vhr_android_demo.EmployeeActivity$DetailsActivity
+com/example/vhr_android_demo/EmployeeTitlesFragment.java
+ com.example.vhr_android_demo.EmployeeTitlesFragment
+com/example/vhr_android_demo/SalaryActivity.java
+ com.example.vhr_android_demo.SalaryActivity
+ com.example.vhr_android_demo.SalaryActivity$1
+ com.example.vhr_android_demo.SalaryActivity$1$1
+ com.example.vhr_android_demo.SalaryActivity$1$1$1
+ com.example.vhr_android_demo.SalaryActivity$1$1$1$1
+ com.example.vhr_android_demo.SalaryActivity$1$1$2
+ com.example.vhr_android_demo.SalaryActivity$1$1$2$1
+ com.example.vhr_android_demo.SalaryActivity$1$1$3
+ com.example.vhr_android_demo.SalaryActivity$1$1$3$1
+ com.example.vhr_android_demo.SalaryActivity$1$1$4
+ com.example.vhr_android_demo.SalaryActivity$1$1$4$1
+ com.example.vhr_android_demo.SalaryActivity$DetailsActivity
+com/example/vhr_android_demo/MainActivity.java
+ com.example.vhr_android_demo.MainActivity
+ com.example.vhr_android_demo.MainActivity$1
+ com.example.vhr_android_demo.MainActivity$1$1
+ com.example.vhr_android_demo.MainActivity$1$1$1
+ com.example.vhr_android_demo.MainActivity$2
+ com.example.vhr_android_demo.MainActivity$2$1
+ com.example.vhr_android_demo.MainActivity$2$1$1
+ com.example.vhr_android_demo.MainActivity$2$1$2
+com/example/vhr_android_demo/RegistActivity.java
+ com.example.vhr_android_demo.RegistActivity
+ com.example.vhr_android_demo.RegistActivity$1
+ com.example.vhr_android_demo.RegistActivity$1$1
+ com.example.vhr_android_demo.RegistActivity$1$1$1
+ com.example.vhr_android_demo.RegistActivity$1$1$2
+ com.example.vhr_android_demo.RegistActivity$1$1$3
+ com.example.vhr_android_demo.RegistActivity$1$1$4
