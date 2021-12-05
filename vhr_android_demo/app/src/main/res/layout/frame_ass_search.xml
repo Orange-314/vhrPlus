@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?actionBarSize"
+    android:orientation="vertical"
+    android:background="@color/fafafa"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".RegistActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="账套搜索"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text=" 请输入查询的账套ID"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/fragment_login_username_layout"
+        android:gravity="center"
+        android:background="@drawable/bg_login_text"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/registUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="62dp"
+            android:layout_marginRight="62dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="textCapCharacters" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_begin_button_parent_layout"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:background="@drawable/bt_login_shape_normal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ass_SearchButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/login_yes"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+</LinearLayout>
