@@ -35,6 +35,11 @@ public class EmployeeService implements IEmployeeService {
     }
 
     @Override
+    public int delete1(String idCard) {
+        return iEmployeeDao.delete1(idCard);
+    }
+
+    @Override
     public Employee select(String idCard) {
         return iEmployeeDao.select(idCard);
     }

@@ -16,6 +16,8 @@ public interface IEmployeeDao {
 
     int update(@Param("name")String name,@Param("gender") String gender,@Param("birthday") Date birthday,@Param("idCard") String idCard,@Param("wedlock") String wedlock,@Param("nationId") int nationId,@Param("nativePlace") String nativePlace,@Param("politicId") int politicId,@Param("email") String email,@Param("phone") String phone,@Param("address") String address,@Param("departmentId") int departmentId,@Param("jobLevelId") int jobLevelId,@Param("posId") int posId,@Param("engageForm") String engageForm,@Param("tiptopDegree") String tiptopDegree,@Param("specialty") String specialty,@Param("school") String school,@Param("beginDate") Date beginDate,@Param("contractTerm") double contractTerm,@Param("conversionTime") Date conversionTime,@Param("beginContract") Date beginContract,@Param("endContract") Date endContract);
 
+    int delete1(@Param("idCard") String idCard);
+
     Employee insert2(@Param("birthday") Date birthday);
 
     Employee select(@Param("idCard") String idCard);
