@@ -83,11 +83,23 @@ public class EmployeeSearchActivity extends AppCompatActivity {
 
                             } catch (JSONException e) {
                                 e.printStackTrace();
+                                runOnUiThread(new Runnable() {//在主线程的UI线程来显示连接失败
+                                    @Override
+                                    public void run() {
+                                        Toast.makeText(EmployeeSearchActivity.this, "查无此人！", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
                             }
 
 
                         } catch (IOException e) {
                             e.printStackTrace();
+                            runOnUiThread(new Runnable() {//在主线程的UI线程来显示连接失败
+                                @Override
+                                public void run() {
+                                    Toast.makeText(EmployeeSearchActivity.this, "查无此人！", Toast.LENGTH_SHORT).show();
+                                }
+                            });
                         }
                         runOnUiThread(new Runnable() {
                             @Override

@@ -92,7 +92,7 @@ public class EmployeeActivity extends FragmentActivity {
                         Button my_1Button = findViewById(R.id.my_1);//我的跳转
 
                         ImageButton emp_SearchButton = findViewById(R.id.emp_SearchButton);
-                        ImageButton emp_DeleteButton = findViewById(R.id.emp_EditButton);
+                        ImageButton emp_DeleteButton = findViewById(R.id.emp_DeleteButton);
 
                         emp_SearchButton.setOnClickListener(new View.OnClickListener() {
                             @Override

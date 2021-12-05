@@ -2156,7 +2156,6 @@ id emp_AddButton
 id emp_DeleteButton
 id emp_EditButton
 id emp_SearchButton
-id emp_SearchButton1
 id employeeDeleleButton
 id employeeDeleteIDCard
 id employeeSearchButton
