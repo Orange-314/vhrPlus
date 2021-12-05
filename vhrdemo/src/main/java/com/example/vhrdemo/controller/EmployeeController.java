@@ -40,5 +40,9 @@ public class EmployeeController {
         return "删除成功"+iEmployeeService.delete1(idCard)+"条数据";
     }
 
+    @RequestMapping(value = "/select", method = RequestMethod.POST)
+    private Employee select(@RequestParam String idCard){
+        return iEmployeeService.select(idCard);
+    }
 
 }

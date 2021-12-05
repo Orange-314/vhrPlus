@@ -12,13 +12,13 @@
     <insert id="insert" parameterType="com.example.vhrdemo.entity.Role">
         INSERT INTO role VALUES (#{id},#{name},#{nameZh});
     </insert>
-    <update id="update" parameterType="com.example.vhrdemo.entity.Joblevel">
+    <update id="update" parameterType="com.example.vhrdemo.entity.Role">
         UPDATE role SET name=#{name} WHERE nameZh=#{nameZh};
     </update>
-    <update id="update2" parameterType="com.example.vhrdemo.entity.Joblevel">
+    <update id="update2" parameterType="com.example.vhrdemo.entity.Role">
         UPDATE role SET nameZH=#{nameZh} WHERE name=#{name};
     </update>
-    <delete id="delete" parameterType="com.example.vhrdemo.entity.Joblevel">
+    <delete id="delete" parameterType="com.example.vhrdemo.entity.Role">
         DELETE FROM role WHERE id=#{id};
     </delete>
 </mapper>
