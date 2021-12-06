@@ -32,7 +32,7 @@
         android:layout_height="65dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="0dp"
         android:gravity="center"
         android:orientation="horizontal" >
 
@@ -57,8 +57,8 @@
         android:orientation="horizontal" >
 
         <EditText
-            android:id="@+id/registUsername"
-            android:layout_width="wrap_content"
+            android:id="@+id/salarySearchIDCard"
+            android:layout_width="233dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="62dp"
             android:layout_marginRight="62dp"
@@ -71,20 +71,43 @@
 
     <LinearLayout
         android:id="@+id/login_begin_button_parent_layout"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="1000dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="20dp"
         android:elevation="3dp"
         android:gravity="center"
         android:background="@drawable/bt_login_shape_normal"
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/ass_SearchButton"
+            android:id="@+id/salarySearchButton"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:background="@drawable/login_yes"
             android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/showEmployeeText"
+        android:layout_width="409dp"
+        android:layout_height="360dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/salary_Search_Result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:text="未查找到帐套" />
+        </ScrollView>
     </LinearLayout>
 </LinearLayout>

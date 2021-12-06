@@ -2343,6 +2343,11 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id salaryDeleteButton
+id salaryDeleteid
+id salarySearchButton
+id salarySearchIDCard
+id salary_Search_Result
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2373,6 +2378,7 @@ id shortcut
 id showCustom
 id showEmployeeText
 id showHome
+id showSalaryText
 id showTitle
 id sin
 id skipCollapsed
@@ -2447,7 +2453,6 @@ id title
 id titleDividerNoCustom
 id title_template
 id titles
-id titles_salary
 id toggle
 id top
 id topPanel
@@ -2583,7 +2588,6 @@ layout frame_employee
 layout frame_login
 layout frame_my
 layout frame_register
-layout frame_salary
 layout layout_logindone
 layout material_chip_input_combo
 layout material_clock_display

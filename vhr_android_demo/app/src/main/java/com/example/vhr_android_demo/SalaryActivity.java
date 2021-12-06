@@ -83,6 +83,34 @@ public class SalaryActivity extends FragmentActivity {
                         Button emp_2Button = findViewById(R.id.emp_2);//帐套跳转
                         Button my_2Button = findViewById(R.id.my_2);//我的跳转
 
+                        ImageButton ass_SearchButton = findViewById(R.id.ass_SearchButton);
+                        ImageButton ass_DeleteButton = findViewById(R.id.ass_DeleteButton);
+
+                        ass_SearchButton.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new Thread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Intent change = new Intent(SalaryActivity.this, SalarySearchActivity.class);
+                                        startActivity(change);
+                                    }
+                                }).start();
+                            }
+                        });
+                        ass_DeleteButton.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                new Thread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Intent change = new Intent(SalaryActivity.this, SalaryDeleteActivity.class);
+                                        startActivity(change);
+                                    }
+                                }).start();
+                            }
+                        });
+
                         ass_AddButton.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {

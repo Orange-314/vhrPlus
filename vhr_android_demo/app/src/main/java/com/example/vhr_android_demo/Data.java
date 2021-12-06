@@ -3,6 +3,8 @@ package com.example.vhr_android_demo;
 public final class Data {
     public static String[] EMPLOYEE_SEARCHDETAIL = new String[2];
 
+    public static String[] SALARY_SEARCHDETAIL = new String[2];
+
     public static String[] EMPLOYEE_NAME = new String[500];
 
     public static String[] EMPLOYEE_DETAIL = new String[500];
@@ -18,6 +20,14 @@ public final class Data {
     public static String[] HR_NAME = new String[25];
 
     public static String[] HR_DETAIL = new String[25];
+
+    public static String[] getSalarySearchdetail() {
+        return SALARY_SEARCHDETAIL;
+    }
+
+    public static void setSalarySearchdetail(String[] salarySearchdetail) {
+        SALARY_SEARCHDETAIL = salarySearchdetail;
+    }
 
     public static String[] getEmployeeSearchdetail() {
         return EMPLOYEE_SEARCHDETAIL;

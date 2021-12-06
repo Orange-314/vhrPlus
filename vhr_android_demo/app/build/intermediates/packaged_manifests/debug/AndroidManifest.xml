@@ -31,15 +31,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.vhr_android_demo.LoginDoneActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name="com.example.vhr_android_demo.RegistActivity"
             android:exported="true" />
         <activity
@@ -89,6 +80,12 @@
             android:exported="true" />
         <activity
             android:name="com.example.vhr_android_demo.SalarySelectActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.SalarySearchActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.vhr_android_demo.SalaryDeleteActivity"
             android:exported="true" />
         <activity
             android:name="com.example.vhr_android_demo.SalaryActivity$DetailsActivity"

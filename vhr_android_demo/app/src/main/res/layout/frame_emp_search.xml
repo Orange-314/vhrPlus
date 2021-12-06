@@ -32,7 +32,7 @@
         android:layout_height="65dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="0dp"
         android:gravity="center"
         android:orientation="horizontal" >
 
@@ -89,18 +89,25 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/showEmployeeText"
-        android:layout_width="406dp"
-        android:layout_height="289dp"
+        android:id="@+id/showSalaryText"
+        android:layout_width="409dp"
+        android:layout_height="360dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:elevation="3dp"
         android:gravity="center"
         android:orientation="horizontal">
-        <TextView
-            android:id="@+id/employee_Search_Result"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="未查找到员工" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/employee_Search_Result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:text="未查找到员工" />
+        </ScrollView>
     </LinearLayout>
 </LinearLayout>
