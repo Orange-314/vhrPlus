@@ -43,7 +43,7 @@ public class SalaryService implements ISalaryService {
     }
 
     @Override
-    public int delete(String name) {
-        return iSalaryDao.delete(name);
+    public int delete(int id) {
+        return iSalaryDao.delete(id);
     }
 }

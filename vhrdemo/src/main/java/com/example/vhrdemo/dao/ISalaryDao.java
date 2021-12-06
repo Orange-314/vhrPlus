@@ -17,7 +17,7 @@ public interface ISalaryDao {
 
     int update(@Param("id") int id,@Param("basicSalary") int basicSalary,@Param("bonus") int bonus,@Param("lunchSalary") int lunchSalary,@Param("trafficSalary")int trafficSalary,@Param("allSalary")int allSalary,@Param("pensionBase")int pensionBase,@Param("pensionPer")float pensionPer,@Param("medicalBase")int medicalBase,@Param("medicalPer")float medicalPer,@Param("accumulationFundBase")int accumulationFundBase,@Param("accumulationFundPer")float accumulationFundPer,@Param("name") String name);
 
-    int delete(@Param("name") String name);
+    int delete(@Param("id") int id);
 
     Salary select(@Param("id")int id);
 }
