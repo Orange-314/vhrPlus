@@ -12,6 +12,10 @@
         "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_my.xml"
     },
     {
+        "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\layout_frame_emp_searchdone_1.xml.flat",
+        "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\layout\\frame_emp_searchdone_1.xml"
+    },
+    {
         "merged": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_emp.xml.flat",
         "source": "G:\\AndroidStudioProjects\\GitHub\\vhrPlus\\vhr_android_demo\\app\\src\\main\\res\\drawable\\img_emp.xml"
     },
