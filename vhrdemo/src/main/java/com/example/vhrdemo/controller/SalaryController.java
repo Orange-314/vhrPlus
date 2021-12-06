@@ -45,7 +45,7 @@ public class SalaryController {
     }
 
     @RequestMapping(value = "/delete", method = RequestMethod.POST)
-    private String delete(@RequestParam String name){
-        return "成功删除" + iSalaryService.delete(name) + "条数据";
+    private String delete(@RequestParam int id){
+        return "成功删除" + iSalaryService.delete(id) + "条数据";
     }
 }
